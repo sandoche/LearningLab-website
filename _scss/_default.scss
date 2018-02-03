@@ -4,14 +4,22 @@ $container-width: 1200px;
 $container-padding: 30px;
 
 $primary-color: #1BC3B5;
-$secondary-color: #001D2B;
-$text-color: #333;
-$link-color: #7F7F7F;
+$secondary-color: #1BC3B5;
+$ter-color: #001D2B;
+$accent-color: lighten($primary-color, 20%);
+
+$text-color: #fff;
+$link-color: $primary-color;
+$background-color: #000;
 
 $font-xl: 58px;
-$font-md: 22px;
+$font-l: 36px;
+$font-md: 24px;
 $font-sm: 18px;
 $font-xs: 16px;
+
+$space-sm: 16px;
+$space-md: 32px;
 
 $system-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 $primary-font-family: $system-font-family;
@@ -31,15 +39,14 @@ $primary-font-family: $system-font-family;
 body {
   font-family: $primary-font-family;
   color: $text-color;
+  font-size: $font-md;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: $background-color;
+  line-height: 1.5;
 }
 
-main {
-  flex: 1;
-  width: 100%;
-}
 
 a {
   color: $link-color;
@@ -51,18 +58,23 @@ a {
   }
 }
 
+strong {
+    color: $accent-color;
+    font-weight: 600;
+}
+
 
 // Shared
 
 .button {
   display: inline-block;
-  border: 1px solid lighten($link-color, 40%);
-  border-radius: 50px;
+  border: 1px solid lighten(#fff, 100%);
   padding: 15px 30px;
-  font-weight: 300;
+  font-weight: 500;
+  color: $text-color;
 
   &:hover {
-    background-color: lighten($link-color, 49%);
+    background-color: lighten($text-color, 100%);
   }
 }
 
@@ -74,5 +86,98 @@ a {
 // Components & pages
 
 .home {
+
+  @include container($container-padding);
+
+  &__header {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center
+  }
+
+  &__photo {
+    max-width: 250px;
+    width: auto;
+    border-radius: 50%;
+    margin: $space-md $space-md $space-md 0;
+    border: 2px solid #fff;
+  }
+
+  &__picture {
+
+  }
+
+  &__text {
+  }
+
+  &__title {
+    font-size: $font-xl;
+    margin-bottom: $space-md;
+    padding: 0;
+  }
+
+  &__description {
+    margin-top: 0;
+    margin-bottom: $space-md;
+    padding: 0;
+    font-weight: 300;
+  }
+
+  &__content {
+
+  }
+}
+
+.article {
+
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  a {
+    color: #fff;
+  }
+
+  &__number {
+
+  }
+
+  &__overtitle {
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-size: $font-l;
+  }
+
+  &__details {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__days {
+
+  }
+
+  &__outcome {
+
+  }
+
+  &__project {
+
+  }
+}
+
+.footer {
 
 }

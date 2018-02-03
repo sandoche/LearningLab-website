@@ -1,6 +1,6 @@
 header:
   uvp: Learn one topic every month
-  description: Hello, I'm Sandoche. In 2017, I decided to start the Learning Lab challenge. The goal of this project is to learn about one topic every month and to build a project out of it. Why? Because it makes me happy and I invite you to do the same!
+  description: Hello, I'm Sandoche. In 2017, I decided to start the <strong>Learning Lab challenge</strong>.<br>The goal of this project is to learn about <strong>one topic every month</strong> and to <strong>build projects</strong> out of it. Why? Because <strong>it makes me happy</strong> and I invite you to do the same!
   call_to_action_text: The methodology
   call_to_action_url: https://medium.com/learning-lab/why-i-decided-to-learn-something-new-every-month-and-how-i-will-do-it-e749580d2c7
 
@@ -11,7 +11,7 @@ content:
 topics:
   - id: 1
     image: /assets/images/music.jpg
-    color: '#000'
+    color: '#eee'
     font: Roboto
     dates: 3rd April - 14th May
     title: Music Production
@@ -29,7 +29,7 @@ topics:
         url: https://soundcloud.com/sandoche/santo-domingo-to-tarifa
   - id: 2
     image: /assets/images/swimming.jpg
-    color: '#000'
+    color: '#eee'
     font: Roboto
     dates: 15th May - 6th June
     title: Swimming
@@ -43,7 +43,7 @@ topics:
         url: https://medium.com/learning-lab/how-i-learnt-how-to-swim-and-understood-my-fear-in-less-than-1-month-2e541e20d438
   - id: 3
     image: /assets/images/pwa.jpg
-    color: '#000'
+    color: '#eee'
     font: Roboto
     dates: 7th June - 13th July
     title:  Progressive Web Apps
@@ -61,7 +61,7 @@ topics:
         url: https://www.kanbanote.com
   - id: 4
     image: /assets/images/design.jpg
-    color: '#000'
+    color: '#eee'
     font: Roboto
     dates: 6th July - 25th July
     title: Ideation, Creativity and Design
@@ -79,7 +79,7 @@ topics:
         url: http://snit.co
   - id: 5
     image: /assets/images/webpack.jpg
-    color: '#000'
+    color: '#eee'
     font: Roboto
     dates: 25th July - 12th August
     title: Webpack 3
@@ -93,7 +93,7 @@ topics:
         url: https://github.com/sandoche/Jekyll-webpack-boilerplate
   - id: 6
     image: /assets/images/ecommerce.jpg
-    color: '#000'
+    color: '#eee'
     font: Roboto
     dates: 15th August - 7th October
     title: E-commerce
@@ -111,7 +111,7 @@ topics:
         url: https://github.com/sandoche/Typster-website
   - id: 7
     image: /assets/images/colors.png
-    color: '#000'
+    color: '#eee'
     font: Roboto
     dates: 8th October - 4th November
     title: Colors theories
@@ -133,7 +133,7 @@ topics:
         url: https://color.adobe.com/fr/explore/?q=userId%3A25317946
   - id: 8
     image: /assets/images/trading.png
-    color: '#000'
+    color: '#eee'
     font: Roboto
     dates: 5th November - 23rd December
     title: Cryptocurrency trading
