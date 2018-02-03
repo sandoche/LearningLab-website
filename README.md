@@ -8,7 +8,7 @@ Website of Learning lab to follow the challenge
 - [x] Design the card element in detail
 - [x] Implement html
 - [x] Implement css
-- [ ] Change loop order
+- [x] Change loop order
 - [ ] Add icons
 - [ ] Set background colors of each
 - [ ] Find header background

@@ -14,7 +14,8 @@ layout: default
     </div>
   </header>
   <main class="home__content">
-    {% for topic in site.translations[site.lang].topics %}
+    {% assign topics = site.translations[site.lang].topics | reverse %}
+    {% for topic in topics %}
     <a href="{{ topic.url }}">
       <p class="article__number">{% t content.challenge %} #{{ topic.id }}</p>
       <article class="article" style="background-color:{{ topic.color }}; background-image: url({{ topic.image }})">
