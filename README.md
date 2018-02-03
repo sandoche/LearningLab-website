@@ -11,10 +11,10 @@ Website of Learning lab to follow the challenge
 - [x] Change loop order
 - [x] Add icons
 - [x] Set background colors of each
+- [x] Put filters on the background image for a better reading
 - [ ] Find header background
 - [ ] Update each font
 - [ ] Adjust sizes and spacing
-- [ ] Put filters on the background image for a better reading
 - [ ] Implement js & css effects (animations & lazy loading)
 - [ ] Fix link make the full block clickable
 - [ ] Implement footer (with stats if possible & social icons)

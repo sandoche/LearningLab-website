@@ -17,7 +17,7 @@ layout: default
     {% assign topics = site.translations[site.lang].topics | reverse %}
     {% for topic in topics %}
       <p class="article__number">{% t content.challenge %} #{{ topic.id }}</p>
-      <article class="article" style="background-color:{{ topic.color }}; background-image: url({{ topic.image }})">
+      <article class="article{% if topic.shadow == true %} article__shadow{% endif %}" style="background-color:{{ topic.color }}; background-image: url({{ topic.image }})">
         <a href="{{ topic.url }}">
           <p class="article__overtitle">{{ topic.month }}</p>
           <h2 class="article__title">{{ topic.title }}</h2>
