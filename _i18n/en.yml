@@ -1,9 +1,161 @@
-home:
-  header:
-    headline: Your beautiful headline
-    call_to_action:
-      title: Check out our blog
-      link: /blog
+header:
+  uvp: Learn one topic every month
+  description: Hello, I'm Sandoche. In 2017, I decided to start the Learning Lab challenge.
+  The goal of this project is to learn about one topic every month and to build a project out of it.
+  Why? Because it makes me happy and I invite you to do the same!
+  call_to_action_text: The methodology
+  call_to_action_url: https://medium.com/learning-lab/why-i-decided-to-learn-something-new-every-month-and-how-i-will-do-it-e749580d2c7
 
-footer:
-  love: 'Made with <span class="accent">❤</span>'
+topics:
+  - id: 1
+    image: /assets/images/music.jpg
+    color: '#000'
+    font: Roboto
+    dates: 3rd April - 14th May
+    title: Music Production
+    url: https://medium.com/learning-lab/how-i-learnt-music-production-and-produced-a-song-in-one-month-99abcdb7d224
+    days: 41
+    month: April 2017
+    projects:
+      - name: Summer loading…12%
+        type: song
+        icon: soundcloud
+        url: https://soundcloud.com/sandoche/summer-loading-12
+      - name: Santo Domingo to Tarifa
+        type: song
+        icon: soundcloud
+        url: https://soundcloud.com/sandoche/santo-domingo-to-tarifa
+  - id: 2
+    image: /assets/images/swimming.jpg
+    color: '#000'
+    font: Roboto
+    dates: 15th May - 6th June
+    title: Swimming
+    url: https://medium.com/learning-lab/how-i-learnt-how-to-swim-and-understood-my-fear-in-less-than-1-month-2e541e20d438
+    days: 22
+    month: May 2017
+    projects:
+      - name: Swimming tips
+        type: post
+        icon: medium
+        url: https://medium.com/learning-lab/how-i-learnt-how-to-swim-and-understood-my-fear-in-less-than-1-month-2e541e20d438
+  - id: 3
+    image: todo
+    color: '#000'
+    font: Roboto
+    dates: 7th June - 13th July
+    title:  Progressive Web Apps
+    url: https://medium.com/learning-lab/how-i-learnt-progressive-web-apps-in-a-month-and-implemented-it-635448ed1330
+    days: 36
+    month: June 2017
+    projects:
+      - name: Tutorial
+        type: post
+        icon: medium
+        url: https://medium.com/learning-lab/how-pwas-works-and-how-i-implemented-it-with-react-and-webpack-523381b1b7a4
+      - name: Kanbanote PWA
+        type: website
+        icon: website
+        url: https://www.kanbanote.com
+  - id: 4
+    image: todo
+    color: '#000'
+    font: Roboto
+    dates: 6th July - 25th July
+    title: Ideation, Creativity and Design
+    url: https://medium.com/learning-lab/4-how-i-learnt-how-to-steal-like-an-artist-in-a-month-and-designed-built-my-new-companys-c5c68ffcf251
+    days: 19
+    month: July 2017
+    projects:
+      - name: Webdesign checklist
+        type: checklist
+        icon: github
+        url: https://github.com/sandoche/Webdesign-checklist
+      - name: Snitco
+        type: website
+        icon: website
+        url: http://snit.co
+  - id: 5
+    image: todo
+    color: '#000'
+    font: Roboto
+    dates: 25th July - 12th August
+    title: Webpack 3
+    url: https://medium.com/learning-lab/5-how-i-learnt-webpack-3-and-created-a-jekyll-and-webpack-boilerplate-edd86645fd5e
+    days: 36
+    month: July 2017
+    projects:
+      - name: Jekyll webpack boilerplate
+        type: source
+        icon: github
+        url: https://github.com/sandoche/Jekyll-webpack-boilerplate
+  - id: 6
+    image: todo
+    color: '#000'
+    font: Roboto
+    dates: 15th August - 7th October
+    title: E-commerce
+    url: https://medium.com/learning-lab/6-how-i-learnt-how-to-build-an-automated-e-commerce-in-one-month-949ddf7e02c6
+    days: 53
+    month: August & September 2017
+    projects:
+      - name: Typster
+        type: website
+        icon: website
+        url: https://typster.xyz/
+      - name: Typster source
+        type: source
+        icon: github
+        url: https://github.com/sandoche/Typster-website
+  - id: 7
+    image: todo
+    color: '#000'
+    font: Roboto
+    dates: 8th October - 4th November
+    title: Colors theories
+    url: https://medium.com/learning-lab/how-i-learnt-about-color-theories-and-made-my-best-color-palettes-in-one-month-a461604ca669
+    days: 27
+    month: October
+    projects:
+      - name: Colors interactor
+        type: website
+        icon: website
+        url: http://colors.learn.uno/
+      - name: SASS Colors playground
+        type: source
+        icon: codepen
+        url: https://codepen.io/sandoche/pen/KyzMZe
+      - name: 5 color palettes
+        type: palette
+        icon: color
+        url: https://color.adobe.com/fr/explore/?q=userId%3A25317946
+  - id: 8
+    image: todo
+    color: '#000'
+    font: Roboto
+    dates: 5th November - 23rd December
+    title: Cryptocurrency trading
+    url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
+    days: 48
+    month: November
+    projects:
+      - name: Cryptocurrencies basics guide
+        type: post
+        icon: medium
+        url: https://medium.com/learning-lab/should-you-invest-in-cryptocurrencies-9380c803885a
+      - name: Cryptocurrencies portfolio & strategy guide
+        type: post
+        icon: medium
+        url: https://medium.com/learning-lab/read-this-before-starting-with-your-cryptocurrency-portfolio-4bcb029eec0f
+      - name: Technical and chart analysis guide
+        type: post
+        icon: medium
+        url: https://medium.com/learning-lab/become-a-better-crypto-trader-with-technical-and-chart-analysis-1496b2fc6b85
+      - name: Cryptocurrencies portfolio management guide
+        type: post
+        icon: medium
+        url: https://medium.com/learning-lab/manage-your-cryptocurrency-portfolio-and-track-your-profits-f5ba747a0158
+      - name: Buying tutorial
+        type: post
+        icon: medium
+        url: https://medium.com/learning-lab/a-step-by-step-guide-on-investing-in-your-first-cryptocurrency-1e89c9fadbb2
