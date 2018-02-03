@@ -4,6 +4,10 @@ header:
   call_to_action_text: The methodology
   call_to_action_url: https://medium.com/learning-lab/why-i-decided-to-learn-something-new-every-month-and-how-i-will-do-it-e749580d2c7
 
+content:
+  days: days
+  outcome: Outcome
+
 topics:
   - id: 1
     image: /assets/images/music.jpg

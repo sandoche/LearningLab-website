@@ -4,12 +4,30 @@ layout: default
 
 <div class="home">
   <header class="home__header">
-
+    <div class="home">
+      <div class="home__picture">
+      </div>
+      <div class="home__text">
+        <h1 class="home__title">{% t header.uvp %}</h1>
+        <p class="home__description">{% t header.description %}</p>
+        <a href="{% t home.header.call_to_action_url %}">{% t header.call_to_action_text %}</a>
+      </div>
+    </div>
   </header>
-
   <main class="home__content">
-    <article class="article">
-
+    {% for topic in site.translations[site.lang].topics %}
+    <article class="article" style="background-color:{{ topic.color }}; background-image: url({{topic.image}})">
+      <p class="article__number">{{ topic.id }}</p>
+      <p class="article__overtitle">{{ topic.month }}</p>
+      <h2 class="article__title">{{ topic.title }}</h2>
+      <p class="article__days">{{ topic.days }} {{ content.days }}</p>
+      <div class="article__outcome">
+        <h3>{{ content.outcome }}</h3>
+        {% for project in topic.projects %}
+          <a class="article__project" href="{{ project.url }}" title="{{ project.title }}">{{ project.icon}}</a>
+        {% endfor %}
+      </div>
     </article>
+    {% endfor %}
   </main>
 </div>
