@@ -40,7 +40,7 @@ topics:
         icon: medium
         url: https://medium.com/learning-lab/how-i-learnt-how-to-swim-and-understood-my-fear-in-less-than-1-month-2e541e20d438
   - id: 3
-    image: todo
+    image: /assets/images/pwa.jpg
     color: '#000'
     font: Roboto
     dates: 7th June - 13th July
@@ -58,7 +58,7 @@ topics:
         icon: website
         url: https://www.kanbanote.com
   - id: 4
-    image: todo
+    image: /assets/images/design.jpg
     color: '#000'
     font: Roboto
     dates: 6th July - 25th July
@@ -76,7 +76,7 @@ topics:
         icon: website
         url: http://snit.co
   - id: 5
-    image: todo
+    image: /assets/images/webpack.jpg
     color: '#000'
     font: Roboto
     dates: 25th July - 12th August
@@ -90,7 +90,7 @@ topics:
         icon: github
         url: https://github.com/sandoche/Jekyll-webpack-boilerplate
   - id: 6
-    image: todo
+    image: /assets/images/ecommerce.jpg
     color: '#000'
     font: Roboto
     dates: 15th August - 7th October
@@ -108,7 +108,7 @@ topics:
         icon: github
         url: https://github.com/sandoche/Typster-website
   - id: 7
-    image: todo
+    image: /assets/images/colors.png
     color: '#000'
     font: Roboto
     dates: 8th October - 4th November
@@ -130,7 +130,7 @@ topics:
         icon: color
         url: https://color.adobe.com/fr/explore/?q=userId%3A25317946
   - id: 8
-    image: todo
+    image: /assets/images/trading.png
     color: '#000'
     font: Roboto
     dates: 5th November - 23rd December
