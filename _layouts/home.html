@@ -16,11 +16,12 @@ layout: default
   <main class="home__content">
     {% assign topics = site.translations[site.lang].topics | reverse %}
     {% for topic in topics %}
-    <a href="{{ topic.url }}">
       <p class="article__number">{% t content.challenge %} #{{ topic.id }}</p>
       <article class="article" style="background-color:{{ topic.color }}; background-image: url({{ topic.image }})">
-        <p class="article__overtitle">{{ topic.month }}</p>
-        <h2 class="article__title">{{ topic.title }}</h2>
+        <a href="{{ topic.url }}">
+          <p class="article__overtitle">{{ topic.month }}</p>
+          <h2 class="article__title">{{ topic.title }}</h2>
+        </a>
         <div class="article__details">
           <div class="article__days">
             <h3 class="article__outcome-title">{% t content.duration %}</h3>
@@ -28,13 +29,15 @@ layout: default
           </div>
           <div class="article__outcome">
             <h3 class="article__outcome-title">{% t content.outcome %}</h3>
-            {% for project in topic.projects %}
-              <a class="article__project" href="{{ project.url }}" title="{{ project.title }}">{{ project.icon }}</a>
-            {% endfor %}
+            <p>
+              {% for project in topic.projects %}
+                <a class="article__project" href="{{ project.url }}" title="{{ project.name }}" target="_blank"><i class="fab fa-{{ project.icon }}"></i> {{ project.name }} {% if forloop.last != true %}&nbsp;|&nbsp;{% endif %}</a>
+              {% endfor %}
+            </p>
           </div>
         </div>
       </article>
-    </a>
+
     {% endfor %}
   </main>
 </div>

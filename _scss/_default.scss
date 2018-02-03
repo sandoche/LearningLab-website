@@ -160,10 +160,12 @@ strong {
 
   &__overtitle {
     text-transform: uppercase;
+    margin-bottom: 8vh;
   }
 
   &__title {
     font-size: $font-l;
+    margin-bottom: 5vh;
   }
 
   &__details {
@@ -175,15 +177,15 @@ strong {
   }
 
   &__days {
-
+    font-size: $font-sm;
   }
 
   &__outcome {
-
+    font-size: $font-sm;
   }
 
   &__project {
-
+    font-size: $font-sm;
   }
 }
 

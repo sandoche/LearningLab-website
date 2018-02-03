@@ -1,8 +1,8 @@
 header:
   uvp: Learn one topic every month
   description: Hello, I'm Sandoche. In 2017, I decided to start the <strong>Learning Lab challenge</strong>.<br>The goal of this project is to learn about <strong>one topic every month</strong> and to <strong>build projects</strong> out of it. Why? Because <strong>it makes me happy</strong> and I invite you to do the same!
-  call_to_action_text: Read the methodology
   call_to_action_url: https://medium.com/learning-lab/why-i-decided-to-learn-something-new-every-month-and-how-i-will-do-it-e749580d2c7
+  call_to_action_text: Read the methodology
 
 content:
   days: days
@@ -13,7 +13,7 @@ content:
 topics:
   - id: 1
     image: /assets/images/music.jpg
-    color: '#eee'
+    color: '#6E45BE'
     font: Roboto
     dates: 3rd April - 14th May
     title: Music Production
@@ -31,7 +31,7 @@ topics:
         url: https://soundcloud.com/sandoche/santo-domingo-to-tarifa
   - id: 2
     image: /assets/images/swimming.jpg
-    color: '#eee'
+    color: '#336770'
     font: Roboto
     dates: 15th May - 6th June
     title: Swimming
@@ -45,7 +45,7 @@ topics:
         url: https://medium.com/learning-lab/how-i-learnt-how-to-swim-and-understood-my-fear-in-less-than-1-month-2e541e20d438
   - id: 3
     image: /assets/images/pwa.jpg
-    color: '#eee'
+    color: '#FF5769'
     font: Roboto
     dates: 7th June - 13th July
     title:  Progressive Web Apps
@@ -53,17 +53,17 @@ topics:
     days: 36
     month: June 2017
     projects:
-      - name: Tutorial
+      - name: PWA Tutorial
         type: post
         icon: medium
         url: https://medium.com/learning-lab/how-pwas-works-and-how-i-implemented-it-with-react-and-webpack-523381b1b7a4
       - name: Kanbanote PWA
         type: website
-        icon: website
+        icon: chrome
         url: https://www.kanbanote.com
   - id: 4
     image: /assets/images/design.jpg
-    color: '#eee'
+    color: '#296D78'
     font: Roboto
     dates: 6th July - 25th July
     title: Ideation, Creativity and Design
@@ -77,11 +77,11 @@ topics:
         url: https://github.com/sandoche/Webdesign-checklist
       - name: Snitco
         type: website
-        icon: website
+        icon: chrome
         url: http://snit.co
   - id: 5
     image: /assets/images/webpack.jpg
-    color: '#eee'
+    color: '#008FC4'
     font: Roboto
     dates: 25th July - 12th August
     title: Webpack 3
@@ -95,7 +95,7 @@ topics:
         url: https://github.com/sandoche/Jekyll-webpack-boilerplate
   - id: 6
     image: /assets/images/ecommerce.jpg
-    color: '#eee'
+    color: '#242524'
     font: Roboto
     dates: 15th August - 7th October
     title: E-commerce
@@ -105,7 +105,7 @@ topics:
     projects:
       - name: Typster
         type: website
-        icon: website
+        icon: chrome
         url: https://typster.xyz/
       - name: Typster source
         type: source
@@ -113,7 +113,7 @@ topics:
         url: https://github.com/sandoche/Typster-website
   - id: 7
     image: /assets/images/colors.png
-    color: '#eee'
+    color: '#553495'
     font: Roboto
     dates: 8th October - 4th November
     title: Colors theories
@@ -121,9 +121,9 @@ topics:
     days: 27
     month: October 2017
     projects:
-      - name: Colors interactor
+      - name: Colors interactor tool
         type: website
-        icon: website
+        icon: chrome
         url: http://colors.learn.uno/
       - name: SASS Colors playground
         type: source
@@ -131,11 +131,11 @@ topics:
         url: https://codepen.io/sandoche/pen/KyzMZe
       - name: 5 color palettes
         type: palette
-        icon: color
+        icon: paint-brush
         url: https://color.adobe.com/fr/explore/?q=userId%3A25317946
   - id: 8
     image: /assets/images/trading.png
-    color: '#eee'
+    color: '#002F36'
     font: Roboto
     dates: 5th November - 23rd December
     title: Cryptocurrency trading
@@ -143,28 +143,10 @@ topics:
     days: 48
     month: November & December 2017
     projects:
-      - name: Cryptocurrencies basics guide
+      - name: Guides (5 articles) & Portfolio of 1000 €
         type: post
         icon: medium
-        url: https://medium.com/learning-lab/should-you-invest-in-cryptocurrencies-9380c803885a
-      - name: Cryptocurrencies portfolio & strategy guide
-        type: post
-        icon: medium
-        url: https://medium.com/learning-lab/read-this-before-starting-with-your-cryptocurrency-portfolio-4bcb029eec0f
-      - name: Technical and chart analysis guide
-        type: post
-        icon: medium
-        url: https://medium.com/learning-lab/become-a-better-crypto-trader-with-technical-and-chart-analysis-1496b2fc6b85
-      - name: Cryptocurrencies portfolio management guide
-        type: post
-        icon: medium
-        url: https://medium.com/learning-lab/manage-your-cryptocurrency-portfolio-and-track-your-profits-f5ba747a0158
-      - name: Buying tutorial
-        type: post
-        url: https://medium.com/learning-lab/a-step-by-step-guide-on-investing-in-your-first-cryptocurrency-1e89c9fadbb2
-        icon: medium
-        url: https://medium.com/learning-lab/a-step-by-step-guide-on-investing-in-your-first-cryptocurrency-1e89c9fadbb2
-
+        url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
 footer:
   love: Made with love by Sandoche
   social:

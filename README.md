@@ -9,13 +9,14 @@ Website of Learning lab to follow the challenge
 - [x] Implement html
 - [x] Implement css
 - [x] Change loop order
-- [ ] Add icons
-- [ ] Set background colors of each
+- [x] Add icons
+- [x] Set background colors of each
 - [ ] Find header background
 - [ ] Update each font
 - [ ] Adjust sizes and spacing
 - [ ] Put filters on the background image for a better reading
 - [ ] Implement js & css effects (animations & lazy loading)
+- [ ] Fix link make the full block clickable
 - [ ] Implement footer (with stats if possible & social icons)
 - [ ] Add newsletter form
 - [ ] Make it responsive
