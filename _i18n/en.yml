@@ -7,6 +7,8 @@ header:
 content:
   days: days
   outcome: Outcome
+  duration: Duration
+  challenge: Challenge
 
 topics:
   - id: 1
@@ -117,7 +119,7 @@ topics:
     title: Colors theories
     url: https://medium.com/learning-lab/how-i-learnt-about-color-theories-and-made-my-best-color-palettes-in-one-month-a461604ca669
     days: 27
-    month: October
+    month: October 2017
     projects:
       - name: Colors interactor
         type: website
@@ -139,7 +141,7 @@ topics:
     title: Cryptocurrency trading
     url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
     days: 48
-    month: November
+    month: November & December 2017
     projects:
       - name: Cryptocurrencies basics guide
         type: post
