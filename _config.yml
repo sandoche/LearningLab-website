@@ -3,12 +3,12 @@
 # This config file contains the config of your webpages
 # You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
 
-title: Super-website
-email: your-email@example.com
-description: A super website made with love
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-theme_color: '#c0ffee'
+title: Learning Lab
+email: contact@sandoche.com
+description: Learn one topic every month
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://learn.uno" # the base hostname & protocol for your site, e.g. http://example.com
+theme_color: '#1BC3B5'
 twitter_username: sandochee
 github_username:  sandoche
 author: Sandoche Adittane
@@ -19,10 +19,8 @@ social:
   name: Sandoche Adittane
   links:
     - https://twitter.com/sandochee
-    - https://www.facebook.com/sandoche
-    - https://www.linkedin.com/in/sandoche
-    - https://plus.google.com/+SandocheADITTANE
     - https://github.com/sandoche
+    - https://medium.com/learning-lab
 
 languages: ["en"]
 ampdir: amp

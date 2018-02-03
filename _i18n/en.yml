@@ -1,8 +1,6 @@
 header:
   uvp: Learn one topic every month
-  description: Hello, I'm Sandoche. In 2017, I decided to start the Learning Lab challenge.
-  The goal of this project is to learn about one topic every month and to build a project out of it.
-  Why? Because it makes me happy and I invite you to do the same!
+  description: Hello, I'm Sandoche. In 2017, I decided to start the Learning Lab challenge. The goal of this project is to learn about one topic every month and to build a project out of it. Why? Because it makes me happy and I invite you to do the same!
   call_to_action_text: The methodology
   call_to_action_url: https://medium.com/learning-lab/why-i-decided-to-learn-something-new-every-month-and-how-i-will-do-it-e749580d2c7
 
@@ -157,7 +155,7 @@ topics:
         url: https://medium.com/learning-lab/manage-your-cryptocurrency-portfolio-and-track-your-profits-f5ba747a0158
       - name: Buying tutorial
         type: post
-        https://medium.com/learning-lab/a-step-by-step-guide-on-investing-in-your-first-cryptocurrency-1e89c9fadbb2
+        url: https://medium.com/learning-lab/a-step-by-step-guide-on-investing-in-your-first-cryptocurrency-1e89c9fadbb2
         icon: medium
         url: https://medium.com/learning-lab/a-step-by-step-guide-on-investing-in-your-first-cryptocurrency-1e89c9fadbb2
 

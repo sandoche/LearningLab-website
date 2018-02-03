@@ -7,14 +7,14 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 module.exports = Merge(ProdConfig, {
   plugins: [
     new WebpackPwaManifest({
-      name: 'Super-website',
-      short_name: 'Super PWA',
-      description: 'A super website made with love',
+      name: 'Learning Lab',
+      short_name: 'LearningLab',
+      description: 'Learn one topic every month',
       orientation: "portrait",
       display: "standalone",
       start_url: "/",
-      theme_color: "#c0ffee",
-      background_color: "#ffffff",
+      theme_color: "#1BC3B5",
+      background_color: "#001D2B",
       icons: [
         {
           src: path.resolve('icon.png'),
