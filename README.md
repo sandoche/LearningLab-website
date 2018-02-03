@@ -2,7 +2,7 @@
 Website of Learning lab to follow the challenge
 
 ## ToDo
-- [] Add the content
+- [x] Add the content
 - [] Design the card element in detail
 - [] Remove useless code
 - [] Update config files

@@ -157,5 +157,16 @@ topics:
         url: https://medium.com/learning-lab/manage-your-cryptocurrency-portfolio-and-track-your-profits-f5ba747a0158
       - name: Buying tutorial
         type: post
+        https://medium.com/learning-lab/a-step-by-step-guide-on-investing-in-your-first-cryptocurrency-1e89c9fadbb2
         icon: medium
         url: https://medium.com/learning-lab/a-step-by-step-guide-on-investing-in-your-first-cryptocurrency-1e89c9fadbb2
+
+footer:
+  love: Made with love by Sandoche
+  social:
+    - icon: twitter
+      url: https://twitter.com/sandochee
+    - icon: github
+      url: https://github.com/sandoche
+    - icon: medium
+      url: https://medium.com/learning-lab
