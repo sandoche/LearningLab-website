@@ -18,12 +18,12 @@ Website of Learning lab to follow the challenge
 - [x] Fix readability filters
 - [ ] Adjust sizes and spacing
 - [ ] Fix challenge box size
+- [ ] Make it responsive
+- [ ] Fix icons
 - [ ] Implement js & css effects (animations & lazy loading)
 - [ ] Fix link make the full block clickable
 - [ ] Implement footer (with stats if possible & social icons)
 - [ ] Add newsletter form
-- [ ] Make it responsive
-- [ ] Fix icons
 - [ ] Add analytics
 - [ ] Add Uservoice
 - [ ] Put transparency on Favicon

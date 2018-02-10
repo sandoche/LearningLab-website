@@ -143,7 +143,9 @@ strong {
 
 .cutepunkbold {
   font-family: 'cutepunkbold';
-  font-size: 120px !important;
+  font-size: 100px !important;
+  margin-top: -20px;
+  margin-bottom: -20px;
 }
 
 .unica_oneregular {
@@ -223,7 +225,8 @@ strong {
   margin-bottom: -110px;
   background-size: cover;
   background-position: center;
-  height: 40vh;
+  min-height: 400px;
+  height: 50vh;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
