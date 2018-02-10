@@ -12,8 +12,9 @@ Website of Learning lab to follow the challenge
 - [x] Add icons
 - [x] Set background colors of each
 - [x] Put filters on the background image for a better reading
-- [ ] Find header background
+- [x] Find header background
 - [ ] Update each font
+- [ ] Fix colors
 - [ ] Adjust sizes and spacing
 - [ ] Implement js & css effects (animations & lazy loading)
 - [ ] Fix link make the full block clickable

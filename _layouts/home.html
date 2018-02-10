@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="home">
-  <header class="home__header">
+<header class="header">
+  <div class="home__header">
     <div class="home__picture">
       <img class="home__photo" src="/assets/images/photo.jpg" alt="Photo Sandoche">
     </div>
@@ -12,7 +12,10 @@ layout: default
       <p class="home__description">{% t header.description %}</p>
       <a class="button" href="{% t header.call_to_action_url %}">{% t header.call_to_action_text %}</a>
     </div>
-  </header>
+  </div>
+</header>
+
+<div class="home">
   <main class="home__content">
     {% assign topics = site.translations[site.lang].topics | reverse %}
     {% for topic in topics %}
