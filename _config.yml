@@ -7,8 +7,8 @@ title: Learning Lab
 email: contact@sandoche.com
 description: Learn one topic every month
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://learn.uno" # the base hostname & protocol for your site, e.g. http://example.com
-theme_color: '#1BC3B5'
+url: "UA-109152683-2" # the base hostname & protocol for your site, e.g. http://example.com
+theme_color: '#CF3D5E'
 twitter_username: sandochee
 github_username:  sandoche
 author: Sandoche Adittane
