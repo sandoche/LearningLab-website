@@ -162,6 +162,33 @@ strong {
   font-family: 'noto_monoregular';
   font-size: 50px !important;
 }
+
+
+@media screen and (max-width: 768px)
+{
+
+  .parabolaregular {
+    font-size: 50px !important;
+  }
+
+  .cutepunkbold {
+    font-size: 70px !important;
+  }
+
+  .unica_oneregular {
+    font-size: 50px !important;
+  }
+
+  .meloregular {
+    font-size: 50px !important;
+  }
+
+  .noto_monoregular {
+    font-size: 30px !important;
+  }
+}
+
+
 // Components & pages
 
 
@@ -174,19 +201,20 @@ strong {
   padding-bottom: 100px;
 }
 
+
+
 .home {
 
   @include container($container-padding);
 
   &__header {
-
     @include container($container-padding);
-
     display: flex;
     min-height: 85vh;
     align-items: center;
     justify-content: center
   }
+
 
   &__photo {
     max-width: 250px;
@@ -196,17 +224,15 @@ strong {
     border: 2px solid #fff;
   }
 
-  &__picture {
-
-  }
-
   &__text {
+    text-align: left;
   }
 
   &__title {
     font-size: $font-xl;
     margin-bottom: $space-md;
     padding: 0;
+    margin-top: 0;
   }
 
   &__description {
@@ -219,6 +245,35 @@ strong {
   &__content {
     margin-top: calc(-20vh - 50px);
   }
+
+  @media screen and (max-width: 768px)
+  {
+    &__header {
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: column;
+      min-height: 85vh;
+      align-items: center;
+      justify-content: center
+    }
+
+    &__photo {
+      max-width: 100px;
+      margin: 0;
+    }
+
+    &__title {
+      font-size: $font-xmd;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    &__text {
+      text-align: center;
+      font-size: $font-sm;
+    }
+  }
+
 }
 
 .article {
@@ -231,8 +286,12 @@ strong {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
+
+  h3, p {
+    margin: 0;
+  }
 
   a {
     color: #fff;
@@ -252,12 +311,12 @@ strong {
 
   &__overtitle {
     text-transform: uppercase;
-    margin-bottom: 8vh;
+    margin: 0;
   }
 
   &__title {
     font-size: $font-l;
-    margin-bottom: 5vh;
+    margin: 0;
   }
 
   &__details {
@@ -268,7 +327,7 @@ strong {
     justify-content: space-around;
   }
 
-  &__days {
+  &__outcome-title {
     font-size: $font-ms;
   }
 
