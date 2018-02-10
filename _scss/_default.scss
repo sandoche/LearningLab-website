@@ -3,13 +3,13 @@
 $container-width: 1200px;
 $container-padding: 16px;
 
-$primary-color: #1BC3B5;
-$secondary-color: #1BC3B5;
+$primary-color: #e8bd5c;
+$secondary-color: #CF3D5E;
 $ter-color: #001D2B;
-$accent-color: lighten($primary-color, 20%);
-
 $text-color: #fff;
-$link-color: $primary-color;
+
+$accent-color: $primary-color;
+$link-color: $secondary-color;
 $background-color: #000;
 
 $font-xl: 58px;
@@ -55,7 +55,7 @@ a {
   font-size: $font-sm;
 
   &:hover {
-    color: $primary-color;
+    color: $secondary-color;
   }
 }
 

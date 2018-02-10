@@ -14,7 +14,7 @@ Website of Learning lab to follow the challenge
 - [x] Put filters on the background image for a better reading
 - [x] Find header background
 - [x] Update each font
-- [ ] Fix colors
+- [x] Fix colors
 - [ ] Fix readability filters
 - [ ] Adjust sizes and spacing
 - [ ] Fix challenge box size
