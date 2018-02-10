@@ -137,8 +137,8 @@ topics:
         icon: codepen
         url: https://codepen.io/sandoche/pen/KyzMZe
       - name: 5 color palettes
-        type: image
-        icon: paint-brush
+        type: palettes
+        icon: photo
         url: https://color.adobe.com/fr/explore/?q=userId%3A25317946
   - id: 8
     image: /assets/images/trading.png

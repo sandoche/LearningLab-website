@@ -20,7 +20,7 @@ layout: default
     {% assign topics = site.translations[site.lang].topics | reverse %}
     {% for topic in topics %}
       <p class="article__number"><span class="article__challenge">{% t content.challenge %} </span>#{{ topic.id }}</p>
-      <article class="article" style="background-color:{{ topic.color }}; background-image: url({{ topic.image }}); {% if forloop.first == true %}box-shadow: 0px 0px 26px 5px rgba(0,0,0,0.30);{% else %} box-shadow: inset 0 0 0 1000px rgba(0,0,0,{{ topic.shadow }});{% endif %}">
+      <article onClick="location.href='{{ topic.url }}'" class="article" style="background-color:{{ topic.color }}; background-image: url({{ topic.image }}); {% if forloop.first == true %}box-shadow: 0px 0px 26px 5px rgba(0,0,0,0.30);{% else %} box-shadow: inset 0 0 0 1000px rgba(0,0,0,{{ topic.shadow }});{% endif %}">
           <a href="{{ topic.url }}"><p class="article__overtitle">{{ topic.month }}</p></a>
           <a href="{{ topic.url }}"><h2 class="article__title {{ topic.font }}">{{ topic.title }}</h2></a>
         <div class="article__details">
@@ -32,7 +32,7 @@ layout: default
             <h3 class="article__outcome-title">{% t content.outcome %}</h3>
             <p>
               {% for project in topic.projects %}
-                <a class="article__project" href="{{ project.url }}" title="{{ project.name }}" target="_blank"><i class="fab fa-{{ project.icon }}"></i> {{ project.name }} {% if forloop.last != true %}&nbsp;|&nbsp;{% endif %}</a>
+                <a class="article__project" href="{{ project.url }}" title="{{ project.name }}"><i class="fab fa-{{ project.icon }}"></i> {{ project.name }} {% if forloop.last != true %}&nbsp;|&nbsp;{% endif %}</a>
               {% endfor %}
             </p>
           </div>
