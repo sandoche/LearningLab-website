@@ -290,6 +290,10 @@ strong {
   text-align: center;
   cursor: pointer;
 
+  &--newsletter {
+    cursor: default;
+  }
+
   h3, p {
     margin: 0;
   }
@@ -410,4 +414,8 @@ strong {
   .fa-heart {
     color: $secondary-color;
   }
+}
+
+.list-page {
+   outline: 0px solid #f0f0f0!important;
 }

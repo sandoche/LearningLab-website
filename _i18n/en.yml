@@ -9,6 +9,7 @@ content:
   outcome: Outcome
   duration: Duration
   challenge: Challenge
+  sign_up: Stay updated
 
 topics:
   - id: 1

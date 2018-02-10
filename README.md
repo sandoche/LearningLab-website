@@ -22,7 +22,7 @@ Website of Learning lab to follow the challenge
 - [x] Fix icons
 - [x] Fix link make the full block clickable
 - [x] Implement footer (with stats if possible & social icons)
-- [ ] Add newsletter form
+- [x] Add newsletter form
 - [ ] Add analytics
 - [ ] Add Uservoice
 - [ ] Put transparency on Favicon
