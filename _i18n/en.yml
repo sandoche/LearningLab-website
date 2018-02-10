@@ -137,7 +137,7 @@ topics:
         icon: codepen
         url: https://codepen.io/sandoche/pen/KyzMZe
       - name: 5 color palettes
-        type: palette
+        type: image
         icon: paint-brush
         url: https://color.adobe.com/fr/explore/?q=userId%3A25317946
   - id: 8

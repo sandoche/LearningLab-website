@@ -19,7 +19,7 @@ Website of Learning lab to follow the challenge
 - [x] Adjust sizes and spacing
 - [x] Make it responsive
 - [x] Fix challenge box size
-- [ ] Fix icons
+- [x] Fix icons
 - [ ] Implement js & css effects (animations & lazy loading)
 - [ ] Fix link make the full block clickable
 - [ ] Implement footer (with stats if possible & social icons)
