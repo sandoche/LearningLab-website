@@ -16,6 +16,7 @@ $font-xl: 58px;
 $font-l: 42px;
 $font-xmd: 28px;
 $font-md: 24px;
+$font-ms: 22px;
 $font-sm: 18px;
 $font-xs: 16px;
 
@@ -218,10 +219,6 @@ strong {
   }
 }
 
-.article__shadow {
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
-}
-
 .article {
   margin-bottom: -110px;
   background-size: cover;
@@ -269,7 +266,7 @@ strong {
   }
 
   &__days {
-    font-size: $font-sm;
+    font-size: $font-ms;
   }
 
   &__outcome {
@@ -277,7 +274,7 @@ strong {
   }
 
   &__project {
-    font-size: $font-sm;
+    font-size: $font-ms;
   }
 }
 

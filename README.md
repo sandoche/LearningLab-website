@@ -15,7 +15,7 @@ Website of Learning lab to follow the challenge
 - [x] Find header background
 - [x] Update each font
 - [x] Fix colors
-- [ ] Fix readability filters
+- [x] Fix readability filters
 - [ ] Adjust sizes and spacing
 - [ ] Fix challenge box size
 - [ ] Implement js & css effects (animations & lazy loading)
