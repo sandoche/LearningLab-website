@@ -156,7 +156,7 @@ topics:
         icon: medium
         url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
 footer:
-  love: Made with love by Sandoche
+  love: Made with <i class="fas fa-heart"></i> by Sandoche
   social:
     - icon: twitter
       url: https://twitter.com/sandochee

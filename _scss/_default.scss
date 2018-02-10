@@ -383,5 +383,31 @@ strong {
 }
 
 .footer {
+  width: 100%;
+  margin-top: 220px;
+  text-align: center;
+  margin-bottom: 100px;
 
+  &__link {
+    color: #fff;
+    font-size: 64px;
+    margin: 0 16px;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  &__links {
+    margin-bottom: 32px;
+  }
+
+
+  &__text {
+    font-size: $font-xs;
+  }
+
+  .fa-heart {
+    color: $secondary-color;
+  }
 }

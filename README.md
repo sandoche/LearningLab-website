@@ -21,7 +21,7 @@ Website of Learning lab to follow the challenge
 - [x] Fix challenge box size
 - [x] Fix icons
 - [x] Fix link make the full block clickable
-- [ ] Implement footer (with stats if possible & social icons)
+- [x] Implement footer (with stats if possible & social icons)
 - [ ] Add newsletter form
 - [ ] Add analytics
 - [ ] Add Uservoice
