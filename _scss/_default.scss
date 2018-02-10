@@ -168,23 +168,23 @@ strong {
 {
 
   .parabolaregular {
-    font-size: 50px !important;
+    font-size: 30px !important;
   }
 
   .cutepunkbold {
-    font-size: 70px !important;
+    font-size: 40px !important;
   }
 
   .unica_oneregular {
-    font-size: 50px !important;
+    font-size: 30px !important;
   }
 
   .meloregular {
-    font-size: 50px !important;
+    font-size: 30px !important;
   }
 
   .noto_monoregular {
-    font-size: 30px !important;
+    font-size: 20px !important;
   }
 }
 
@@ -299,11 +299,11 @@ strong {
 
   &__number {
     position: relative;
-    top: 90px;
+    top: 94px;
     left: 40px;
     background-color: #000;
     display: inline-block;
-    padding: $space-sm;
+    padding: 12px 24px;
     color: #fff;
     font-size: $font-xmd;
     font-weight: 300;
@@ -338,6 +338,47 @@ strong {
   &__project {
     font-size: $font-ms;
   }
+
+  @media screen and (max-width: 768px)
+  {
+
+    justify-content: center;
+
+    &__challenge {
+      display: none;
+    }
+
+    &__overtitle {
+      font-size: $font-xs;
+    }
+
+    &__title {
+      margin-top: $space-md;
+      margin-bottom: $space-md;
+    }
+
+    &__outcome-title {
+      font-size: $font-xs;
+    }
+
+    &__outcome {
+      font-size: $font-xs;
+    }
+
+    &__project {
+      font-size: $font-xs;
+    }
+
+    &__days {
+      font-size: $font-xs;
+      margin-bottom: $space-sm;
+    }
+
+    &__details {
+      flex-direction: column;
+    }
+  }
+
 }
 
 .footer {

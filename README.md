@@ -16,9 +16,9 @@ Website of Learning lab to follow the challenge
 - [x] Update each font
 - [x] Fix colors
 - [x] Fix readability filters
-- [ ] Adjust sizes and spacing
-- [ ] Fix challenge box size
-- [ ] Make it responsive
+- [x] Adjust sizes and spacing
+- [x] Make it responsive
+- [x] Fix challenge box size
 - [ ] Fix icons
 - [ ] Implement js & css effects (animations & lazy loading)
 - [ ] Fix link make the full block clickable
