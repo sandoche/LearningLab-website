@@ -3,9 +3,6 @@ module.exports = ({ file, options, env }) => ({
   plugins: {
     'postcss-import': {},
     'autoprefixer': {},
-    'cssnano': env === 'production' ? {} : false,
-    'postcss-font-magician': {
-      hosted: ['../_fonts']
-    }
+    'cssnano': env === 'production' ? {} : false
   }
 })

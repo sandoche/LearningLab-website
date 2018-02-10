@@ -23,7 +23,7 @@ layout: default
       <article class="article{% if topic.shadow == true %} article__shadow{% endif %}" style="background-color:{{ topic.color }}; background-image: url({{ topic.image }})">
         <a href="{{ topic.url }}">
           <p class="article__overtitle">{{ topic.month }}</p>
-          <h2 class="article__title">{{ topic.title }}</h2>
+          <h2 class="article__title {{ topic.font }}">{{ topic.title }}</h2>
         </a>
         <div class="article__details">
           <div class="article__days">

@@ -14,7 +14,7 @@ topics:
   - id: 1
     image: /assets/images/music.jpg
     color: '#6E45BE'
-    font: Roboto
+    font: parabolaregular
     dates: 3rd April - 14th May
     title: Music Production
     url: https://medium.com/learning-lab/how-i-learnt-music-production-and-produced-a-song-in-one-month-99abcdb7d224
@@ -33,7 +33,7 @@ topics:
   - id: 2
     image: /assets/images/swimming.jpg
     color: '#336770'
-    font: Roboto
+    font: cutepunkbold
     dates: 15th May - 6th June
     title: Swimming
     url: https://medium.com/learning-lab/how-i-learnt-how-to-swim-and-understood-my-fear-in-less-than-1-month-2e541e20d438
@@ -47,7 +47,7 @@ topics:
   - id: 3
     image: /assets/images/pwa.jpg
     color: '#FF5769'
-    font: Roboto
+    font: unica_oneregular
     dates: 7th June - 13th July
     title:  Progressive Web Apps
     url: https://medium.com/learning-lab/how-i-learnt-progressive-web-apps-in-a-month-and-implemented-it-635448ed1330
@@ -66,7 +66,7 @@ topics:
   - id: 4
     image: /assets/images/design.jpg
     color: '#296D78'
-    font: Roboto
+    font: cutepunkbold
     dates: 6th July - 25th July
     title: Ideation, Creativity and Design
     url: https://medium.com/learning-lab/4-how-i-learnt-how-to-steal-like-an-artist-in-a-month-and-designed-built-my-new-companys-c5c68ffcf251
@@ -84,7 +84,7 @@ topics:
   - id: 5
     image: /assets/images/webpack.jpg
     color: '#008FC4'
-    font: Roboto
+    font: unica_oneregular
     dates: 25th July - 12th August
     title: Webpack 3
     url: https://medium.com/learning-lab/5-how-i-learnt-webpack-3-and-created-a-jekyll-and-webpack-boilerplate-edd86645fd5e
@@ -98,7 +98,7 @@ topics:
   - id: 6
     image: /assets/images/ecommerce.jpg
     color: '#242524'
-    font: Roboto
+    font: unica_oneregular
     dates: 15th August - 7th October
     title: E-commerce
     url: https://medium.com/learning-lab/6-how-i-learnt-how-to-build-an-automated-e-commerce-in-one-month-949ddf7e02c6
@@ -117,7 +117,7 @@ topics:
   - id: 7
     image: /assets/images/colors.png
     color: '#553495'
-    font: Roboto
+    font: parabolaregular
     dates: 8th October - 4th November
     title: Colors theories
     url: https://medium.com/learning-lab/how-i-learnt-about-color-theories-and-made-my-best-color-palettes-in-one-month-a461604ca669
@@ -140,7 +140,7 @@ topics:
   - id: 8
     image: /assets/images/trading.png
     color: '#002F36'
-    font: Roboto
+    font: unica_oneregular
     dates: 5th November - 23rd December
     title: Cryptocurrency trading
     url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
