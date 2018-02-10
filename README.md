@@ -13,8 +13,9 @@ Website of Learning lab to follow the challenge
 - [x] Set background colors of each
 - [x] Put filters on the background image for a better reading
 - [x] Find header background
-- [ ] Update each font
+- [x] Update each font
 - [ ] Fix colors
+- [ ] Fix readability filters
 - [ ] Adjust sizes and spacing
 - [ ] Fix challenge box size
 - [ ] Implement js & css effects (animations & lazy loading)
@@ -22,6 +23,7 @@ Website of Learning lab to follow the challenge
 - [ ] Implement footer (with stats if possible & social icons)
 - [ ] Add newsletter form
 - [ ] Make it responsive
+- [ ] Fix icons
 - [ ] Add analytics
 - [ ] Add Uservoice
 - [ ] Put transparency on Favicon

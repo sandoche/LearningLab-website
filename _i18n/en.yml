@@ -98,7 +98,7 @@ topics:
   - id: 6
     image: /assets/images/ecommerce.jpg
     color: '#242524'
-    font: unica_oneregular
+    font: meloregular
     dates: 15th August - 7th October
     title: E-commerce
     url: https://medium.com/learning-lab/6-how-i-learnt-how-to-build-an-automated-e-commerce-in-one-month-949ddf7e02c6
@@ -140,7 +140,7 @@ topics:
   - id: 8
     image: /assets/images/trading.png
     color: '#002F36'
-    font: unica_oneregular
+    font: noto_monoregular
     dates: 5th November - 23rd December
     title: Cryptocurrency trading
     url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
