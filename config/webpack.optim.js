@@ -2,10 +2,10 @@ const CriticalPlugin = require('webpack-plugin-critical').CriticalPlugin;
 const path = require('path');
 
 module.exports = {
-  // entry: './config/optimization-fix/do-not-delete.js',
-  // output: {
-  //   filename: 'optimization-fix-this-file-is-ignored.js'
-  // },
+  entry: './config/optimization-fix/do-not-delete.js',
+  output: {
+    filename: 'optimization-fix-this-file-is-ignored.js'
+  },
   // plugins: [
   //   new CriticalPlugin({
   //     base: path.resolve('_layouts'),
