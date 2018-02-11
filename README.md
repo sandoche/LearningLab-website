@@ -25,6 +25,6 @@ Website of Learning lab to follow the challenge
 - [x] Add newsletter form
 - [x] Add analytics
 - [x] Add Uservoice
-- [ ] Deploy & set up
-- [ ] Put transparency on Favicon
+- [x] Deploy & set up
+- [x] Put transparency on Favicon
 - [ ] Update doc & put it open source
