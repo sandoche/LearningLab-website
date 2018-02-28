@@ -9,6 +9,8 @@ Website of Learning lab challenge
 - [x] Reduce size of icons
 - [x] Change photo to icon
 - [ ] Change two firsts backgrounds
-- [ ] Change text to explain the mailing concept (Redesign this part, what is the call to action?)
-- [ ] Add a Telegram channel
 - [ ] Add section with the current project and the resources
+- [ ] Change text to explain the mailing concept (Redesign this part, what is the call to action?)
+- [ ] Add mailchimp and put more details in the modal
+- [ ] Change the telegram group to a channel?
+
