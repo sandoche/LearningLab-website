@@ -215,13 +215,18 @@ strong {
     justify-content: center
   }
 
-
-  &__photo {
-    max-width: 250px;
-    width: auto;
+  &__picture {
+    background-color: #fff;
     border-radius: 50%;
     margin: $space-md $space-md $space-md 0;
-    border: 2px solid #fff;
+  }
+
+  &__photo {
+    max-width: 170px;
+    width: auto;
+    padding: 30px;
+    position: relative;
+    top: 10px;
   }
 
   &__text {

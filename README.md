@@ -7,8 +7,8 @@ Website of Learning lab challenge
 
 ## Todo
 - [x] Reduce size of icons
+- [x] Change photo to icon
 - [ ] Change two firsts backgrounds
-- [ ] Change photo to icon
 - [ ] Change text to explain the mailing concept (Redesign this part, what is the call to action?)
 - [ ] Add a Telegram channel
 - [ ] Add section with the current project and the resources
