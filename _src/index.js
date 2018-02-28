@@ -13,8 +13,8 @@ import './index.scss';
 
   // Bouton pour fermer la boîte de dialogue
   cancelButton.addEventListener('click', function() {
-    document.getElementById('favDialog').close();
     document.getElementById('favDialog').classList.remove('dialog-scale');
+    document.getElementById('favDialog').close();
   });
 
 })();

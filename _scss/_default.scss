@@ -94,6 +94,17 @@ strong {
     }
   }
 
+  &--telegram {
+    background-color: #32afed;
+    color: #fff;
+    margin-bottom: 32px;
+
+    &:hover {
+      background-color: darken(#32afed, 20);
+      color: #fff;
+    }
+  }
+
 }
 
 .accent {
@@ -475,6 +486,7 @@ dialog {
   padding: 30px 20px;
   color: #555;
   background-color: #fff;
+  text-align: center;
 }
 .site-dialog .dialog-content p:last-of-type,
 .site-dialog .dialog-content p:only-child {
