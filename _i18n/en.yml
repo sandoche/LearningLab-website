@@ -1,9 +1,9 @@
 header:
   uvp: Learn one topic every month
-  description: Hello, I'm Sandoche. In 2017, I decided to start the <strong>Learning Lab challenge</strong>.<br>The goal of this project is to learn about <strong>one topic every month</strong> and to <strong>build projects</strong> out of it. Why? Because <strong>it makes me happy</strong> and I invite you to do the same!
-  call_to_action_url: https://medium.com/learning-lab/why-i-decided-to-learn-something-new-every-month-and-how-i-will-do-it-e749580d2c7
-  call_to_action_text: Read the methodology
-
+  description: Every month receive <strong>one challenge, one project</strong> along with some <strong>learning materials</strong>. Let's learn together, faster and for free!
+  call_to_action_1_text: Get Started
+  call_to_action_2_url: https://medium.com/learning-lab/why-i-decided-to-learn-something-new-every-month-and-how-i-will-do-it-e749580d2c7
+  call_to_action_2_text: Read the Methodology
 content:
   days: days
   outcome: Outcome

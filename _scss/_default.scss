@@ -70,14 +70,30 @@ strong {
 
 .button {
   display: inline-block;
-  border: 1px solid lighten(#fff, 100%);
   padding: 15px 30px;
   font-weight: 500;
   color: $text-color;
+  cursor: pointer;
+  // border: 1px solid lighten(#fff, 100%);
 
   &:hover {
     background-color: lighten($text-color, 100%);
   }
+
+  &--main {
+    border: 1px solid lighten(#fff, 100%);
+  }
+
+  &--dark {
+    color: #CF3D5E;
+    border: 1px solid #CF3D5E;
+
+    &:hover {
+      color: #fff;
+      background-color: #CF3D5E;
+    }
+  }
+
 }
 
 .accent {
@@ -423,4 +439,62 @@ strong {
 
 .list-page {
    outline: 0px solid #f0f0f0!important;
+}
+
+
+dialog {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.site-dialog {
+  overflow: hidden;
+  width: 95%;
+  max-width: 500px;
+  padding: 0;
+  border-width: 0;
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.site-dialog h1 {
+  font-size: $font-md;
+  font-weight: normal;
+  margin: 0;
+  color: #333;
+}
+.site-dialog p {
+  font-size: $font-sm;
+}
+.site-dialog .dialog-header {
+  padding: 12px 20px;
+  background-color: #eee;
+}
+.site-dialog .dialog-content {
+  padding: 30px 20px;
+  color: #555;
+  background-color: #fff;
+}
+.site-dialog .dialog-content p:last-of-type,
+.site-dialog .dialog-content p:only-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.btn-group {
+  background-color: #fff;
+  padding: 16px;
+  text-align: right;
+}
+
+dialog {
+    visibility: hidden;
+    transform: scale(0.1);
+    transition: transform 200ms;
+}
+
+dialog.dialog-scale {
+    visibility: visible;
+    transform: scale(1);
 }
