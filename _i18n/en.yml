@@ -132,7 +132,7 @@ topics:
       - name: Colors interactor tool
         type: website
         icon: chrome
-        url: http://colors.learn.uno/
+        url: https://colors.learn.uno/
       - name: SASS Colors playground
         type: source
         icon: codepen
