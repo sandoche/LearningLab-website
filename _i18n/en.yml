@@ -169,15 +169,15 @@ topics:
         icon: medium
         url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
   - id: 9
-    image: /assets/images/crypto.png
-    color: '#002F36'
+    image: /assets/images/crypto.jpg
+    color: '#e8bd5c'
     font: unica_oneregular
     dates: 25th January - 5th April
     title: Blockchain & Cryptocurrencies
-    url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
+    url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-and-built-one-in-2-months-5d6d58616358
     days: 70
     month: January - Mars 2018
-    shadow: 0
+    shadow: 0.35
     projects:
       - name: Guides (6 articles)
         type: post
