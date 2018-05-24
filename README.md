@@ -9,7 +9,7 @@ Website of Learning lab challenge
 - [x] Reduce size of icons
 - [x] Change photo to icon
 - [x] Add section with the current project and the resources
-- [ ] Change three firsts backgrounds
+- [x] Change three firsts backgrounds
 - [ ] Fix icon problem
 - [ ] Change text to explain the mailing concept (Redesign this part, what is the call to action?)
 - [ ] Put more detail in the modal

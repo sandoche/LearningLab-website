@@ -139,7 +139,7 @@ topics:
     url: https://medium.com/learning-lab/how-i-learnt-about-color-theories-and-made-my-best-color-palettes-in-one-month-a461604ca669
     days: 27
     month: October 2017
-    shadow: 0.4
+    shadow: 0.2
     projects:
       - name: Colors interactor tool
         type: website
