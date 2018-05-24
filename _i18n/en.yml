@@ -21,7 +21,7 @@ current_learning:
   materials:
     - name: Wine tasting MOOC (Coursera)
       url: https://www.coursera.org/learn/wine
-      icon: chrome
+      icon: fas fa-graduation-cap
 
 topics:
   - id: 1
@@ -37,11 +37,11 @@ topics:
     projects:
       - name: Summer loading…12%
         type: song
-        icon: soundcloud
+        icon: fab fa-soundcloud
         url: https://soundcloud.com/sandoche/summer-loading-12
       - name: Santo Domingo to Tarifa
         type: song
-        icon: soundcloud
+        icon: fab fa-soundcloud
         url: https://soundcloud.com/sandoche/santo-domingo-to-tarifa
   - id: 2
     image: /assets/images/swimming.jpg
@@ -56,7 +56,7 @@ topics:
     projects:
       - name: Swimming tips
         type: post
-        icon: medium
+        icon: fab fa-medium
         url: https://medium.com/learning-lab/how-i-learnt-how-to-swim-and-understood-my-fear-in-less-than-1-month-2e541e20d438
   - id: 3
     image: /assets/images/pwa.jpg
@@ -71,11 +71,11 @@ topics:
     projects:
       - name: PWA Tutorial
         type: post
-        icon: medium
+        icon: fab fa-medium
         url: https://medium.com/learning-lab/how-pwas-works-and-how-i-implemented-it-with-react-and-webpack-523381b1b7a4
       - name: Kanbanote PWA
         type: website
-        icon: chrome
+        icon: fas fa-globe
         url: https://www.kanbanote.com
   - id: 4
     image: /assets/images/design.jpg
@@ -90,11 +90,11 @@ topics:
     projects:
       - name: Webdesign checklist
         type: checklist
-        icon: github
+        icon: fab fa-github
         url: https://github.com/sandoche/Webdesign-checklist
       - name: Snitco
         type: website
-        icon: chrome
+        icon: fas fa-globe
         url: http://snit.co
   - id: 5
     image: /assets/images/webpack.jpg
@@ -109,7 +109,7 @@ topics:
     projects:
       - name: Jekyll webpack boilerplate
         type: source
-        icon: github
+        icon: fab fa-github
         url: https://github.com/sandoche/Jekyll-webpack-boilerplate
   - id: 6
     image: /assets/images/ecommerce.jpg
@@ -124,11 +124,11 @@ topics:
     projects:
       - name: Typster
         type: website
-        icon: chrome
+        icon: fas fa-shopping-cart
         url: https://typster.xyz/
       - name: Typster source
         type: source
-        icon: github
+        icon: fab fa-github
         url: https://github.com/sandoche/Typster-website
   - id: 7
     image: /assets/images/colors.png
@@ -143,15 +143,15 @@ topics:
     projects:
       - name: Colors interactor tool
         type: website
-        icon: chrome
+        icon: fas fa-wrench
         url: https://colors.learn.uno/
       - name: SASS Colors playground
         type: source
-        icon: codepen
+        icon: fab fa-codepen
         url: https://codepen.io/sandoche/pen/KyzMZe
       - name: 5 color palettes
         type: palettes
-        icon: photo
+        icon: fas fa-image
         url: https://color.adobe.com/fr/explore/?q=userId%3A25317946
   - id: 8
     image: /assets/images/trading.png
@@ -166,7 +166,7 @@ topics:
     projects:
       - name: Guides (5 articles) & Portfolio of 1000 €
         type: post
-        icon: medium
+        icon: fab fa-medium
         url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
   - id: 9
     image: /assets/images/crypto.jpg
@@ -181,15 +181,15 @@ topics:
     projects:
       - name: Guides (6 articles)
         type: post
-        icon: medium
+        icon: fab fa-medium
         url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-and-built-one-in-2-months-5d6d58616358
       - name: Motive Cryptocurrency
         type: website
-        icon: chrome
+        icon: fab fa-bitcoin
         url: https://motive.network
       - name: CoinGenerator
         type: website
-        icon: chrome
+        icon: fas fa-terminal
         url: https://coingenerator.sh
 footer:
   love: Made with <i class="fas fa-heart"></i> by Sandoche

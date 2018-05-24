@@ -10,6 +10,6 @@ Website of Learning lab challenge
 - [x] Change photo to icon
 - [x] Add section with the current project and the resources
 - [x] Change three firsts backgrounds
-- [ ] Fix icon problem
+- [x] Fix icon problem
 - [ ] Change text to explain the mailing concept (Redesign this part, what is the call to action?)
 - [ ] Put more detail in the modal

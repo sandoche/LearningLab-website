@@ -28,7 +28,7 @@ layout: default
           <h3 class="article__outcome-title">{% t content.materials %}</h3>
           <p>
             {% for material in site.translations[site.lang].current_learning.materials %}
-              <a class="article__project" href="{{ material.url }}" title="{{ material.name }}"><i class="fab fa-{{ material.icon }}"></i> {{ material.name }} {% if forloop.last != true %}&nbsp;|&nbsp;{% endif %}</a>
+              <a class="article__project" href="{{ material.url }}" title="{{ material.name }}"><i class="{{ material.icon }}"></i> {{ material.name }} {% if forloop.last != true %}&nbsp;|&nbsp;{% endif %}</a>
             {% endfor %}
           </p>
         </div>
@@ -52,7 +52,7 @@ layout: default
             <h3 class="article__outcome-title">{% t content.outcome %}</h3>
             <p>
               {% for project in topic.projects %}
-                <a class="article__project" href="{{ project.url }}" title="{{ project.name }}"><i class="fab fa-{{ project.icon }}"></i> {{ project.name }} {% if forloop.last != true %}&nbsp;|&nbsp;{% endif %}</a>
+                <a class="article__project" href="{{ project.url }}" title="{{ project.name }}"><i class="{{ project.icon }}"></i> {{ project.name }} {% if forloop.last != true %}&nbsp;|&nbsp;{% endif %}</a>
               {% endfor %}
             </p>
           </div>
