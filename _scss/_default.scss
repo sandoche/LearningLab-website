@@ -344,6 +344,11 @@ strong {
     color: #fff;
     font-size: $font-xmd;
     font-weight: 300;
+
+    &--first {
+      background-color: #fff;
+      color: #000;
+    }
   }
 
   &__overtitle {
@@ -375,6 +380,7 @@ strong {
   &__project {
     font-size: $font-ms;
   }
+
 
   @media screen and (max-width: 768px)
   {

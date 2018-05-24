@@ -1,6 +1,6 @@
 header:
   uvp: Learn one topic every month
-  description: Every month receive <strong>one challenge, one project</strong> along with some <strong>learning materials</strong>. Let's learn together, faster and for free, earn <a href="https://motive.network">Motive cryptocurrency</a> and receive a Learning Lab certificate stamped on blockchain (with the blockcerts protocol).
+  description: Every month receive <strong>one challenge, one project</strong> along with some <strong>learning materials</strong>. Let's learn together, faster and for free, earn <a href="https://motive.network"><strong>Motive cryptocurrency</strong></a> and receive a Learning Lab certificate stamped on blockchain (with the blockcerts protocol).
   call_to_action_1_text: Get Started
   call_to_action_2_url: https://medium.com/learning-lab/why-i-decided-to-learn-something-new-every-month-and-how-i-will-do-it-e749580d2c7
   call_to_action_2_text: Read the Methodology
@@ -11,14 +11,17 @@ content:
   challenge: Challenge
   sign_up: Stay updated
   current: Current topic
+  materials: Reading materials
 
 current_learning:
-  topic: Wine tasting
-  dates: May - July
-  font: unica_oneregular
+  title: Wine tasting
+  dates: May - July 2018
+  font: meloregular
+  color: '#450011'
   materials:
     - name: Wine tasting MOOC (Coursera)
       url: https://www.coursera.org/learn/wine
+      icon: chrome
 
 topics:
   - id: 1

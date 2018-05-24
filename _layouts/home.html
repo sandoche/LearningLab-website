@@ -18,10 +18,29 @@ layout: default
 
 <div class="home">
   <main class="home__content">
+
+    <p class="article__number article__number--first"><span class="article__challenge">{% t content.current %}</span></p>
+    <article style="background-color: {% t current_learning.color %}; box-shadow: 0px 0px 26px 5px rgba(0,0,0,0.30);" class="article">
+        <a><p class="article__overtitle">{% t current_learning.dates %}</p></a>
+        <h2 class="article__title {% t current_learning.font %}">{% t current_learning.title %}</h2>
+      <div class="article__details">
+        <div class="article__outcome">
+          <h3 class="article__outcome-title">{% t content.materials %}</h3>
+          <p>
+            {% for material in site.translations[site.lang].current_learning.materials %}
+              <a class="article__project" href="{{ material.url }}" title="{{ material.name }}"><i class="fab fa-{{ material.icon }}"></i> {{ material.name }} {% if forloop.last != true %}&nbsp;|&nbsp;{% endif %}</a>
+            {% endfor %}
+          </p>
+        </div>
+      </div>
+    </article>
+
+
+
     {% assign topics = site.translations[site.lang].topics | reverse %}
     {% for topic in topics %}
       <p class="article__number"><span class="article__challenge">{% t content.challenge %} </span>#{{ topic.id }}</p>
-      <article onClick="location.href='{{ topic.url }}'" class="article" style="background-color:{{ topic.color }}; background-image: url({{ topic.image }}); {% if forloop.first == true %}box-shadow: 0px 0px 26px 5px rgba(0,0,0,0.30);{% else %} box-shadow: inset 0 0 0 1000px rgba(0,0,0,{{ topic.shadow }});{% endif %}">
+      <article onClick="location.href='{{ topic.url }}'" class="article" style="background-color:{{ topic.color }}; background-image: url({{ topic.image }});box-shadow: inset 0 0 0 1000px rgba(0,0,0,{{ topic.shadow }});">
           <a href="{{ topic.url }}"><p class="article__overtitle">{{ topic.month }}</p></a>
           <a href="{{ topic.url }}"><h2 class="article__title {{ topic.font }}">{{ topic.title }}</h2></a>
         <div class="article__details">
