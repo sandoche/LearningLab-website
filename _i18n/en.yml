@@ -162,7 +162,7 @@ topics:
     url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
     days: 48
     month: November & December 2017
-    shadow: 0
+    shadow: 0.3
     projects:
       - name: Guides (5 articles) & Portfolio of 1000 €
         type: post
