@@ -1,6 +1,6 @@
 header:
   uvp: Learn one topic every month
-  description: Every month receive <strong>one challenge, one project</strong> along with some <strong>learning materials</strong>. Let's learn together, faster and for free!
+  description: Every month receive <strong>one challenge, one project</strong> along with some <strong>learning materials</strong>. Let's learn together, faster and for free, earn <a href="https://motive.network">Motive cryptocurrency</a> and receive a Learning Lab certificate stamped on blockchain (with the blockcerts protocol).
   call_to_action_1_text: Get Started
   call_to_action_2_url: https://medium.com/learning-lab/why-i-decided-to-learn-something-new-every-month-and-how-i-will-do-it-e749580d2c7
   call_to_action_2_text: Read the Methodology
@@ -10,6 +10,15 @@ content:
   duration: Duration
   challenge: Challenge
   sign_up: Stay updated
+  current: Current topic
+
+current_learning:
+  topic: Wine tasting
+  dates: May - July
+  font: unica_oneregular
+  materials:
+    - name: Wine tasting MOOC (Coursera)
+      url: https://www.coursera.org/learn/wine
 
 topics:
   - id: 1
@@ -156,6 +165,29 @@ topics:
         type: post
         icon: medium
         url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
+  - id: 9
+    image: /assets/images/crypto.png
+    color: '#002F36'
+    font: unica_oneregular
+    dates: 5th November - 23rd December
+    title: Cryptocurrency trading
+    url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
+    days: 48
+    month: November & December 2017
+    shadow: 0
+    projects:
+      - name: Guides (6 articles)
+        type: post
+        icon: medium
+        url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-and-built-one-in-2-months-5d6d58616358
+      - name: Motive Cryptocurrency
+        type: website
+        icon: chrome
+        url: https://motive.network
+      - name: CoinGenerator
+        type: website
+        icon: chrome
+        url: https://coingenerator.sh      
 footer:
   love: Made with <i class="fas fa-heart"></i> by Sandoche
   social:

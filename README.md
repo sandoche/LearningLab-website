@@ -8,9 +8,8 @@ Website of Learning lab challenge
 ## Todo
 - [x] Reduce size of icons
 - [x] Change photo to icon
+- [ ] Fix icon problem
 - [ ] Change two firsts backgrounds
 - [ ] Add section with the current project and the resources
 - [ ] Change text to explain the mailing concept (Redesign this part, what is the call to action?)
-- [ ] Add mailchimp and put more details in the modal
-- [ ] Change the telegram group to a channel?
-
+- [ ] Put more detail in the modal
