@@ -503,7 +503,7 @@ dialog {
   background-color: #eee;
 }
 .site-dialog .dialog-content {
-  padding: 30px 20px;
+  padding: 20px 32px;
   color: #555;
   background-color: #fff;
   text-align: center;
@@ -518,6 +518,11 @@ dialog {
   background-color: #fff;
   padding: 16px;
   text-align: right;
+}
+
+.modal__description {
+  text-align: left;
+  margin-bottom: 60px;
 }
 
 dialog {

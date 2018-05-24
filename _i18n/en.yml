@@ -200,3 +200,9 @@ footer:
       url: https://github.com/sandoche
     - icon: medium
       url: https://medium.com/learning-lab
+
+modal:
+  title: Get started
+  telegram: Join the Telegram Group
+  or: or
+  text: Join the telegram group or subscribe to the newsletter in order to receive every month some challenges, projects and learning materials. Also, feel free to ask any question during your learning process in the telegram group. Let's all learn together!
