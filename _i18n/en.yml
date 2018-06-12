@@ -22,6 +22,9 @@ current_learning:
     - name: Wine tasting MOOC (Coursera)
       url: https://www.coursera.org/learn/wine
       icon: fas fa-graduation-cap
+    - name: Wine for Dummies
+      url: https://www.amazon.fr/Vin-pour-Nuls-9e-%C3%A9dition-ebook/dp/B01M0JTYVJ
+      icon: fas fa-book
 
 topics:
   - id: 1
