@@ -1,0 +1,16 @@
+list:
+  - name: Music production
+    id: music
+    slug: music-production
+  - name: Swimming
+    id: swimming
+    slug: swimming
+  - name: Progressive web apps
+  - name: Ideation and creativity
+  - name: Webpack
+  - name: E-commerce
+  - name: Colors theories
+  - name: Cryptocurrency trading
+  - name: Blockchain and cryptocurrencies
+  - name: Wine tasting
+  - name: NativeScript VueJS

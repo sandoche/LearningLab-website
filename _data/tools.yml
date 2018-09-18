@@ -1,0 +1,15 @@
+categories:
+  - name: Resources
+  - name: MOOCs
+  - name: Motivation
+  - name: Productivity
+    tools:
+      - name: Trello
+        description: 
+        url: https://trello.com/
+      - name: Evernote
+        description: 
+        url: https://www.evernote.com
+      - name: Kanbanote
+        description:
+        url: https://www.kanbanote.com
