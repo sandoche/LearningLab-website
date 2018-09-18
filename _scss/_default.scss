@@ -1,0 +1,247 @@
+// Variables
+
+$container-width: 1200px;
+$container-padding: 30px;
+
+$primary-color: #C8385A;
+$text-color: #333;
+$link-color: #7F7F7F;
+
+$font-xl: 58px;
+$font-md: 22px;
+$font-sm: 18px;
+$font-xs: 16px;
+
+$system-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+$primary-font-family: $system-font-family;
+
+
+
+// Mixin
+
+@mixin container($padding) {
+  max-width: $container-width;
+  padding: 0 $padding;
+  margin: auto;
+}
+
+
+// Global
+
+body {
+  font-family: $primary-font-family;
+  color: $text-color;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  font-size: $font-sm;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+
+// Shared
+
+.button {
+  display: inline-block;
+  border: 1px solid lighten($link-color, 40%);
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-weight: 300;
+
+  &:hover {
+    background-color: lighten($link-color, 49%);
+  }
+}
+
+.accent {
+  color: $primary-color;
+}
+
+
+// Components & pages
+
+.navigation {
+
+  @include container($container-padding);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 10px;
+
+  padding-bottom: 10px;
+  border-bottom: 1px solid lighten($link-color, 40%);
+
+  &__branding {
+      display: flex;
+      align-items: center;
+  }
+
+  &__title {
+    color: $text-color !important;
+    font-size: $font-md;
+    font-weight: 500;
+  }
+
+  &__logo {
+    margin-right: 10px;
+  }
+
+  &__logo-img {
+    height: 40px;
+    width: 40px;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__link {
+    margin-left: 30px;
+    font-size: $font-xs;
+
+    &--active {
+      color: $primary-color;
+    }
+  }
+
+}
+
+.home {
+
+  @include container($container-padding);
+
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  &__headline-container {
+    padding: 0 $container-padding * 3;
+  }
+
+  &__headline {
+    font-size: $font-xl;
+  }
+
+}
+
+
+.page {
+
+  @include container($container-padding);
+  margin-top: 60px;
+
+  &__header {
+    padding: 0 $container-padding;
+  }
+
+
+  &__content {
+    padding: 0 $container-padding;
+  }
+}
+
+.blog {
+  @include container($container-padding);
+  margin-top: 60px;
+
+
+  &__post {
+
+    padding: 0 $container-padding;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid lighten($link-color, 40%);
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+
+    &:first-child {
+      padding-top: 10px;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__date {
+    padding-top: 15px;
+    width: 30%;
+    color: $link-color;
+  }
+
+  &__content {
+    width: 100%;
+  }
+
+
+  &__link {
+    &:hover {
+      color: $link-color;
+    }
+  }
+
+  &__title {
+    color: $text-color;
+    font-size: $font-md;
+    padding-top: 0;
+  }
+
+  &__excerpt {
+    color: $link-color;
+  }
+}
+
+
+.post {
+
+  @include container($container-padding);
+  margin-top: 80px;
+
+
+  &__container {
+    padding: 0 $container-padding;
+  }
+
+  &__meta {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid lighten($link-color, 40%);
+  }
+
+}
+
+
+.footer {
+  border-top: 1px solid lighten($link-color, 40%);
+  padding: 30px 0;
+  margin-top: 80px;
+
+  &__container {
+    @include container($container-padding);
+    color: $link-color;
+  }
+
+}
