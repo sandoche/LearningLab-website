@@ -6,7 +6,7 @@ Learning Lab contains resources, tools and a community to learn anything in less
 * Read more on the documentation of Jekyll Webpack Boilerplate: https://github.com/sandoche/Jekyll-webpack-boilerplate
 
 ## To do
-- [ ] Remove _i18n plugin
+- [x] Remove _i18n plugin
 - [ ] Add datas (strings, topics, topic - maybe in each page -, tools per categoy)
 - [ ] Build layouts (home, explore, topics, tools) - html
 - [ ] Build layouts (home, explore, topics, tools) - css
