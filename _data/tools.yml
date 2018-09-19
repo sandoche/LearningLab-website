@@ -1,15 +1,59 @@
 categories:
-  - name: Resources
-  - name: MOOCs
+  - name: MOOCs & Courses
+    tools:
+      - name: Coursera
+        description:
+        url: http://coursera.org/
+      - name: edX
+        description:
+        url:
+      - name: OpenClassroom
+        description:
+        url:
+      - name: Free mooc website
+        description:
+        url:
+  - name: Books
+    tools:
+      - name: Dummies
+        description:
+        url:
+      - name: // books read by 
+        description:
+        url:
+  - name: Other learning tools 
+    tools:
+      - name: Learn anything
+        description:
+        url:
+      - name: Anki
+        description:
+        url: 
+      - name: Build your own X
+        description:
+        url:
   - name: Motivation
+    tools:
+      - name: Habitica
+      - name: Go Fucking Do It
+        description: 
+        url: https://gofuckingdoit.com/
+      - name: ProductHunt Makers
+        description: 
+        url: https://www.producthunt.com/makers
   - name: Productivity
     tools:
       - name: Trello
-        description: 
+        description: Manage your learning and tasks with bards and cards
         url: https://trello.com/
       - name: Evernote
-        description: 
+        description: Save and collect websites, and write notes for your learnings
         url: https://www.evernote.com
       - name: Kanbanote
-        description:
+        description: Kanban feature for Evernote to manage learning and tasks with boards and cards
         url: https://www.kanbanote.com
+  - name: Mentoring
+    tools:
+      - name: CodeMentors
+        description:
+        url: 

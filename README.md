@@ -13,5 +13,6 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [ ] Add md pages
 - [ ] Add logos and update config
 - [ ] Add google analytics and uservoice
+- [ ] Add google ads
 - [ ] Deploy
 - [ ] Add AMP

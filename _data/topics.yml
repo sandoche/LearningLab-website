@@ -6,11 +6,29 @@ list:
     id: swimming
     slug: swimming
   - name: Progressive web apps
+    id: pwa
+    slug: progressive-web-apps
   - name: Ideation and creativity
+    id: ideation
+    slug: ideation-and-creativity
   - name: Webpack
+    id: webpack
+    slug: Webpack
   - name: E-commerce
+    id: ecommerce
+    slug: e-commerce
   - name: Colors theories
+    id: colors
+    slug: colors-theories
   - name: Cryptocurrency trading
+    id: cryptotrading
+    slug: cryptocurrency-trading
   - name: Blockchain and cryptocurrencies
+    id: blockchain
+    slug: blockchain-cryptocurrencinges
   - name: Wine tasting
+    id: wine
+    slug: wine-tasting
   - name: NativeScript VueJS
+    id: nativescript
+    slug: nativescript-vuejs
