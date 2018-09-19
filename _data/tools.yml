@@ -2,44 +2,46 @@ categories:
   - name: MOOCs & Courses
     tools:
       - name: Coursera
-        description:
+        description: Online free (and paid) video courses, with very good universities (Standford, Princeton, HEC)
         url: http://coursera.org/
       - name: edX
-        description:
-        url:
+        description: Online free (and paid) courses, with very good universities (MIT, Harvard, Berkley)
+        url: https://www.edx.org/
       - name: OpenClassroom
-        description:
-        url:
-      - name: Free mooc website
-        description:
-        url:
+        description: Online free (and paid) courses, mostly about computer science
+        url: https://openclassrooms.com/
+      - name: My MOOC
+        description: Mooc search engine that indexes differents MOOCs websites including the ones above
+        url: https://www.my-mooc.com
   - name: Books
     tools:
-      - name: Dummies
-        description:
-        url:
-      - name: // books read by 
-        description:
-        url:
-  - name: Other learning tools 
+      - name: For dummies
+        description: Collection of books to learn anything from zero
+        url: https://www.dummies.com/
+      - name: Awesome books
+        description: Curated list of books to learn anything
+        url: https://github.com/learn-anything/books
+  - name: Learning resources indexes and tools
     tools:
       - name: Learn anything
-        description:
-        url:
+        description: Search Interactive Maps to Learn Anything
+        url: https://learn-anything.xyz
       - name: Anki
-        description:
-        url: 
+        description: Flash card tools to memorize anything, explore the free decks marketplace (Apps available on Android, iOS, and web)
+        url: https://apps.ankiweb.net/
       - name: Build your own X
-        description:
-        url:
+        description: Set of tutorial to build anything related to computer science (blockchain, bot, frameworks, OS, programming language)
+        url: https://github.com/danistefanovic/build-your-own-x
   - name: Motivation
     tools:
       - name: Habitica
+        description: Build habits and get done using gamification
+        url: https://habitica.com/
       - name: Go Fucking Do It
-        description: 
+        description: Set a deadline and a price. If you fail, you pay.
         url: https://gofuckingdoit.com/
       - name: ProductHunt Makers
-        description: 
+        description: Share your todo with other makers and learners
         url: https://www.producthunt.com/makers
   - name: Productivity
     tools:
@@ -54,6 +56,6 @@ categories:
         url: https://www.kanbanote.com
   - name: Mentoring
     tools:
-      - name: CodeMentors
-        description:
-        url: 
+      - name: CodeMentor
+        description: Find a developer to help you
+        url: https://www.codementor.io/
