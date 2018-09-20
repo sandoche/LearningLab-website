@@ -7,9 +7,9 @@ Learning Lab contains resources, tools and a community to learn anything in less
 
 ## To do
 - [x] Remove _i18n plugin
-- [ ] Add datas (strings, topics, topic - maybe in each page -, tools per categoy)
-- [ ] Build layouts (home, explore, topics, tools) - html
-- [ ] Build layouts (home, explore, topics, tools) - css
+- [x] Add datas (strings, topics, topic - maybe in each page -, tools per categoy)
+- [ ] Build layouts (home, topics, topic, tools) - html
+- [ ] Build layouts (home, topics, topic, tools) - css
 - [ ] Add md pages
 - [ ] Add logos and update config
 - [ ] Add google analytics and uservoice
