@@ -9,13 +9,13 @@ home:
   second_button: Explore other topics
   second_button_url: /explore/
 
-explore:
-  title: Explore
+topics:
+  title: Explore learning topics
   description: Check out our curated list of topics with their learning resources and experiences to learn anything within 2 months, all this learnings have been experienced at least once.
   add_topic: Add a topic
 
 tools:
-  title: Tools
+  title: Learning tools
   description: Use these tools to improve your learning productivity and motivation
   add_tool: Add a tool
 
