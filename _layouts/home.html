@@ -3,7 +3,11 @@ layout: default
 ---
 <div class="home">
   <header class="home__headline-container">
-    <h1 class="home__headline">Hello World</h1>
-    <a class="button home__cta" href="#">Take this challenge</a>
+    <h1 class="home__headline">{{ site.data.strings.home.uvp }}</h1>
+    <h2 class="home__learning">{{ site.data.strings.home.learning }}</h2>
+    <div class="home__buttons">
+      <a class="button button--primary" href="{{ site.data.strings.home.action_button_url }}">{{ site.data.strings.home.action_button }}</a>
+      <a class="button button--link" href="{{ site.data.strings.home.second_button_url }}">{{ site.data.strings.home.second_button }}</a>
+    </div>
   </header>
 </div>
