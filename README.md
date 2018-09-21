@@ -10,6 +10,7 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Add datas (strings, topics, topic - maybe in each page -, tools per categoy)
 - [ ] Build layouts (home, topics, topic, tools) - html
 - [ ] Build layouts (home, topics, topic, tools) - css
+- [ ] Disable routing for navigation of unwanted pages
 - [ ] Add md pages
 - [ ] Add logos and update config
 - [ ] Add google analytics and uservoice
