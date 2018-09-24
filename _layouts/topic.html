@@ -2,4 +2,66 @@
 layout: default
 ---
 <div class="topic">
+  <header>
+    <h1>{{ page.infos.title }}</h1>
+    <p>{{ page.infos.description }}</p>
+  </header>
+  <section>
+    <div class="topic__category">
+      <div class="topic__title-section">
+        <h2>{{ site.data.strings.topic.resources_title }}</h2>
+        <a href="">{{ site.data.strings.topic.resources_add }}</a>
+      </div>
+      <div class="topic__content-section">
+        {% for resource in page.resources %}
+          <a href="{{ resource.url }}" class="topic__resource">
+            <article>
+              <p>{{ resource.title }}</p>
+            </article>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="topic__category">
+        <div class="topic__title-section">
+          <h2>{{ site.data.strings.topic.experiences_title }}</h2>
+          <a href="">{{ site.data.strings.topic.experiences_add }}</a>
+        </div>
+        <div class="topic__content-section">
+          {% for experience in page.experiences %}
+            <a href="{{ experience.url }}" class="topic__experience">
+              <article>
+                <p>{{ experience.title }}</p>
+              </article>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="topic__category">
+        <div class="topic__title-section">
+          <h2>{{ site.data.strings.topic.projects_title }}</h2>
+          <a href="">{{ site.data.strings.topic.projects_add }}</a>
+        </div>
+        <div class="topic__content-section">
+          {% for project in page.projects_ideas %}
+            <article class="topic__project">
+              <p>{{ project.title }}</p>
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="topic__category">
+        <div class="topic__title-section">
+          <h2>{{ site.data.strings.topic.community_title }}</h2>
+        </div>
+        <div class="topic__content-section">
+          <p>{{ site.data.strings.topic.community_subtitle }}</p>
+          <a href="">Put button here</a>
+        </div>
+      </div>
+
+  </section>
 </div>
