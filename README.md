@@ -24,6 +24,8 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [ ] Rework logo, colors, fonts, sizes
 - [ ] Add logos and update config
 - [ ] Make it responsive
+- [ ] Add a newsletter form
+- [ ] Add a donation button? buy a coffee? or ads?
 - [ ] Add google analytics and uservoice
 - [ ] Add google ads
 - [ ] Deploy
