@@ -12,6 +12,7 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Add md pages
 - [x] Disable routing for navigation of unwanted pages
 - [ ] Build layouts (home, topics, topic, tools) - css
+- [ ] Create the community and add link to header
 - [ ] Rework logo, colors, and fonts
 - [ ] Add logos and update config
 - [ ] Add google analytics and uservoice
