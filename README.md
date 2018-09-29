@@ -23,6 +23,7 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [ ] Implement footer
 - [ ] Rework logo, colors, fonts, sizes
 - [ ] Add logos and update config
+- [ ] Make it responsive
 - [ ] Add google analytics and uservoice
 - [ ] Add google ads
 - [ ] Deploy
