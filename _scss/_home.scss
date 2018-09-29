@@ -1,0 +1,19 @@
+.home {
+
+  @include container($container-padding);
+
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  &__headline-container {
+    padding: 0 $container-padding * 3;
+  }
+
+  &__headline {
+    font-size: $font-xl;
+  }
+
+}

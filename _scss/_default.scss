@@ -1,21 +1,41 @@
+// CSS Variables
+:root {
+  --font-xl: 58px;
+  --font-lg: 32px;
+  --font-md: 24px;
+  --font-sm: 18px;
+  --font-xs: 16px;
+
+  @media (max-width: 768px) {
+    --font-xl: 36px;
+    --font-lg: 24px;
+    --font-md: 20px;
+    --font-sm: 16px;
+    --font-xs: 14px;
+  }
+}
+
 // Variables
 
 $container-width: 1200px;
 $container-padding: 30px;
 
-$primary-color: #C8385A;
-$text-color: #333;
-$link-color: #7F7F7F;
+$primary-color: #5A51FE;
+$text-color: #222;
+$link-color: $primary-color;
+$background-color: #f3f2fc;
+$grey-color: #65638f;
+$light-grey-color: #f3f2fc;
 
-$font-xl: 58px;
-$font-md: 22px;
-$font-sm: 18px;
-$font-xs: 16px;
+$font-xl: var(--font-xl);
+$font-lg: var(--font-lg);
+$font-md: var(--font-md);
+$font-sm: var(--font-sm);
+$font-xs: var(--font-xs);
 
 $system-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 $primary-font-family: $system-font-family;
-
-
+$secondary-font-family: 'Heebo', sans-serif;
 
 // Mixin
 
@@ -51,6 +71,9 @@ a {
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $secondary-font-family;
+}
 
 // Shared
 
@@ -82,7 +105,8 @@ a {
   justify-content: space-between;
   align-items: center;
 
-  margin-top: 10px;
+  margin-top: 32px;
+  font-family: $secondary-font-family;
 
   padding-bottom: 10px;
   border-bottom: 1px solid lighten($link-color, 40%);
@@ -94,8 +118,8 @@ a {
 
   &__title {
     color: $text-color !important;
-    font-size: $font-md;
-    font-weight: 500;
+    font-size: $font-sm;
+    font-weight: 700;
   }
 
   &__logo {
@@ -115,6 +139,8 @@ a {
   &__link {
     margin-left: 30px;
     font-size: $font-xs;
+    font-weight: 700;
+    color: $grey-color;
 
     &--active {
       color: $primary-color;
@@ -122,117 +148,6 @@ a {
   }
 
 }
-
-.home {
-
-  @include container($container-padding);
-
-  height: 65vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-
-  &__headline-container {
-    padding: 0 $container-padding * 3;
-  }
-
-  &__headline {
-    font-size: $font-xl;
-  }
-
-}
-
-
-.page {
-
-  @include container($container-padding);
-  margin-top: 60px;
-
-  &__header {
-    padding: 0 $container-padding;
-  }
-
-
-  &__content {
-    padding: 0 $container-padding;
-  }
-}
-
-.blog {
-  @include container($container-padding);
-  margin-top: 60px;
-
-
-  &__post {
-
-    padding: 0 $container-padding;
-    display: flex;
-    flex-direction: row;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-bottom: 1px solid lighten($link-color, 40%);
-
-    @media (max-width: 900px) {
-      flex-direction: column;
-    }
-
-    &:first-child {
-      padding-top: 10px;
-    }
-
-    &:last-child {
-      border-bottom: none;
-    }
-  }
-
-  &__date {
-    padding-top: 15px;
-    width: 30%;
-    color: $link-color;
-  }
-
-  &__content {
-    width: 100%;
-  }
-
-
-  &__link {
-    &:hover {
-      color: $link-color;
-    }
-  }
-
-  &__title {
-    color: $text-color;
-    font-size: $font-md;
-    padding-top: 0;
-  }
-
-  &__excerpt {
-    color: $link-color;
-  }
-}
-
-
-.post {
-
-  @include container($container-padding);
-  margin-top: 80px;
-
-
-  &__container {
-    padding: 0 $container-padding;
-  }
-
-  &__meta {
-    padding-bottom: 40px;
-    margin-bottom: 40px;
-    border-bottom: 1px solid lighten($link-color, 40%);
-  }
-
-}
-
 
 .footer {
   border-top: 1px solid lighten($link-color, 40%);
@@ -243,5 +158,4 @@ a {
     @include container($container-padding);
     color: $link-color;
   }
-
 }
