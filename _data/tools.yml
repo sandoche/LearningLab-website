@@ -1,5 +1,5 @@
 categories:
-  - name: Learning Lab Methodology
+  - name: Learning Lab Methodology 📝
     tools:
       - name: Learning Lab Challenge
         description: How to learn about one new topic every month, methodology included
@@ -7,7 +7,7 @@ categories:
       - name: Learning Lab Challenge (Retrospective)
         description: A retrospective after one year of learning and building beside work
         url: https://medium.com/learning-lab/one-year-with-the-learning-syndrome-ed1c004153d8
-  - name: MOOCs & Courses
+  - name: MOOCs & Courses 🎓
     tools:
       - name: Coursera
         description: Online free (and paid) video courses, with very good universities (Standford, Princeton, HEC)
@@ -21,7 +21,7 @@ categories:
       - name: My MOOC
         description: Mooc search engine that indexes differents MOOCs websites including the ones above
         url: https://www.my-mooc.com
-  - name: Books
+  - name: Books 📚
     tools:
       - name: For dummies
         description: Collection of books to learn anything from zero
@@ -29,7 +29,7 @@ categories:
       - name: Awesome books
         description: Curated list of books to learn anything
         url: https://github.com/learn-anything/books
-  - name: Learning resources indexes and tools
+  - name: Learning resources indexes and tools 📝
     tools:
       - name: Learn anything
         description: Search Interactive Maps to Learn Anything
@@ -40,7 +40,7 @@ categories:
       - name: Build your own X
         description: Set of tutorial to build anything related to computer science (blockchain, bot, frameworks, OS, programming language)
         url: https://github.com/danistefanovic/build-your-own-x
-  - name: Motivation
+  - name: Motivation 🏆
     tools:
       - name: Habitica
         description: Build habits and get done using gamification
@@ -51,7 +51,7 @@ categories:
       - name: ProductHunt Makers
         description: Share your todo with other makers and learners
         url: https://www.producthunt.com/makers
-  - name: Productivity
+  - name: Productivity 📈
     tools:
       - name: Trello
         description: Manage your learning and tasks with bards and cards

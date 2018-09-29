@@ -9,17 +9,19 @@ layout: default
     </div>
   </header>
   <section class="tools__list">
-    {% for category in site.data.tools.categories %}
-      <h2 class="tools__category">{{ category.name }}</h2>
-      {% for tool in category.tools %}
-        <a href="{{ tool.url }}" class="tools__tool">
-          <article>
-            <h3>{{ tool.name }}</h3>
-            <p>{{ tool.description }}</p>
-          </article>
-        </a>
+    <div class="container">
+      {% for category in site.data.tools.categories %}
+        <h2 class="tools__category">{{ category.name }}</h2>
+        {% for tool in category.tools %}
+          <a href="{{ tool.url }}" class="tools__tool">
+            <article>
+              <h3>{{ tool.name }}</h3>
+              <p>{{ tool.description }}</p>
+            </article>
+          </a>
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
+    </div>
   </section>
 </div>
  

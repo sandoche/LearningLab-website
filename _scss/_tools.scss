@@ -1,0 +1,37 @@
+.tools {
+
+  &__list {
+    background-color: $background-color;
+    padding-top: 32px;
+  }
+
+  &__category {
+    margin-top: 32px;
+  }
+
+  &__tool article {
+    background-color: #fff;
+    border-radius: 5px;
+    transition: all .15s ease;
+    padding: 24px 32px;
+
+    h3, p {
+      margin: 0;
+    }
+
+    h3 {
+      color: $text-color;
+      font-size: $font-sm;
+    }
+
+    p {
+      color: $grey-color;
+      font-size: $font-xs;
+    }
+
+    &:hover {
+      box-shadow: 0 8px 24px rgba(32,43,54,0.12);
+      transform: scale(1.01);
+    }
+  }
+}
