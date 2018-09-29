@@ -11,8 +11,10 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Build layouts (home, topics, topic, tools) - html
 - [x] Add md pages
 - [ ] Build layouts (home, topics, topic, tools) - css
+- [ ] Reoder topics
 - [ ] Add nativescript page and meta data
 - [ ] Add title to added pages for SEO
+- [ ] Update images for better readability
 - [ ] Disable routing for navigation of unwanted pages
 - [ ] Create the community and add link to header
 - [ ] Rework logo, colors, fonts, sizes

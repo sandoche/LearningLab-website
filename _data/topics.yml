@@ -59,11 +59,11 @@ metadata:
     color: '#242524'
     font: meloregular
   colors:
-    image: /assets/images/topics/colors.jpg
+    image: /assets/images/topics/colors.png
     color: '#553495'
     font: parabolaregular
   cryptotrading:
-    image: /assets/images/topics/trading.jpg
+    image: /assets/images/topics/trading.png
     color: '#002F36'
     font: noto_monoregular
   blockchain:

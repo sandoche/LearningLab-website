@@ -19,5 +19,13 @@
     height: 200px;
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0 8px 24px rgba(32,43,54,0.12);
+    mix-blend-mode: multiply;
+    transition: all .15s ease;
+
+    &:hover {
+      box-shadow: 0 8px 24px rgba(32,43,54,0.25);
+      transform: scale(1.05);
+    }
   }
 }
