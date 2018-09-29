@@ -5,10 +5,6 @@ id: pwa
 infos:
   title: Progressive Web Apps
   days: 36
-style:
-  image: /assets/images/pwa.jpg
-  color: '#FF5769'
-  font: unica_oneregular
 resources:
   - title: Your First Progressive Web App
     url: https://codelabs.developers.google.com/codelabs/your-first-pwapp/index.html

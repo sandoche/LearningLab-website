@@ -5,10 +5,6 @@ id: blockchain
 infos:
   title: Blockchain & Cryptocurrencies
   days: 70
-style:
-  image: /assets/images/crypto.jpg
-  color: '#e8bd5c'
-  font: unica_oneregular
 resources:
   - title: Bitcoin and Cryptocurrency Technologies - Coursera MOOC from Princeton University
     url: https://www.coursera.org/learn/cryptocurrency

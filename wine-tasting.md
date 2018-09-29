@@ -5,10 +5,6 @@ id: wine
 infos:
   title: Wine tasting
   days: 90
-style:
-  image: /assets/images/music.jpg
-  color: '#450011'
-  font: meloregular
 resources:
   - title: Wine tasting MOOC (Coursera)
     url: https://www.coursera.org/learn/wine

@@ -5,10 +5,6 @@ id: ecommerce
 infos:
   title: E-commerce
   days: 53
-style:
-  image: /assets/images/ecommerce.jpg
-  color: '#242524'
-  font: meloregular
 resources:
   - title: How I Built an Online T-Shirt Business and Made $1,248.90 in 3 Weeks
     url: https://www.shopify.com/blog/50559813-how-i-built-an-online-t-shirt-business-and-made-1-248-90-in-3-weeks#

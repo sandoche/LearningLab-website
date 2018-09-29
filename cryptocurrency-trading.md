@@ -5,10 +5,6 @@ id: cryptotrading
 infos:
   title: Cryptocurrency trading
   days: 48
-style:
-  image: /assets/images/trading.jpg
-  color: '#002F36'
-  font: noto_monoregular
 resources:
   - title: Trading for dummies
     url: https://www.amazon.com/Trading-Dummies-Michael-Griffis/dp/0764556894

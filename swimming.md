@@ -5,10 +5,6 @@ id: swimming
 infos:
   title: Swimming
   days: 22
-style:
-  image: /assets/images/swimming.jpg
-  color: '#336770'
-  font: cutepunkbold
 resources:
   - title: Enjoy Swimming
     url: http://www.swim-teach.com

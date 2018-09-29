@@ -5,10 +5,6 @@ id: colors
 infos:
   title: Colors theories
   days: 27
-style:
-  image: /assets/images/colors.jpg
-  color: '#553495'
-  font: parabolaregular
 resources:
   - title: Interaction of Color — Albers Josef
     url: https://www.amazon.com/Interaction-Color-Revised-Josef-Albers/dp/0300018460

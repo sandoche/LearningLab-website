@@ -11,11 +11,13 @@
   &__topic article p {
     margin: 0;
     display: flex;
-    background-color: #333;
+    background-size: cover;
+    background-position: center center;
     color: #fff;
     justify-content: center;
     align-items: center;
     height: 200px;
     border-radius: 5px;
+    text-align: center;
   }
 }

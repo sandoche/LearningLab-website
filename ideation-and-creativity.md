@@ -5,10 +5,6 @@ id: ideation
 infos:
   title: Ideation and Creativity
   days: 19
-style:
-  image: /assets/images/design.jpg
-  color: '#296D78'
-  font: cutepunkbold
 resources:
   - title: Steal Like An Artist — Austin Kleon
     url: https://www.amazon.com/Steal-Like-Artist-Things-Creative/dp/0761169253

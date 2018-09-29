@@ -12,7 +12,7 @@ layout: default
     {% for topic in site.data.topics.list %}
       <a href="/learning/{{ topic.slug }}" class="topics__topic">
         <article>
-          <p>{{ topic.name }}</p>
+          <p class="{{ site.data.topics.metadata[topic.id].font }}" style="background-color: {{ site.data.topics.metadata[topic.id].color }}; background-image: url('{{ site.data.topics.metadata[topic.id].image }}')">{{ topic.name }}</p>
         </article>
       </a>
     {% endfor %}

@@ -5,10 +5,6 @@ id: webpack
 infos:
   title: Webpack
   days: 36
-style:
-  image: /assets/images/webpack.jpg
-  color: '#008FC4'
-  font: unica_oneregular
 resources:
   - title: Webpack Documentation
     url: https://webpack.js.org/concepts/

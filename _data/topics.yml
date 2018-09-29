@@ -32,3 +32,46 @@ list:
   - name: NativeScript VueJS
     id: nativescript
     slug: nativescript-vuejs
+
+metadata:
+  music:
+    image: /assets/images/topics/music.jpg
+    color: '#6E45BE'
+    font: parabolaregular
+  swimming:
+    image: /assets/images/topics/swimming.jpg
+    color: '#336770'
+    font: cutepunkbold
+  pwa:
+    image: /assets/images/topics/pwa.jpg
+    color: '#FF5769'
+    font: unica_oneregular
+  ideation:
+    image: /assets/images/topics/design.jpg
+    color: '#296D78'
+    font: cutepunkbold
+  webpack:
+    image: /assets/images/topics/webpack.jpg
+    color: '#008FC4'
+    font: unica_oneregular
+  ecommerce:
+    image: /assets/images/topics/ecommerce.jpg
+    color: '#242524'
+    font: meloregular
+  colors:
+    image: /assets/images/topics/colors.jpg
+    color: '#553495'
+    font: parabolaregular
+  cryptotrading:
+    image: /assets/images/topics/trading.jpg
+    color: '#002F36'
+    font: noto_monoregular
+  blockchain:
+    image: /assets/images/topics/crypto.jpg
+    color: '#e8bd5c'
+    font: unica_oneregular
+  wine:
+    color: '#450011'
+    font: meloregular
+  nativescript:
+    color: '#000'

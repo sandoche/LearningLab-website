@@ -5,10 +5,6 @@ id: music
 infos:
   title: Music Production
   days: 41
-style:
-  image: /assets/images/music.jpg
-  color: '#6E45BE'
-  font: parabolaregular
 resources:
   - title: Music Theory for Musicians and Normal People by Toby W. Rush
     url: http://tobyrush.com/theorypages/
