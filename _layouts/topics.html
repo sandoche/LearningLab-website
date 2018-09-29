@@ -2,9 +2,11 @@
 layout: default
 ---
 <div class="topics">
-  <header class="topics__header">
-    <h1 class="topics__title">{{ site.data.strings.topics.title }}</h1>
-    <p class="topics__description">{{ site.data.strings.topics.description }}</p>
+  <header class="topics__header page__header">
+    <div class="container page__header-container">
+      <h1 class="topics__title page__title">{{ site.data.strings.topics.title }}</h1>
+      <p class="topics__description page__description">{{ site.data.strings.topics.description }}</p>
+    </div>
   </header>
   <section class="topics__list">
     {% for topic in site.data.topics.list %}

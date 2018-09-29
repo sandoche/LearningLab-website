@@ -2,9 +2,11 @@
 layout: default
 ---
 <div class="topic">
-  <header>
-    <h1>{{ page.infos.title }}</h1>
-    <p>{{ page.infos.description }}</p>
+  <header class="page__header">
+    <div class="container page__header-container">
+      <h1 class="page__title">{{ page.infos.title }}</h1>
+      <p class="page__description">{{ page.infos.description }}</p>
+    </div>
   </header>
   <section>
     <div class="topic__category">
