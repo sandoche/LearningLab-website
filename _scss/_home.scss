@@ -2,7 +2,8 @@
 
   @include container($container-padding);
 
-  height: 65vh;
+  height: calc(100vh - 120px - 161px);
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +14,17 @@
   }
 
   &__headline {
-    font-size: $font-xl;
+    font-size: $font-md;
+    color: $grey-color;
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
   }
 
+  &__learning {
+    font-size: $font-xl;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 16px;
+  }
 }

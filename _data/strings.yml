@@ -2,8 +2,8 @@ navigation:
   story: Read the story
 
 home:
-  uvp: Learn anything in one or two month aside from your work
-  learning: This month let's learn about NativeScript VueJS
+  uvp: Learn anything in one month and aside from your work
+  learning: This month let's learn about NativeScript VueJS and build an app
   action_button: Take this challenge
   action_button_url: /learning/nativescript-vue
   second_button: Explore other topics

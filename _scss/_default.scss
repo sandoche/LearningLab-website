@@ -1,6 +1,6 @@
 // CSS Variables
 :root {
-  --font-xl: 58px;
+  --font-xl: 52px;
   --font-lg: 32px;
   --font-md: 24px;
   --font-sm: 18px;
@@ -106,6 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 
   margin-top: 32px;
+  margin-bottom: 32px;
   font-family: $secondary-font-family;
 
   padding-bottom: 10px;
@@ -137,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   &__link {
-    margin-left: 30px;
+    margin-left: 64px;
     font-size: $font-xs;
     font-weight: 700;
     color: $grey-color;
@@ -156,6 +157,6 @@ h1, h2, h3, h4, h5, h6 {
 
   &__container {
     @include container($container-padding);
-    color: $link-color;
+    color: $grey-color;
   }
 }
