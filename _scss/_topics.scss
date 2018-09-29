@@ -1,0 +1,21 @@
+.topics {
+  &__list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+  }
+
+  &__topic article p {
+    margin: 0;
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border-radius: 5px;
+  }
+}

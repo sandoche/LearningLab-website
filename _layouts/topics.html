@@ -8,7 +8,7 @@ layout: default
       <p class="topics__description page__description">{{ site.data.strings.topics.description }}</p>
     </div>
   </header>
-  <section class="topics__list">
+  <section class="topics__list container">
     {% for topic in site.data.topics.list %}
       <a href="/learning/{{ topic.slug }}" class="topics__topic">
         <article>

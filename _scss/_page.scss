@@ -5,17 +5,19 @@
 
   &__header-container {
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 64px;
   }
 
   &__title {
     font-size: $font-lg;
     font-family: $secondary-font-family;
+    padding: 0 $container-padding * 3;
   }
 
   &__description {
     font-size: $font-sm;
     color: $grey-color;
     font-family: $secondary-font-family;
+    padding: 0 $container-padding * 3;
   }
 }
