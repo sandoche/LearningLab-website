@@ -9,9 +9,9 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Remove _i18n plugin
 - [x] Add datas (strings, topics, topic - maybe in each page -, tools per categoy)
 - [x] Build layouts (home, topics, topic, tools) - html
-- [ ] Build layouts (home, topics, topic, tools) - css
-- [ ] Disable routing for navigation of unwanted pages
 - [x] Add md pages
+- [ ] Disable routing for navigation of unwanted pages
+- [ ] Build layouts (home, topics, topic, tools) - css
 - [ ] Add logos and update config
 - [ ] Add google analytics and uservoice
 - [ ] Add google ads
