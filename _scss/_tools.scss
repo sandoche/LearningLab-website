@@ -1,7 +1,18 @@
+.body-tools {
+  background-color: $background-color;
+
+  nav {
+    background-color: #fff;
+  }
+}
+
 .tools {
 
+  &__header {
+    background-color: #fff;
+  }
+
   &__list {
-    background-color: $background-color;
     padding-top: 32px;
   }
 
