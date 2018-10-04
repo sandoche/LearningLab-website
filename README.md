@@ -23,7 +23,7 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Add the missing images
 - [x] Reoder topics
 - [x] Create the discord community and add link to header
-- [ ] Implement footer
+- [x] Implement footer
 - [ ] Rework logo, colors, fonts, sizes, add layer opacity to images
 - [ ] Add logos and update config, update discord
 - [ ] Make it responsive
@@ -31,6 +31,8 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [ ] Add a donation button? buy a coffee? or ads?
 - [ ] Add google analytics and uservoice
 - [ ] Add google ads
+- [ ] Should I replace discord with telegram?
 - [ ] Update the medium article
+- [ ] Make the github repo public
 - [ ] Deploy
 - [ ] Add AMP
