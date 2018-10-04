@@ -22,7 +22,7 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Update images for better readability
 - [x] Add the missing images
 - [x] Reoder topics
-- [ ] Create the discord community and add link to header
+- [x] Create the discord community and add link to header
 - [ ] Implement footer
 - [ ] Rework logo, colors, fonts, sizes, add layer opacity to images
 - [ ] Add logos and update config, update discord
