@@ -24,6 +24,8 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Reoder topics
 - [x] Create the discord community and add link to header
 - [x] Implement footer
+- [ ] Add a add a topic button
+- [ ] Add outcomes examples
 - [ ] Rework logo, colors, fonts, sizes, add layer opacity to images
 - [ ] Add logos and update config, update discord
 - [ ] Make it responsive
