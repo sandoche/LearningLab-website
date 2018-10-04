@@ -1,9 +1,9 @@
 {
-  "name": "jekyll-webpack-boilerplate",
+  "name": "learninglab-website",
   "version": "1.0.0",
-  "description": "A boilerplate with Jekyll and Webpack to make the most performant static websites",
+  "description": "Learn anything in one month and aside from your work",
   "main": "src/index.js",
-  "repository": "git@github.com:sandoche/Jekyll-webpack-boilerplate.git",
+  "repository": "git@github.com:sandoche/LearningLab-website.git",
   "author": "Sandoche Adittane <sandoche@gmail.com>",
   "license": "MIT",
   "scripts": {
