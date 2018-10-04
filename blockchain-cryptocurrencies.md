@@ -12,7 +12,7 @@ resources:
   - title: Bitcoin and Cryptocurrency Technologies - Coursera MOOC from Princeton University
     url: https://www.coursera.org/learn/cryptocurrency
   - title: Naivecoin Tutorial
-    url:  https://lhartikk.github.io/
+    url: https://lhartikk.github.io/
   - title: Naivecoin Proof of Stake Tutorial
     url: https://naivecoinstake.learn.uno/
   - title: Bitcoin whitepaper

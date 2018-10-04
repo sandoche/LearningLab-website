@@ -9,9 +9,9 @@ infos:
   days: 22
   description: Learn how to swim in one month
 resources:
-  - title: Enjoy Swimming
-    url: http://www.swim-teach.com
   - title: Swim Teach
+    url: http://www.swim-teach.com
+  - title: Enjoy Swimming
     url: http://www.enjoy-swimming.com 
 projects_ideas:
   - title: Make a 1 minute video of you swimming
