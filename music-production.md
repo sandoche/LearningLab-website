@@ -2,9 +2,11 @@
 layout: topic
 permalink: /learning/music-production/
 id: music
+title: Music Production
+hide_navigation: true
 infos:
   title: Music Production
-  description: Learn electronic music production in one month
+  description: Learn electronic music production and produce a song in one month
   days: 41
 resources:
   - title: Music Theory for Musicians and Normal People by Toby W. Rush

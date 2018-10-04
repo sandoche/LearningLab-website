@@ -2,9 +2,12 @@
 layout: topic
 permalink: /learning/blockchain-cryptocurrencies/
 id: blockchain
+title: Blockchain & Cryptocurrencies
+hide_navigation: true
 infos:
   title: Blockchain & Cryptocurrencies
   days: 70
+  description: Learn how blockchain and cryptocurrency works and build one in one month
 resources:
   - title: Bitcoin and Cryptocurrency Technologies - Coursera MOOC from Princeton University
     url: https://www.coursera.org/learn/cryptocurrency
@@ -31,4 +34,6 @@ projects_ideas:
 experiences:
   - title: How I Learnt About Cryptocurrencies and Built One in 2 Months
     url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-and-built-one-in-2-months-5d6d58616358
+    source: medium.com
+    author: Sandoche Adittane
 ---

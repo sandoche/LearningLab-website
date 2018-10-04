@@ -2,8 +2,11 @@
 layout: topic
 permalink: /learning/wine-tasting/
 id: wine
+title: Wine tasting
+hide_navigation: true
 infos:
   title: Wine tasting
+  description: Learn wine tasting and understand wine in one month
   days: 90
 resources:
   - title: Wine tasting MOOC (Coursera)
@@ -16,4 +19,6 @@ projects_ideas:
 experiences:
   - title: How to Taste Wine Like a Sir
     url: https://medium.com/learning-lab/how-to-taste-wine-like-a-sir-c0296c61024c
+    source: medium.com
+    author: Sandoche Adittane
 ---

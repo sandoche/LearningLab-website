@@ -2,9 +2,12 @@
 layout: topic
 permalink: /learning/cryptocurrency-trading/
 id: cryptotrading
+hide_navigation: true
+title: Cryptocurrency trading
 infos:
   title: Cryptocurrency trading
   days: 48
+  description: Learn how to trade cryptocurrencies and build a portfolio in one month
 resources:
   - title: Trading for dummies
     url: https://www.amazon.com/Trading-Dummies-Michael-Griffis/dp/0764556894
@@ -25,4 +28,6 @@ projects_ideas:
 experiences:
   - title: How I learnt about trading and started to invest 1000 € in cryptocurrencies
     url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
+    source: medium.com
+    author: Sandoche Adittane
 ---

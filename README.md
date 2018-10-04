@@ -14,16 +14,16 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Build CSS topics
 - [x] Build CSS topic
 - [x] Build CSS tools
+- [x] Add description to topics
+- [x] Add meta data to experiences
+- [x] Add title to added pages for SEO
+- [x] Disable routing for navigation of unwanted pages
 - [ ] Add nativescript page and meta data
-- [ ] Add title to added pages for SEO
 - [ ] Update images for better readability
-- [ ] Add description to topics
-- [ ] Add meta data to experiences
 - [ ] Reoder topics
-- [ ] Disable routing for navigation of unwanted pages
 - [ ] Create the discord community and add link to header
 - [ ] Implement footer
-- [ ] Rework logo, colors, fonts, sizes
+- [ ] Rework logo, colors, fonts, sizes, add layer opacity to images
 - [ ] Add logos and update config
 - [ ] Make it responsive
 - [ ] Add a newsletter form

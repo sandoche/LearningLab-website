@@ -2,9 +2,12 @@
 layout: topic
 permalink: /learning/colors-theories/
 id: colors
+hide_navigation: true
+title: Colors theories
 infos:
   title: Colors theories
   days: 27
+  description: Understand color theories in one month and build color palettes with confidence
 resources:
   - title: Interaction of Color — Albers Josef
     url: https://www.amazon.com/Interaction-Color-Revised-Josef-Albers/dp/0300018460
@@ -18,4 +21,6 @@ projects_ideas:
 experiences:
   - title: How I learnt about color theories and made my best color palettes in one month
     url: https://medium.com/learning-lab/how-i-learnt-about-color-theories-and-made-my-best-color-palettes-in-one-month-a461604ca669
+    source: medium.com
+    author: Sandoche Adittane
 ---
