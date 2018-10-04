@@ -20,12 +20,12 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Disable routing for navigation of unwanted pages
 - [x] Add nativescript page and meta data
 - [x] Update images for better readability
-- [ ] Add the missing images
-- [ ] Reoder topics
+- [x] Add the missing images
+- [x] Reoder topics
 - [ ] Create the discord community and add link to header
 - [ ] Implement footer
 - [ ] Rework logo, colors, fonts, sizes, add layer opacity to images
-- [ ] Add logos and update config
+- [ ] Add logos and update config, update discord
 - [ ] Make it responsive
 - [ ] Add a newsletter form
 - [ ] Add a donation button? buy a coffee? or ads?

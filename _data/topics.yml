@@ -76,14 +76,16 @@ metadata:
     font: noto_monoregular
   blockchain:
     image: /assets/images/topics/crypto.jpg
-    color: '#e8bd5c'
-    rgb: '232, 189, 92'
+    color: '#c99f42'
+    rgb: '201, 159, 66'
     font: unica_oneregular
   wine:
+    image: /assets/images/topics/wine.jpg
     color: '#450011'
     rgb: '69, 0, 17'
     font: meloregular
   nativescript:
+    image: /assets/images/topics/nativescript.png
     color: '#43B883'
     rgb: '67, 184, 131'
     font: unica_oneregular
