@@ -12,8 +12,8 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Add md pages
 - [x] Build CSS home
 - [x] Build CSS topics
-- [ ] Build CSS topic
-- [ ] Build CSS tools
+- [x] Build CSS topic
+- [x] Build CSS tools
 - [ ] Add nativescript page and meta data
 - [ ] Add title to added pages for SEO
 - [ ] Update images for better readability
