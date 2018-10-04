@@ -31,7 +31,7 @@ list:
     slug: wine-tasting
   - name: NativeScript VueJS
     id: nativescript
-    slug: nativescript-vuejs
+    slug: nativescript-vue
 
 metadata:
   music:
@@ -74,4 +74,5 @@ metadata:
     color: '#450011'
     font: meloregular
   nativescript:
-    color: '#000'
+    color: '#43B883'
+    font: unica_oneregular

@@ -7,7 +7,7 @@ home:
   action_button: Take this challenge
   action_button_url: /learning/nativescript-vue
   second_button: Explore other topics
-  second_button_url: /explore/
+  second_button_url: /learning/
 
 topics:
   title: Explore learning topics
@@ -28,6 +28,7 @@ topic:
   resources_add: Add a resource
   experiences_add: Add an experience
   projects_add: Add a project idea
+  experience_soon: Experience currently in process, the post will be added soon
 
 footer:
   copyright: Made with love in Europe by Sandoche

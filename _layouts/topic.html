@@ -22,7 +22,7 @@ layout: default
       </div>
       <div class="topic__content-section topic__resources">
         {% for resource in page.resources %}
-          <a href="{{ resource.url }}" class="topic__resource" style="background-color: {{ site.data.topics.metadata[page.id].color }}">
+          <a href="{{ resource.url }}" class="topic__resource" style="background-color: {{ site.data.topics.metadata[page.id].color }}"  target="_blank">
             <article>
               <p>{{ resource.title }}</p>
             </article>
@@ -38,7 +38,7 @@ layout: default
         </div>
         <div class="topic__content-section topic__experiences">
           {% for experience in page.experiences %}
-            <a href="{{ experience.url }}" class="tools__tool topic__experience">
+            <a href="{{ experience.url }}" class="tools__tool topic__experience" target="_blank">
               <article>
                 <h3>{{ experience.title }}</h3>
                 <p>{{ experience.source }} - by {{ experience.author }}</p>
@@ -46,6 +46,12 @@ layout: default
             </a>
           {% endfor %}
         </div>
+        {% if page.experiences %}
+        {% else  %}
+          <div>
+            {{ site.data.strings.topic.experience_soon }}
+          </div>
+        {% endif %}
       </div>
 
       <div class="topic__category">

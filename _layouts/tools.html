@@ -13,7 +13,7 @@ layout: default
       {% for category in site.data.tools.categories %}
         <h2 class="tools__category">{{ category.name }}</h2>
         {% for tool in category.tools %}
-          <a href="{{ tool.url }}" class="tools__tool">
+          <a href="{{ tool.url }}" class="tools__tool" target="_blank">
             <article>
               <h3>{{ tool.name }}</h3>
               <p>{{ tool.description }}</p>

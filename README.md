@@ -18,8 +18,9 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Add meta data to experiences
 - [x] Add title to added pages for SEO
 - [x] Disable routing for navigation of unwanted pages
-- [ ] Add nativescript page and meta data
+- [x] Add nativescript page and meta data
 - [ ] Update images for better readability
+- [ ] Add the missing images
 - [ ] Reoder topics
 - [ ] Create the discord community and add link to header
 - [ ] Implement footer

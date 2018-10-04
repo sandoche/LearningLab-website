@@ -1,13 +1,12 @@
 ---
 layout: topic
 permalink: /learning/nativescript-vue/
-published: false
 id: nativescript
+title: NativeScript VueJS
+hide_navigation: true
 infos:
   title: NativeScript VueJS
-style:
-  color: '#43B883'
-  font: unica_oneregular
+  description: Learn how to use NativeScript VueJS and build a native app in one month
 resources:
   - title: NativeScript Vue Documentation
     url: https://nativescript-vue.org/
