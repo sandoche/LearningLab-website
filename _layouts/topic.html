@@ -3,9 +3,15 @@ layout: default
 ---
 <div class="topic">
   <header class="page__header">
-    <div class="container page__header-container">
-      <h1 class="page__title">{{ page.infos.title }}</h1>
-      <p class="page__description">{{ page.infos.description }}</p>
+    <div class="container page__header-container topic__header">
+      <div class="topic__header-container">
+        <div class="topic__image" style="background-image: url('{{ site.data.topics.metadata[page.id].image }}">
+        </div>
+        <div>
+          <h1 class="page__title">{{ page.infos.title }}</h1>
+          <p class="page__description">{{ page.infos.description }}</p>
+        </div>
+      </div>
     </div>
   </header>
   <section class="container">
