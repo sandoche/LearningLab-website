@@ -19,7 +19,7 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Add title to added pages for SEO
 - [x] Disable routing for navigation of unwanted pages
 - [x] Add nativescript page and meta data
-- [ ] Update images for better readability
+- [x] Update images for better readability
 - [ ] Add the missing images
 - [ ] Reoder topics
 - [ ] Create the discord community and add link to header
