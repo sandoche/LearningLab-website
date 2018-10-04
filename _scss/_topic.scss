@@ -21,4 +21,32 @@
     margin-bottom: 64px;
   }
 
+  &__resources {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+
+  &__resource {
+    border-radius: 5px;
+    box-shadow: 0 2px 24px rgba(32,43,54,0.10);
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .15s ease;
+
+    p {
+      color: #fff;
+    }
+
+    &:hover {
+      box-shadow: 0 8px 24px rgba(32,43,54,0.25);
+      transform: scale(1.05);
+    }
+  }
+
 }

@@ -16,7 +16,7 @@ layout: default
       </div>
       <div class="topic__content-section topic__resources">
         {% for resource in page.resources %}
-          <a href="{{ resource.url }}" class="topic__resource">
+          <a href="{{ resource.url }}" class="topic__resource" style="background-color: {{ site.data.topics.metadata[page.id].color }}">
             <article>
               <p>{{ resource.title }}</p>
             </article>
