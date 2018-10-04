@@ -8,13 +8,13 @@ layout: default
       <p class="page__description">{{ page.infos.description }}</p>
     </div>
   </header>
-  <section>
+  <section class="container">
     <div class="topic__category">
       <div class="topic__title-section">
         <h2>{{ site.data.strings.topic.resources_title }}</h2>
-        <a href="">{{ site.data.strings.topic.resources_add }}</a>
+        <a href="" class="button button--link">+ {{ site.data.strings.topic.resources_add }}</a>
       </div>
-      <div class="topic__content-section">
+      <div class="topic__content-section topic__resources">
         {% for resource in page.resources %}
           <a href="{{ resource.url }}" class="topic__resource">
             <article>
@@ -28,13 +28,14 @@ layout: default
     <div class="topic__category">
         <div class="topic__title-section">
           <h2>{{ site.data.strings.topic.experiences_title }}</h2>
-          <a href="">{{ site.data.strings.topic.experiences_add }}</a>
+          <a href="" class="button button--link">+ {{ site.data.strings.topic.experiences_add }}</a>
         </div>
-        <div class="topic__content-section">
+        <div class="topic__content-section topic__experiences">
           {% for experience in page.experiences %}
-            <a href="{{ experience.url }}" class="topic__experience">
+            <a href="{{ experience.url }}" class="tools__tool topic__experience">
               <article>
-                <p>{{ experience.title }}</p>
+                <h3>{{ experience.title }}</h3>
+                <p>{{ experience.source }} - by {{ experience.author }}</p>
               </article>
             </a>
           {% endfor %}
@@ -44,13 +45,13 @@ layout: default
       <div class="topic__category">
         <div class="topic__title-section">
           <h2>{{ site.data.strings.topic.projects_title }}</h2>
-          <a href="">{{ site.data.strings.topic.projects_add }}</a>
+          <a href="" class="button button--link">+ {{ site.data.strings.topic.projects_add }}</a>
         </div>
         <div class="topic__content-section">
           {% for project in page.projects_ideas %}
-            <article class="topic__project">
-              <p>{{ project.title }}</p>
-            </article>
+            <ul class="topic__project">
+              <li>{{ project.title }}</li>
+            </ul>
           {% endfor %}
         </div>
       </div>

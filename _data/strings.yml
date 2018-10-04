@@ -20,10 +20,10 @@ tools:
   add_tool: Add a tool
 
 topic:
-  resources_title: Resources
-  experiences_title: Experience
-  projects_title: Projects ideas
-  community_title: Mentors
+  resources_title: Resources 🎓
+  experiences_title: Experiences 🏆
+  projects_title: Projects ideas 💡
+  community_title: Mentors 🤝
   community_subtitle: Find mentors and discuss in the discord community
   resources_add: Add a resource
   experiences_add: Add an experience

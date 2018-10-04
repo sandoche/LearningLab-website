@@ -4,6 +4,7 @@ permalink: /learning/music-production/
 id: music
 infos:
   title: Music Production
+  description: Learn electronic music production in one month
   days: 41
 resources:
   - title: Music Theory for Musicians and Normal People by Toby W. Rush
@@ -15,4 +16,6 @@ projects_ideas:
 experiences:
   - title: How I learnt Music Production and produced a song in one month
     url: https://medium.com/learning-lab/how-i-learnt-music-production-and-produced-a-song-in-one-month-99abcdb7d224
+    source: medium.com
+    author: Sandoche Adittane
 ---

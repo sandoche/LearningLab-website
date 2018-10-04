@@ -1,0 +1,24 @@
+.topic {
+
+  &__title-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      font-size: $font-xs;
+      font-weight: 700;
+    }
+  }
+
+  &__experiences {
+    border-radius: 5px;
+    box-shadow: 0 2px 24px rgba(32,43,54,0.10);
+  }
+
+  &__category {
+    margin-bottom: 64px;
+  }
+
+}

@@ -17,9 +17,11 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [ ] Add nativescript page and meta data
 - [ ] Add title to added pages for SEO
 - [ ] Update images for better readability
+- [ ] Add description to topics
+- [ ] Add meta data to experiences
 - [ ] Reoder topics
 - [ ] Disable routing for navigation of unwanted pages
-- [ ] Create the community and add link to header
+- [ ] Create the discord community and add link to header
 - [ ] Implement footer
 - [ ] Rework logo, colors, fonts, sizes
 - [ ] Add logos and update config
@@ -28,5 +30,6 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [ ] Add a donation button? buy a coffee? or ads?
 - [ ] Add google analytics and uservoice
 - [ ] Add google ads
+- [ ] Update the medium article
 - [ ] Deploy
 - [ ] Add AMP
