@@ -12,7 +12,7 @@ layout: default
     {% for topic in site.data.topics.list %}
       <a href="/learning/{{ topic.slug }}" class="topics__topic">
         <article>
-          <p class="{{ site.data.topics.metadata[topic.id].font }}" style="background-color: {{ site.data.topics.metadata[topic.id].color }}; background-image: url('{{ site.data.topics.metadata[topic.id].image }}')">{{ topic.name }}</p>
+          <p class="{{ site.data.topics.metadata[topic.id].font }}" style="background-color: {{ site.data.topics.metadata[topic.id].color }}; background: linear-gradient(rgba({{ site.data.topics.metadata[topic.id].rgb }}, 0.6), rgba({{ site.data.topics.metadata[topic.id].rgb }}, 0.6)), url('{{ site.data.topics.metadata[topic.id].image }}') center/cover">{{ topic.name }}</p>
         </article>
       </a>
     {% endfor %}

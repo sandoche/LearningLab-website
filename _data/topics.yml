@@ -37,42 +37,53 @@ metadata:
   music:
     image: /assets/images/topics/music.jpg
     color: '#6E45BE'
+    rgb: 	'110, 69, 190'
     font: parabolaregular
   swimming:
     image: /assets/images/topics/swimming.jpg
     color: '#336770'
+    rgb: 	'51, 103, 112'
     font: cutepunkbold
   pwa:
     image: /assets/images/topics/pwa.jpg
     color: '#FF5769'
+    rgb: '255, 87, 105'
     font: unica_oneregular
   ideation:
     image: /assets/images/topics/design.jpg
     color: '#296D78'
+    rgb: '41, 109, 120'
     font: cutepunkbold
   webpack:
     image: /assets/images/topics/webpack.jpg
     color: '#008FC4'
+    rgb: '0, 143, 196'
     font: unica_oneregular
   ecommerce:
     image: /assets/images/topics/ecommerce.jpg
     color: '#242524'
+    rgb: '36, 37, 36'
     font: meloregular
   colors:
     image: /assets/images/topics/colors.png
     color: '#553495'
+    rgb: 85, 52, 149
     font: parabolaregular
   cryptotrading:
     image: /assets/images/topics/trading.png
     color: '#002F36'
+    rgb: '0, 47, 54'
     font: noto_monoregular
   blockchain:
     image: /assets/images/topics/crypto.jpg
     color: '#e8bd5c'
+    rgb: '232, 189, 92'
     font: unica_oneregular
   wine:
     color: '#450011'
+    rgb: '69, 0, 17'
     font: meloregular
   nativescript:
     color: '#43B883'
+    rgb: '67, 184, 131'
     font: unica_oneregular
