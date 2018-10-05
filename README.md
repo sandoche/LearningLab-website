@@ -25,16 +25,19 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Create the discord community and add link to header
 - [x] Implement footer
 - [ ] Add a add a topic button
+- [ ] Add a line about Motive cryptocurrency
 - [ ] Add outcomes examples
 - [ ] Rework logo, colors, fonts, sizes, add layer opacity to images
 - [ ] Add logos and update config, update discord
 - [ ] Make it responsive
 - [ ] Add a newsletter form
+- [ ] Reduce image's size
 - [ ] Add a donation button? buy a coffee? or ads?
 - [ ] Add google analytics and uservoice
 - [ ] Add google ads
 - [ ] Should I replace discord with telegram?
 - [ ] Update the medium article
+- [ ] Add Learning lab to motive website
 - [ ] Make the github repo public
 - [ ] Deploy
 - [ ] Add AMP
