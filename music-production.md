@@ -28,4 +28,5 @@ projects_outcome:
   - name: Santo Domingo to Tarifa
     type: Music
     url: https://soundcloud.com/sandoche/santo-domingo-to-tarifa
+    author: Sandoche Adittane
 ---

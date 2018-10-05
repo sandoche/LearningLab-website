@@ -82,13 +82,13 @@ layout: default
                 </article>
               </a>
             {% endfor %}
-            {% if page.projects_outcome %}
-            {% else  %}
-              <div>
-                {{ site.data.strings.topic.experience_soon }}
-              </div>
-            {% endif %}
           </div>
+          {% if page.projects_outcome %}
+          {% else  %}
+            <div>
+              {{ site.data.strings.topic.projects_soon }}
+            </div>
+          {% endif %}
         </div>
 
       <div class="topic__category">

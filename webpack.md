@@ -19,4 +19,9 @@ experiences:
     url: https://medium.com/learning-lab/5-how-i-learnt-webpack-3-and-created-a-jekyll-and-webpack-boilerplate-edd86645fd5e
     source: medium.com
     author: Sandoche Adittane
+projects_outcome:
+  - name: Jekyll webpack boilerplate
+    type: Open source boilerplate
+    url: https://github.com/sandoche/Jekyll-webpack-boilerplate
+    author: Sandoche Adittane
 ---

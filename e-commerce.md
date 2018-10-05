@@ -19,4 +19,9 @@ experiences:
     url: https://medium.com/learning-lab/6-how-i-learnt-how-to-build-an-automated-e-commerce-in-one-month-949ddf7e02c6
     source: medium.com
     author: Sandoche Adittane
+projects_outcome:
+  - name: Typster
+    type: Website
+    url: https://typster.xyz/
+    author: Sandoche Adittane
 ---

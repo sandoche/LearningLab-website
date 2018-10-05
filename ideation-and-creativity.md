@@ -21,5 +21,14 @@ experiences:
   - title: How I learnt how to steal like an artist in a month and designed & built my new company’s website
     url: https://medium.com/learning-lab/4-how-i-learnt-how-to-steal-like-an-artist-in-a-month-and-designed-built-my-new-companys-c5c68ffcf251
     source: medium.com
-    author: Sandoche Adittane   
+    author: Sandoche Adittane
+projects_outcome:
+  - name: Webdesign checklist
+    type: Checklist
+    url: https://github.com/sandoche/Webdesign-checklist
+    author: Sandoche Adittane
+  - name: Snitco
+    type: Website
+    url: http://snit.co
+    author: Sandoche Adittane
 ---

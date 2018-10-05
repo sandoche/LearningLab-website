@@ -36,4 +36,17 @@ experiences:
     url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-and-built-one-in-2-months-5d6d58616358
     source: medium.com
     author: Sandoche Adittane
+projects_outcome:
+  - name: Motive Cryptocurrency
+    type: Cryptocurrency
+    url: https://motive.network
+    author: Sandoche Adittane
+  - name: CoinGenerator
+    type: Open source generator
+    url: https://coingenerator.sh
+    author: Sandoche Adittane
+  - name: Guides (6 articles)
+    type: Post
+    url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-and-built-one-in-2-months-5d6d58616358
+    author: Sandoche Adittane
 ---

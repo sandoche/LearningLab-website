@@ -21,4 +21,13 @@ experiences:
     url: https://medium.com/learning-lab/how-i-learnt-progressive-web-apps-in-a-month-and-implemented-it-635448ed1330
     source: medium.com
     author: Sandoche Adittane
+projects_outcome:
+  - name: PWA Tutorial
+    type: Post
+    url: https://medium.com/learning-lab/how-pwas-works-and-how-i-implemented-it-with-react-and-webpack-523381b1b7a4
+    author: Sandoche Adittane
+  - name: Kanbanote PWA
+    type: Website
+    url: https://www.kanbanote.com
+    author: Sandoche Adittane
 ---

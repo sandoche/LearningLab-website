@@ -21,4 +21,10 @@ experiences:
     url: https://medium.com/learning-lab/how-to-taste-wine-like-a-sir-c0296c61024c
     source: medium.com
     author: Sandoche Adittane
+projects_outcome:
+  - name: Wine learning flashcards (Anki)
+    url: https://github.com/sandoche/Wine-Flashcards-Anki/releases/download/1.0/Wine-Learning-Pack.apkg
+    type: Flashcards
+    author: Sandoche Adittane
+
 ---

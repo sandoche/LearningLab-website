@@ -21,4 +21,9 @@ experiences:
     url: https://medium.com/learning-lab/how-i-learnt-how-to-swim-and-understood-my-fear-in-less-than-1-month-2e541e20d438
     source: medium.com
     author: Sandoche Adittane
+projects_outcome:
+  - name: Swimming tips
+    type: Post
+    url: https://medium.com/learning-lab/how-i-learnt-how-to-swim-and-understood-my-fear-in-less-than-1-month-2e541e20d438
+    author: Sandoche Adittane
 ---

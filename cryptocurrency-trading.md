@@ -30,4 +30,9 @@ experiences:
     url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
     source: medium.com
     author: Sandoche Adittane
+projects_outcome:
+  - name: Guides (5 articles) & Portfolio of 1000 €
+    type: Post
+    url: https://medium.com/learning-lab/how-i-learnt-about-cryptocurrencies-trading-and-started-to-invest-c426ca4ae1df
+    author: Sandoche Adittane
 ---
