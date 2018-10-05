@@ -28,17 +28,16 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Add a add a topic button
 - [x] Add a line about Motive cryptocurrency
 - [ ] Add outcomes examples <
-- [ ] Add a newsletter form
-- [ ] Rework logo, colors, fonts, sizes, add layer opacity to images
-- [ ] Add logos and update config, update discord and medium
-- [ ] Make it responsive
+- [ ] Add a newsletter form <
+- [ ] Rework logo, colors, fonts, sizes, add layer opacity to images <
+- [ ] Add logos and update config, update discord and medium <
+- [ ] Make it responsive <
 - [ ] Reduce image's size
 - [ ] Add a donation button? buy a coffee? or ads?
 - [ ] Add google analytics and uservoice
 - [ ] Add google ads
-- [ ] Should I replace discord with telegram?
 - [ ] Update the medium article
-- [ ] Add Learning lab to motive website
+- [ ] Add Learning lab to motive website & to blog
 - [ ] Make the github repo public
 - [ ] Deploy
 - [ ] Add AMP
