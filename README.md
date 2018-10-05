@@ -24,14 +24,14 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Reoder topics
 - [x] Create the discord community and add link to header
 - [x] Implement footer
-- [ ] Implement add a X modal
-- [ ] Add a add a topic button
-- [ ] Add a line about Motive cryptocurrency
-- [ ] Add outcomes examples
-- [ ] Rework logo, colors, fonts, sizes, add layer opacity to images
-- [ ] Add logos and update config, update discord
-- [ ] Make it responsive
+- [ ] Implement add a X modal and test on netlify <
+- [ ] Add a add a topic button <
+- [ ] Add a line about Motive cryptocurrency <
+- [ ] Add outcomes examples <
 - [ ] Add a newsletter form
+- [ ] Rework logo, colors, fonts, sizes, add layer opacity to images
+- [ ] Add logos and update config, update discord and medium
+- [ ] Make it responsive
 - [ ] Reduce image's size
 - [ ] Add a donation button? buy a coffee? or ads?
 - [ ] Add google analytics and uservoice
