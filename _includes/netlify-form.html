@@ -1,8 +1,9 @@
 <div style="display: none;" id="netlify-form">
   <form name="contact" method="POST" netlify>
+    <input type="hidden" name="page" value="{{ page.id }}">
     <input type="hidden" name="type" value="" id="form-input-type">
     <label><p class="form__label"><strong id="form-input-label"></strong></p><input type="text" name="value" id="form-input-value" class="text-input" required/></label>
-    <label><p class="form__label"><strong>Email (optional)</strong> - To get notified when your suggestion is added</p><input type="text" name="email" class="text-input"/></label>
+    <label><p class="form__label"><strong>Email (optional)</strong> - To get notified when your suggestion is added</p><input type="email" name="email" class="text-input"/></label>
     <label><p class="form__label"><strong>Motive Cryptocurrency Address (optional)</strong> - Earn 1000 MOTIV cryptocurrency per suggestion added<br><a href="https://motive.network/" target="_blank">Read more about Motive Cryptocurreny</a></p><input type="text" name="motive" class="text-input"/></label>
     <div data-netlify-recaptcha></div>
     <button type="submit" class="button button--primary">Send</button>
