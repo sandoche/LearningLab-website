@@ -28,7 +28,7 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Add a add a topic button
 - [x] Add a line about Motive cryptocurrency
 - [x] Add outcomes examples
-- [ ] Fix but modal closing itself <
+- [x] Fix but modal closing itself
 - [ ] Add a newsletter form <
 - [ ] Rework logo, colors, fonts, sizes, add layer opacity to images <
 - [ ] Add logos and update config, update discord and medium <
