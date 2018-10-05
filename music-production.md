@@ -20,4 +20,12 @@ experiences:
     url: https://medium.com/learning-lab/how-i-learnt-music-production-and-produced-a-song-in-one-month-99abcdb7d224
     source: medium.com
     author: Sandoche Adittane
+projects_outcome:
+  - name: Summer loading…12%
+    type: Music
+    url: https://soundcloud.com/sandoche/summer-loading-12
+    author: Sandoche Adittane
+  - name: Santo Domingo to Tarifa
+    type: Music
+    url: https://soundcloud.com/sandoche/santo-domingo-to-tarifa
 ---

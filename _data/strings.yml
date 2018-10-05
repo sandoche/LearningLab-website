@@ -21,14 +21,17 @@ tools:
 
 topic:
   resources_title: Resources 🎓
-  experiences_title: Experiences 🏆
+  experiences_title: Experiences ⚗️
   projects_title: Projects ideas 💡
+  projects_outcome: Projects carried out 🏆
   community_title: Mentors 🤝
   community_subtitle: Find mentors and discuss in the discord community
   resources_add: Add a resource
   experiences_add: Add an experience
   projects_add: Add a project idea
   experience_soon: Experience currently in process, the post will be added soon
+  projects_soon: Projects currently in process, projects will be added soon
+  projects_done_add: Add a project carried out
 
 footer:
   copyright: Made with ❤️ in Europe by <a href="https://www.sandoche.com">Sandoche</a>

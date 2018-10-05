@@ -16,6 +16,7 @@ const inputLabels = {
   'resource': 'Resource URL',
   'experience': 'Experience URL of blog post',
   'project idea': 'Describe the project idea',
+  'project carried out': 'Project URL',
   'topic': 'Topic name'
 };
 

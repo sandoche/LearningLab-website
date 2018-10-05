@@ -69,6 +69,29 @@ layout: default
       </div>
 
       <div class="topic__category">
+          <div class="topic__title-section">
+            <h2>{{ site.data.strings.topic.projects_outcome }}</h2>
+            <a href="" class="button button--link modal-link" title="project carried out">+ {{ site.data.strings.topic.projects_done_add }}</a>
+          </div>
+          <div class="topic__content-section topic__experiences">
+            {% for project in page.projects_outcome %}
+              <a href="{{ project.url }}" class="tools__tool topic__experience" target="_blank">
+                <article>
+                  <h3>{{ project.name }}</h3>
+                  <p>{{ project.type }} - by {{ project.author }}</p>
+                </article>
+              </a>
+            {% endfor %}
+            {% if page.projects_outcome %}
+            {% else  %}
+              <div>
+                {{ site.data.strings.topic.experience_soon }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+
+      <div class="topic__category">
         <div class="topic__title-section">
           <h2>{{ site.data.strings.topic.community_title }}</h2>
         </div>
