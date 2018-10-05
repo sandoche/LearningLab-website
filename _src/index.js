@@ -30,7 +30,7 @@ for (let i = 0; i < modalLinks.length; i++) {
     const inputLabel = document.getElementById('form-input-label');
     // const inputValue = document.getElementById('form-input-value');
 
-    modalTitle.innerHTML = 'Add ' + title;
+    modalTitle.innerHTML = 'New ' + title;
     inputType.value = title;
     inputLabel.innerHTML = inputLabels[title];
     // inputValue.placeholder = inputLabels[title];
