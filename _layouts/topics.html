@@ -17,5 +17,12 @@ layout: default
         </article>
       </a>
     {% endfor %}
+    <a class="topics__topic">
+      <article>
+        <p class="topics__add modal-link" title="topic">+ {{ site.data.strings.topics.add_topic }}</p>
+      </article>
+    </a>
   </section>
 </div>
+
+{% include netlify-form.html %}

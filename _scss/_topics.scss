@@ -29,4 +29,13 @@
       transform: scale(1.05);
     }
   }
+
+  &__add {
+    color: $grey-color !important;
+    text-shadow: none !important;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: none !important;
+    background-color: $light-grey-color;
+  }
 }

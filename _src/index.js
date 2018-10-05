@@ -15,7 +15,8 @@ const form = document.getElementById('netlify-form');
 const inputLabels = {
   'resource': 'Resource URL',
   'experience': 'Experience URL of blog post',
-  'project idea': 'Describe the project idea'
+  'project idea': 'Describe the project idea',
+  'topic': 'Topic name'
 };
 
 modal.setContent(
