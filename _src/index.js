@@ -25,13 +25,15 @@ modal.setContent(
 for (let i = 0; i < modalLinks.length; i++) {
   modalLinks[i].addEventListener("click", function() {
     const title = modalLinks[i].getAttribute('title');
+    const modalTitle = document.getElementById('modal-title');
+    const inputType = document.getElementById('form-input-type');
+    const inputLabel = document.getElementById('form-input-label');
+    // const inputValue = document.getElementById('form-input-value');
 
-    let modalTitle = document.getElementById('modal-title');
-    let inputType = document.getElementById('form-input-type');
-    let inputLabel = document.getElementById('form-input-label');
     modalTitle.innerHTML = 'Add ' + title;
     inputType.value = title;
     inputLabel.innerHTML = inputLabels[title];
+    // inputValue.placeholder = inputLabels[title];
 
     modalTitle.after(form);
     form.style.display = 'block';
