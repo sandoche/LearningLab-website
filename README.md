@@ -24,6 +24,7 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Reoder topics
 - [x] Create the discord community and add link to header
 - [x] Implement footer
+- [ ] Implement add a X modal
 - [ ] Add a add a topic button
 - [ ] Add a line about Motive cryptocurrency
 - [ ] Add outcomes examples
