@@ -29,11 +29,11 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Add a line about Motive cryptocurrency
 - [x] Add outcomes examples
 - [x] Fix but modal closing itself
-- [ ] Add a newsletter form <
-- [ ] Rework logo, colors, fonts, sizes, add layer opacity to images <
-- [ ] Add logos and update config, update discord and medium <
-- [ ] Make it responsive <
-- [ ] Reduce image's size <
+- [x] Add a newsletter form 
+- [ ] Rework logo, colors, fonts, sizes, add layer opacity to images
+- [ ] Add logos and update config, update discord and medium
+- [ ] Make it responsive
+- [ ] Reduce image's size
 - [ ] Add google analytics and uservoice
 - [ ] Add google ads
 - [ ] Update the medium article

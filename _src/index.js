@@ -10,6 +10,21 @@ const modal = new tingle.modal({
   closeLabel: "Close"
 });
 
+const modalNewsletter = new tingle.modal({
+  footer: false,
+  stickyFooter: false,
+  closeMethods: ['button'],
+  closeLabel: "Close"
+});
+
+modalNewsletter.setContent(
+  '<iframe src="https://upscri.be/ba4e23?as_embed" height="400" frameborder="0" style="width:100%;max-width:800px;margin:0 auto;"></iframe>'
+);
+
+document.getElementById('newsletter-register').addEventListener("click", function() {
+  modalNewsletter.open();
+});
+
 const modalLinks = document.getElementsByClassName('modal-link');
 const form = document.getElementById('netlify-form');
 const inputLabels = {
