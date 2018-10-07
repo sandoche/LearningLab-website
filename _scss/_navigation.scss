@@ -1,0 +1,51 @@
+
+.navigation {
+
+  @include container($container-padding);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: $secondary-font-family;
+
+  &__branding {
+      display: flex;
+      align-items: center;
+  }
+
+  &__title {
+    color: $text-color !important;
+    font-size: $font-sm;
+    font-weight: 700;
+  }
+
+  &__logo {
+    margin-right: 10px;
+  }
+
+  &__logo-img {
+    height: 40px;
+    width: 40px;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__link {
+    margin-left: 64px;
+    font-size: $font-xs;
+    font-weight: 700;
+    color: $grey-color;
+
+    &--active {
+      color: $primary-color;
+    }
+  }
+
+}
