@@ -30,8 +30,10 @@
 
   &__learning {
     font-size: $font-xl;
-    font-weight: 700;
+    font-weight: 900;
     margin: 0;
     margin-bottom: 32px;
+    font-family: $secondary-font-family;
+    line-height: 1.3;
   }
 }
