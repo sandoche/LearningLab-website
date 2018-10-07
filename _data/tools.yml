@@ -4,9 +4,9 @@ categories:
       - name: Learning Lab Challenge
         description: How to learn about one new topic every month, methodology included
         url: https://medium.com/learning-lab/why-i-decided-to-learn-something-new-every-month-and-how-i-will-do-it-e749580d2c7
-      - name: Learning Lab Challenge (Retrospective)
-        description: A retrospective after one year of learning and building beside work
-        url: https://medium.com/learning-lab/one-year-with-the-learning-syndrome-ed1c004153d8
+#      - name: Learning Lab Challenge (Retrospective)
+#        description: A retrospective after one year of learning and building beside work
+#        url: https://medium.com/learning-lab/one-year-with-the-learning-syndrome-ed1c004153d8
   - name: MOOCs & Courses 🎓
     tools:
       - name: Coursera
