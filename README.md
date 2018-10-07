@@ -38,7 +38,7 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Add google ads
 - [x] Motive website
 - [x] Fix homepage design on mobile
-- [ ] Update the medium article
+- [x] Update the medium article
 - [ ] Make the github repo public
 - [ ] Release article
 - [ ] Add article on tools
