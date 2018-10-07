@@ -5,6 +5,10 @@
     padding: 0 $container-padding * 3;
     align-items: center;
 
+    @media (max-width: 768px) {
+      padding: 0;
+    }
+
     h1, p {
       padding: 0;
     }
@@ -25,6 +29,10 @@
     background-size: cover;
     margin-right: 32px;
     background-position: center;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   &__title-section {
@@ -36,6 +44,11 @@
     a {
       font-size: $font-xs;
       font-weight: 700;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
     }
   }
 
@@ -54,6 +67,14 @@
     grid-template-rows: auto;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
+
+    @media (max-width: 1200px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media (max-width: 960px) {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   &__resource {
@@ -78,6 +99,14 @@
 
   &__community-text {
     margin-top: 0;
+  }
+
+  .button--link {
+    @media (max-width: 768px) {
+      padding: 0;
+      margin-top: 8px;
+      margin-bottom: 32px;
+    }
   }
 
 }

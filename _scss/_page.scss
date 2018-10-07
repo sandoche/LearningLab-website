@@ -13,6 +13,10 @@
     font-family: $secondary-font-family;
     padding: 0 $container-padding * 3;
     font-weight: 900;
+
+    @media (max-width: 768px) {
+      padding : 0;
+    }
   }
 
   &__description {
@@ -21,5 +25,9 @@
     font-family: $secondary-font-family;
     padding: 0 $container-padding * 3;
     line-height: 1.5;
+
+    @media (max-width: 768px) {
+      padding : 0;
+    }
   }
 }
