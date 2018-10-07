@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="tools">
+  <header class="tools__header page__header">
+    <div class="container page__header-container">
+      <h1 class="tools__title page__title">{{ site.data.strings.tools.title }}</h1>
+      <p class="tools__description page__description">{{ site.data.strings.tools.description }}</p>
+    </div>
+  </header>
+  <section class="tools__list">
+    <div class="container">
+      {% for category in site.data.tools.categories %}
+        <h2 class="tools__category">{{ category.name }}</h2>
+        {% for tool in category.tools %}
+          <a href="{{ tool.url }}" class="tools__tool" target="_blank">
+            <article>
+              <h3>{{ tool.name }}</h3>
+              <p>{{ tool.description }}</p>
+            </article>
+          </a>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </section>
+  {% include google-ad.html %}
+</div>
+ 

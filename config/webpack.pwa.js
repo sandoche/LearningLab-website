@@ -1,26 +1,26 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const Merge = require('webpack-merge');
 const ProdConfig = require('./webpack.prod.js');
 const path = require('path');
-const webpack = require('webpack');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 
 module.exports = Merge(ProdConfig, {
   plugins: [
     new WebpackPwaManifest({
       name: 'Learning Lab',
-      short_name: 'LearningLab',
-      description: 'Learn one topic every month',
-      orientation: "portrait",
-      display: "standalone",
-      start_url: "/",
-      theme_color: "#1BC3B5",
-      background_color: "#001D2B",
+      short_name: 'Learning Lab',
+      description: 'Learn anything in one month and aside from your work',
+      orientation: 'portrait',
+      display: 'standalone',
+      start_url: '/',
+      theme_color: '#5A51FE',
+      background_color: '#5A51FE',
       icons: [
         {
           src: path.resolve('icon.png'),
-          sizes: [96, 128, 192, 256, 384, 512]
+          sizes: [96, 128, 192, 256, 384, 512],
         },
-      ]
-    })
-  ]
+      ],
+    }),
+  ],
 });

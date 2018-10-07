@@ -5,12 +5,17 @@
     {% include head.html %}
   </head>
 
-  <body>
+  <body class="body-{{ page.id }}">
+
     <main>
+    {% include navigation.html %}
     {{ content }}
     </main>
+
     {% include footer.html %}
+
     {% include scripts.html %}
+
   </body>
 
 </html>

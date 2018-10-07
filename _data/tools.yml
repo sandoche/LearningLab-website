@@ -1,0 +1,69 @@
+categories:
+  - name: Learning Lab Methodology 📝
+    tools:
+      - name: Learning Lab Challenge
+        description: How to learn about one new topic every month, methodology included
+        url: https://medium.com/learning-lab/why-i-decided-to-learn-something-new-every-month-and-how-i-will-do-it-e749580d2c7
+#      - name: Learning Lab Challenge (Retrospective)
+#        description: A retrospective after one year of learning and building beside work
+#        url: https://medium.com/learning-lab/one-year-with-the-learning-syndrome-ed1c004153d8
+  - name: MOOCs & Courses 🎓
+    tools:
+      - name: Coursera
+        description: Online free (and paid) video courses, with very good universities (Standford, Princeton, HEC)
+        url: http://coursera.org/
+      - name: edX
+        description: Online free (and paid) courses, with very good universities (MIT, Harvard, Berkley)
+        url: https://www.edx.org/
+      - name: OpenClassroom
+        description: Online free (and paid) courses, mostly about computer science
+        url: https://openclassrooms.com/
+      - name: My MOOC
+        description: Mooc search engine that indexes differents MOOCs websites including the ones above
+        url: https://www.my-mooc.com
+  - name: Books 📚
+    tools:
+      - name: For dummies
+        description: Collection of books to learn anything from zero
+        url: https://www.dummies.com/
+      - name: Awesome books
+        description: Curated list of books to learn anything
+        url: https://github.com/learn-anything/books
+  - name: Learning resources indexes and tools 🔧
+    tools:
+      - name: Learn anything
+        description: Search Interactive Maps to Learn Anything
+        url: https://learn-anything.xyz
+      - name: Anki
+        description: Flash card tools to memorize anything, explore the free decks marketplace (Apps available on Android, iOS, and web)
+        url: https://apps.ankiweb.net/
+      - name: Build your own X
+        description: Set of tutorial to build anything related to computer science (blockchain, bot, frameworks, OS, programming language)
+        url: https://github.com/danistefanovic/build-your-own-x
+  - name: Motivation 🏆
+    tools:
+      - name: Habitica
+        description: Build habits and get done using gamification
+        url: https://habitica.com/
+      - name: Go Fucking Do It
+        description: Set a deadline and a price. If you fail, you pay.
+        url: https://gofuckingdoit.com/
+      - name: ProductHunt Makers
+        description: Share your todo with other makers and learners
+        url: https://www.producthunt.com/makers
+  - name: Productivity 📈
+    tools:
+      - name: Trello
+        description: Manage your learning and tasks with bards and cards
+        url: https://trello.com/
+      - name: Evernote
+        description: Save and collect websites, and write notes for your learnings
+        url: https://www.evernote.com
+      - name: Kanbanote
+        description: Kanban feature for Evernote to manage learning and tasks with boards and cards
+        url: https://www.kanbanote.com
+  - name: Mentoring 🤝
+    tools:
+      - name: CodeMentor
+        description: Find a developer to help you
+        url: https://www.codementor.io/

@@ -1,0 +1,108 @@
+---
+layout: default
+---
+<div class="topic">
+  <header class="page__header">
+    <div class="container page__header-container topic__header">
+      <div class="topic__header-container">
+        <div class="topic__image" style="background-image: url('{{ site.data.topics.metadata[page.id].image }}">
+        </div>
+        <div>
+          <h1 class="page__title">{{ page.infos.title }}</h1>
+          <p class="page__description">{{ page.infos.description }}</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="container">
+    <div class="topic__category">
+      <div class="topic__title-section">
+        <h2>{{ site.data.strings.topic.resources_title }}</h2>
+        <a class="button button--link modal-link" title="resource">+ {{ site.data.strings.topic.resources_add }}</a>
+      </div>
+      <div class="topic__content-section topic__resources">
+        {% for resource in page.resources %}
+          <a href="{{ resource.url }}" class="topic__resource" style="background-color: {{ site.data.topics.metadata[page.id].color }}"  target="_blank">
+            <article>
+              <p>{{ resource.title }}</p>
+            </article>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="topic__category">
+        <div class="topic__title-section">
+          <h2>{{ site.data.strings.topic.experiences_title }}</h2>
+          <a class="button button--link modal-link" title="experience">+ {{ site.data.strings.topic.experiences_add }}</a>
+        </div>
+        <div class="topic__content-section topic__experiences">
+          {% for experience in page.experiences %}
+            <a href="{{ experience.url }}" class="tools__tool topic__experience" target="_blank">
+              <article>
+                <h3>{{ experience.title }}</h3>
+                <p>{{ experience.source }} - by {{ experience.author }}</p>
+              </article>
+            </a>
+          {% endfor %}
+        </div>
+        {% if page.experiences %}
+        {% else  %}
+          <div>
+            {{ site.data.strings.topic.experience_soon }}
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="topic__category">
+        <div class="topic__title-section">
+          <h2>{{ site.data.strings.topic.projects_title }}</h2>
+          <a class="button button--link modal-link" title="project idea">+ {{ site.data.strings.topic.projects_add }}</a>
+        </div>
+        <div class="topic__content-section">
+          {% for project in page.projects_ideas %}
+            <ul class="topic__project">
+              <li>{{ project.title }}</li>
+            </ul>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="topic__category">
+          <div class="topic__title-section">
+            <h2>{{ site.data.strings.topic.projects_outcome }}</h2>
+            <a class="button button--link modal-link" title="project carried out">+ {{ site.data.strings.topic.projects_done_add }}</a>
+          </div>
+          <div class="topic__content-section topic__experiences">
+            {% for project in page.projects_outcome %}
+              <a href="{{ project.url }}" class="tools__tool topic__experience" target="_blank">
+                <article>
+                  <h3>{{ project.name }}</h3>
+                  <p>{{ project.type }} - by {{ project.author }}</p>
+                </article>
+              </a>
+            {% endfor %}
+          </div>
+          {% if page.projects_outcome %}
+          {% else  %}
+            <div>
+              {{ site.data.strings.topic.projects_soon }}
+            </div>
+          {% endif %}
+        </div>
+
+      <div class="topic__category">
+        <div class="topic__title-section">
+          <h2>{{ site.data.strings.topic.community_title }}</h2>
+        </div>
+        <div class="topic__content-section">
+          <p class="topic__community-text">{{ site.data.strings.topic.community_subtitle }}</p>
+          <a class="button button--primary" href="{{ site.data.strings.discord.link }}" target="_blank">{{ site.data.strings.discord.full_text }}</a>
+        </div>
+      </div>
+
+  </section>
+  {% include google-ad.html %}
+</div>
+
+{% include netlify-form.html %}

@@ -4,11 +4,11 @@
 # You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
 
 title: Learning Lab
-email: contact@sandoche.com
-description: Learn one topic every month
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "UA-109152683-2" # the base hostname & protocol for your site, e.g. http://example.com
-theme_color: '#CF3D5E'
+email: sandoche@gmail.com
+description: Learn anything in one month and aside from your work
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://learn.uno" # the base hostname & protocol for your site, e.g. http://example.com
+theme_color: '#5A51FE'
 twitter_username: sandochee
 github_username:  sandoche
 author: Sandoche Adittane
@@ -18,9 +18,13 @@ twitter:
 social:
   name: Sandoche Adittane
   links:
-    - https://twitter.com/sandochee
-    - https://github.com/sandoche
+    - https://discord.gg/FCzYt8u
     - https://medium.com/learning-lab
+    - https://twitter.com/sandochee
+    - https://www.facebook.com/sandoche
+    - https://www.linkedin.com/in/sandoche
+    - https://plus.google.com/+SandocheADITTANE
+    - https://github.com/sandoche
 
 languages: ["en"]
 ampdir: amp
@@ -28,8 +32,11 @@ ampdir: amp
 ### Google webmaster tools, Google Analytics, Doorbell and Cookie consent uncomment and put the API key
 #webmaster_verifications:
 #  google: verification_code
-#google_analytics: id
-#doorbell: appKey
+google_analytics: UA-109152683-2
+#doorbell:
+#  id: doorbell_id
+#  appKey: doorbell_appKey
+
 #cookie_consent: true
 
 ### Build settings
@@ -39,7 +46,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - octopress-minify-html
-  - jekyll-multiple-languages-plugin
   - amp-jekyll
 
 ### Exclude from processing.
@@ -60,6 +66,4 @@ exclude:
   - optimization-fix
   - optimization-fix-this-file-is-ignored.js
   - icon.png
-
-include:
-  - _headers
+  - docs

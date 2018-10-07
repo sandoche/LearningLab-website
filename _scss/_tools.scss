@@ -1,0 +1,55 @@
+.body-tools {
+  background-color: $background-color;
+
+  nav {
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.tools {
+
+  @media (max-width: 768px) {
+    margin-bottom: 128px;
+  }
+
+  &__header {
+    background-color: #fff;
+  }
+
+  &__list {
+    padding-top: 32px;
+  }
+
+  &__category {
+    margin-top: 32px;
+  }
+
+  &__tool article {
+    background-color: #fff;
+    border-radius: 5px;
+    transition: all .15s ease;
+    padding: 24px 32px;
+
+    h3, p {
+      margin: 0;
+    }
+
+    h3 {
+      color: $text-color;
+      font-size: $font-sm;
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: $grey-color;
+      font-size: $font-xs;
+    }
+
+    &:hover {
+      box-shadow: 0 8px 24px rgba(32,43,54,0.12);
+      transform: scale(1.01);
+    }
+  }
+}

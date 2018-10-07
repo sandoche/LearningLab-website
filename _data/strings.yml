@@ -1,0 +1,42 @@
+navigation:
+  story: Read the story
+
+home:
+  uvp: Learn anything in one month and aside from your work
+  learning: This month let's learn about NativeScript-VueJS and build an app
+  action_button: Take this challenge
+  action_button_url: /learning/nativescript-vue
+  second_button: Explore other topics
+  second_button_url: /learning/
+
+topics:
+  title: Explore learning topics
+  description: Check out our curated list of topics with their learning resources and experiences to learn anything within 2 months, all this learnings have been experienced at least once.
+  add_topic: Add a topic
+
+tools:
+  title: Learning tools
+  description: Use these tools to improve your learning productivity and motivation
+  add_tool: Add a tool
+
+topic:
+  resources_title: Resources 🎓
+  experiences_title: Experiences ⚗️
+  projects_title: Projects ideas 💡
+  projects_outcome: Projects carried out 🏆
+  community_title: Mentors 🤝
+  community_subtitle: Find mentors and discuss in the discord community
+  resources_add: Add a resource
+  experiences_add: Add an experience
+  projects_add: Add a project idea
+  experience_soon: Experience currently in process, the post will be added soon
+  projects_soon: Projects currently in process, projects will be added soon
+  projects_done_add: Add a project carried out
+
+footer:
+  copyright: Made with ❤️ in Europe by <a href="https://www.sandoche.com">Sandoche</a>
+
+discord:
+  text: Discord community
+  full_text: Join the discord community
+  link: https://discord.gg/FCzYt8u

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<div class="topics">
+  <header class="topics__header page__header">
+    <div class="container page__header-container">
+      <h1 class="topics__title page__title">{{ site.data.strings.topics.title }}</h1>
+      <p class="topics__description page__description">{{ site.data.strings.topics.description }}</p>
+    </div>
+  </header>
+  <section class="topics__list container">
+    {% assign topics = site.data.topics.list | reverse %}
+    {% for topic in topics %}
+      <a href="/learning/{{ topic.slug }}" class="topics__topic">
+        <article>
+          <p class="{{ site.data.topics.metadata[topic.id].font }}" style="background-color: {{ site.data.topics.metadata[topic.id].color }}; background: linear-gradient(rgba({{ site.data.topics.metadata[topic.id].rgb }}, 0.4), rgba({{ site.data.topics.metadata[topic.id].rgb }}, 0.8)), url('{{ site.data.topics.metadata[topic.id].image }}') center/cover">{{ topic.name }}</p>
+        </article>
+      </a>
+    {% endfor %}
+    <a class="topics__topic">
+      <article>
+        <p class="topics__add modal-link" title="topic">+ {{ site.data.strings.topics.add_topic }}</p>
+      </article>
+    </a>
+  </section>
+
+  {% include google-ad.html %}
+</div>
+
+{% include netlify-form.html %}
