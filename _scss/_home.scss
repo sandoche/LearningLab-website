@@ -10,11 +10,12 @@
 
   @include container($container-padding);
 
-  height: calc(100vh - 120px - 161px);
+  height: calc(100vh - 120px - 160px - 32px);
   min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 32px;
 
   &__headline-container {
     padding: 0 $container-padding * 3;
