@@ -2,6 +2,7 @@
 .navigation {
 
   @include container($container-padding);
+  
 
   display: flex;
   flex-direction: row;
@@ -35,6 +36,10 @@
   &__links {
     display: flex;
     flex-direction: row;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   &__link {
@@ -48,4 +53,64 @@
     }
   }
 
+}
+
+
+.navigation-mobile {
+  display: none;
+
+  @media (max-width: 768px) {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+    box-shadow: 0 -2px 24px rgba(32,43,54,0.12);
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+
+    &__links {
+      width: 100%;
+      flex-direction: row;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+
+    }
+
+    &__link {
+      color: $grey-color;
+      flex: 1;
+
+      .svg-icon path,
+      .svg-icon polygon,
+      .svg-icon rect {
+        fill: $grey-color;
+      }
+
+      .svg-icon {
+        font-size: 22px;
+        margin-bottom: 4px;
+      }
+
+      p {
+        font-size: $font-xxs;
+        font-weight: 700;
+        font-family: $secondary-font-family;
+        margin: 0;
+      }
+
+      &--active {
+        color: $primary-color;
+
+        .svg-icon path,
+        .svg-icon polygon,
+        .svg-icon rect {
+          fill: $primary-color;
+        }
+      }
+    }
+  }
 }

@@ -22,4 +22,37 @@
         <a class="navigation__link" href="{{ site.data.strings.discord.link }}" target="_blank">{{ site.data.strings.discord.text }}</a>
       </div>
   </div>
+
+  <div class="navigation-mobile">
+      {% assign default_paths = site.pages | map: "path" %}
+      {% assign page_paths = site.navigation_pages | default: default_paths %}
+      <div class="navigation-mobile__links">
+          <a class="navigation-mobile__link{% if '/' == page.url %} navigation-mobile__link--active{% endif %}" href="/">
+            {{ site.data.svg.icons.home }}
+            <p>Home</p>
+          </a>
+        {% if page_paths %}
+          {% for path in page_paths %}
+            {% assign my_page = site.pages | where: "path", path | first %}
+            {% if my_page.title %}
+              {% unless my_page.url contains site.ampdir %}
+                {% unless my_page.hide_navigation %}
+                <a class="navigation-mobile__link{% if my_page.url == page.url %} navigation-mobile__link--active{% endif %}" href="{{ my_page.url | relative_url }}">
+                    {{ site.data.svg.icons[my_page.id] }}
+                  <p>{{ my_page.title_mobile | escape }}</p>
+                </a>
+                {% endunless %}
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        <a class="navigation-mobile__link" href="{{ site.data.strings.discord.link }}" target="_blank">
+            {{ site.data.svg.icons.discord }}
+          <p>Community</p>
+        </a>
+      </div>
+  </div>
+
 </nav>
+
+
