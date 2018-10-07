@@ -11,7 +11,7 @@
   @include container($container-padding);
 
   height: calc(100vh - 120px - 160px - 32px);
-  min-height: 300px;
+  min-height: 320px;
   display: flex;
   flex-direction: column;
   justify-content: center;
