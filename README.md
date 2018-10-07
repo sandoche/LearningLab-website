@@ -31,7 +31,7 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Fix but modal closing itself
 - [x] Add a newsletter form 
 - [x] Rework logo, colors, fonts, sizes, add layer opacity to images
-- [ ] Add logos and update config, update discord, medium and telegram
+- [x] Add logos and update config, update discord, medium and telegram
 - [ ] Make it responsive
 - [ ] Reduce image's size
 - [ ] Add google analytics and uservoice
