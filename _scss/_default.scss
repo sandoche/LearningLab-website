@@ -203,6 +203,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 64px;
   font-size: $font-xs !important;
 
+  @media (max-width: 375px) {
+    display: none;
+  }
+
   a {
     font-size: $font-xs !important;
   }
@@ -213,15 +217,26 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
   }
 
   &__links {
     list-style: none;
     display: flex;
+    padding-left: 0;
   }
 
   &__link {
     margin-left: 32px;
+
+    @media (max-width: 768px) {
+      margin-left: 0;
+      margin-right: 8px;
+    }
   }
 
 }
