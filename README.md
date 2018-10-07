@@ -41,4 +41,5 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [ ] Make the github repo public
 - [ ] Release article
 - [ ] Add article on tools
+- [ ] Empty the todolist
 - [ ] Add AMP
