@@ -37,9 +37,11 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Add google analytics and uservoice
 - [x] Add google ads
 - [ ] Update the medium article
-- [ ] Add Learning lab to motive website & to blog
+- [ ] Motive website & to blog
 - [ ] Make the github repo public
 - [ ] Release article
 - [ ] Add article on tools
+- [ ] Deploy new version of Motive network website
+- [ ] Add website to learning lab blog on medium
 - [ ] Empty the todolist
 - [ ] Add AMP
