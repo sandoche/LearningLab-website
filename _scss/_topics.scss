@@ -1,4 +1,9 @@
 .topics {
+
+  @media (max-width: 768px) {
+    margin-bottom: 128px;
+  }
+
   &__list {
     width: 100%;
     display: grid;

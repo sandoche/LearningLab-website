@@ -1,5 +1,9 @@
 .topic {
 
+  @media (max-width: 768px) {
+    margin-bottom: 128px;
+  }
+
   &__header-container {
     display: flex;
     padding: 0 $container-padding * 3;

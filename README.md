@@ -32,7 +32,7 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Add a newsletter form 
 - [x] Rework logo, colors, fonts, sizes, add layer opacity to images
 - [x] Add logos and update config, update discord, medium and telegram
-- [ ] Make it responsive
+- [x] Make it responsive
 - [ ] Reduce image's size
 - [ ] Add google analytics and uservoice
 - [ ] Add google ads
