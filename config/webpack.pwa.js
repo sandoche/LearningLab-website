@@ -14,7 +14,7 @@ module.exports = Merge(ProdConfig, {
       display: 'standalone',
       start_url: '/',
       theme_color: '#5A51FE',
-      background_color: '#5A51FE',
+      background_color: '#F6F8FA',
       icons: [
         {
           src: path.resolve('icon.png'),
