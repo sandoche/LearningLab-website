@@ -189,3 +189,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 }
+
+
+@media (max-width: 768px) {
+  .uv-icon.uv-bottom-right {
+    bottom: 75px !important;
+    right: 12px !important;
+  }
+}
