@@ -11,7 +11,7 @@ layout: default
   <section class="topics__list container">
     {% assign topics = site.data.topics.list | reverse %}
     {% for topic in topics %}
-      <a href="/learning/{{ topic.slug }}" class="topics__topic">
+      <a href="/learning/{{ topic.slug }}/" class="topics__topic">
         <article>
           <p class="{{ site.data.topics.metadata[topic.id].font }}" style="background-color: {{ site.data.topics.metadata[topic.id].color }}; background: linear-gradient(rgba({{ site.data.topics.metadata[topic.id].rgb }}, 0.4), rgba({{ site.data.topics.metadata[topic.id].rgb }}, 0.8)), url('{{ site.data.topics.metadata[topic.id].image }}') center/cover">{{ topic.name }}</p>
         </article>
