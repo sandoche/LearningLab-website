@@ -1,13 +1,13 @@
 ---
 layout: topic
-permalink: /learning/colors-theories/
+permalink: /learning/color-theory/
 id: colors
 hide_navigation: true
-title: Colors theories
+title: Color theory
 infos:
-  title: Colors theories
+  title: Color theory
   days: 27
-  description: Understand color theories in one month and build color palettes with confidence
+  description: Understand color theory in one month and build color palettes with confidence
 resources:
   - title: Interaction of Color — Albers Josef
     url: https://www.amazon.com/Interaction-Color-Revised-Josef-Albers/dp/0300018460

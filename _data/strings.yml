@@ -11,7 +11,7 @@ home:
 
 topics:
   title: Explore learning topics
-  description: Check out our curated list of topics with their learning resources and experiences to learn anything within 2 months, all this learnings have been experienced at least once.
+  description: Check out our curated list of topics with their learning resources and experiences to learn anything within 2 months. All this learnings have been experienced at least once.
   add_topic: Add a topic
 
 tools:
@@ -34,7 +34,7 @@ topic:
   projects_done_add: Add a project carried out
 
 footer:
-  copyright: Made with ❤️ in Europe by <a href="https://www.sandoche.com">Sandoche</a>
+  copyright: Made with ❤️ in Europe 🇪🇺 by <a href="https://www.sandoche.com" target="_blank">Sandoche</a>
 
 discord:
   text: Discord community

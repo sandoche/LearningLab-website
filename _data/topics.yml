@@ -17,9 +17,9 @@ list:
   - name: E-commerce
     id: ecommerce
     slug: e-commerce
-  - name: Colors theories
+  - name: Color theory
     id: colors
-    slug: colors-theories
+    slug: color-theory
   - name: Cryptocurrency trading
     id: cryptotrading
     slug: cryptocurrency-trading

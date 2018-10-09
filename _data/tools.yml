@@ -42,15 +42,15 @@ categories:
         url: https://github.com/danistefanovic/build-your-own-x
   - name: Motivation 🏆
     tools:
+      - name: ProductHunt Makers
+        description: Share your todo with other makers and learners
+        url: https://www.producthunt.com/makers    
       - name: Habitica
         description: Build habits and get done using gamification
         url: https://habitica.com/
       - name: Go Fucking Do It
         description: Set a deadline and a price. If you fail, you pay.
         url: https://gofuckingdoit.com/
-      - name: ProductHunt Makers
-        description: Share your todo with other makers and learners
-        url: https://www.producthunt.com/makers
   - name: Productivity 📈
     tools:
       - name: Trello
