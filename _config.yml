@@ -5,7 +5,7 @@
 
 title: Learning Lab
 email: sandoche@gmail.com
-description: Learn anything in one month and aside from your work
+description: Learn anything in one month alongside your day job
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://learn.uno" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: '#5A51FE'

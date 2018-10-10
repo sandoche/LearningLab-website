@@ -1,7 +1,7 @@
 {
   "name": "learninglab-website",
   "version": "1.0.0",
-  "description": "Learn anything in one month and aside from your work",
+  "description": "Learn anything in one month alongside your day job",
   "main": "src/index.js",
   "repository": "git@github.com:sandoche/LearningLab-website.git",
   "author": "Sandoche Adittane <sandoche@gmail.com>",
