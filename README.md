@@ -39,10 +39,10 @@ Learning Lab contains resources, tools and a community to learn anything in less
 - [x] Motive website
 - [x] Fix homepage design on mobile
 - [x] Update the medium article
-- [ ] Make the github repo public
+- [x] Make the github repo public
+- [x] Deploy new version of Motive network website
+- [ ] Empty the todolist
 - [ ] Release article
 - [ ] Add article on tools
-- [ ] Deploy new version of Motive network website
 - [ ] Add website to learning lab blog on medium
-- [ ] Empty the todolist
 - [ ] Add AMP
