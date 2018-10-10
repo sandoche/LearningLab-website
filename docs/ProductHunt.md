@@ -7,7 +7,7 @@ https://learn.uno
 Learning Lab
 
 ## Tagline
-Learn anything in one month and aside from your work
+Learn anything in one month alongside your day job
 
 ## Topics
 TECH, EDUCATION, PRODUCTIVITY, OPEN SOURCE, WEB APP
