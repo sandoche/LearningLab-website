@@ -13,4 +13,5 @@ resources:
 projects_ideas:
   - title: Build a todo app
   - title: Build a weather app
+  - title: Build a pomodoro timer app
 ---
