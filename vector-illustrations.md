@@ -12,7 +12,7 @@ resources:
     url: https://www.youtube.com/user/jasonsecrest
 projects_ideas:
   - title: Illustrate your own cartoon
-  - title: Create an instagram portfolio
+  - title: Create an Instagram portfolio
   - title: Design a logo for your friend's project
   - title: Create your own Vector Brushes
 ---
