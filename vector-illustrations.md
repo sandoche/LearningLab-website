@@ -6,7 +6,7 @@ title: Vector Illustrations
 hide_navigation: true
 infos:
   title: Vector Illustrations
-  description: Learn Vector Illustrations and create SVGs
+  description: Learn Vector Illustrations and how to design our own SVGs
 resources:
   - title: Step by Step Adobe Illustrator Tutorials (Youtube)
     url: https://www.youtube.com/user/jasonsecrest
