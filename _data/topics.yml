@@ -32,6 +32,9 @@ list:
   - name: NativeScript VueJS
     id: nativescript
     slug: nativescript-vue
+  - name: Vector Illustrations
+    id: illustrations
+    slug: vector-illustrations
 
 metadata:
   music:
@@ -89,3 +92,8 @@ metadata:
     color: '#43B883'
     rgb: '67, 184, 131'
     font: unica_oneregular
+  illustrations:
+    image: /assets/images/topics/illustrations.png
+    color: '#a66770'
+    rgb: '166, 103, 112'
+    font: parabolaregular

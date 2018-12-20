@@ -6,5 +6,4 @@ Learning Lab contains resources, tools and a community to learn anything in less
 * Read more on the documentation of Jekyll Webpack Boilerplate: https://github.com/sandoche/Jekyll-webpack-boilerplate
 
 ## To do
-- [ ] Add website to learning lab blog on medium
 - [ ] Add AMP
