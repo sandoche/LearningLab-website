@@ -27,6 +27,8 @@ resources:
     url: https://medium.com/learning-lab/how-cryptocurrencies-work-technical-guide-95950c002b8f
   - title: Proof of What? Understand the Distributed Consensuses in Blockchain
     url: https://medium.com/learning-lab/proof-of-what-understand-the-distributed-consensuses-in-blockchain-1d9304ae4afe
+  - title: Litepaper - Cryptocurrency basics for beginners 
+    url: https://litepaper.com/
 projects_ideas:
   - title: Build your own cryptocurrency
   - title: Build your own blockchain
