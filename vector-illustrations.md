@@ -15,4 +15,14 @@ projects_ideas:
   - title: Create an Instagram portfolio
   - title: Design a logo for your friend's project
   - title: Create your own Vector Brushes
+experiences:
+  - title: A Developer’s Month as an Illustrator
+    url: https://medium.com/learning-lab/a-developers-month-as-an-illustrator-718aaea90233
+    source: medium.com
+    author: Patricia Mayo Tejedor
+projects_outcome:
+  - name: Instagram portfolio @pmt_illustrations
+    type: portfolio
+    url: https://www.instagram.com/pmt_illustrations/
+    author: Patricia Mayo Tejedor
 ---
