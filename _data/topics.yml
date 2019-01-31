@@ -35,6 +35,9 @@ list:
   - name: Vector Illustrations
     id: illustrations
     slug: vector-illustrations
+  - name: Nutrition
+    id: nutrition
+    slug: nutrition
 
 metadata:
   music:
@@ -97,3 +100,8 @@ metadata:
     color: '#a66770'
     rgb: '166, 103, 112'
     font: parabolaregular
+  nutrition:
+    image: /assets/images/topics/nutrition.png
+    color: '#44be7a'
+    rgb: '68, 190, 122'
+    font: cutepunkbold
