@@ -24,4 +24,8 @@ projects_outcome:
     type: iOS & Android application
     url: https://gitnews.learn.uno/
     author: Sandoche Adittane
+  - name: TextBlast Bulk SMS — Send personalized mass messages easily
+    type: iOS & Android application
+    url: https://https://textblast.learn.uno
+    author: Sandoche Adittane    
 ---
