@@ -40,9 +40,6 @@ categories:
       - name: Build your own X
         description: Set of tutorial to build anything related to computer science (blockchain, bot, frameworks, OS, programming language)
         url: https://github.com/danistefanovic/build-your-own-x
-        name: A powerful way to unleash your natural creativity | Tim Harford
-        description: TED Talk about creativity and slow motion multi tasking, good for inspiration and motivation
-        url: https://youtu.be/yjYrxcGSWX4
   - name: Motivation 🏆
     tools:
       - name: ProductHunt Makers
@@ -54,6 +51,9 @@ categories:
       - name: Go Fucking Do It
         description: Set a deadline and a price. If you fail, you pay.
         url: https://gofuckingdoit.com/
+      - name: A powerful way to unleash your natural creativity | Tim Harford
+        description: TED Talk about creativity and slow motion multi tasking, good for inspiration and motivation
+        url: https://youtu.be/yjYrxcGSWX4        
   - name: Productivity 📈
     tools:
       - name: Trello
