@@ -2,6 +2,9 @@
 import './index.scss';
 // JS libraries
 import tingle from 'tingle.js';
+import FloatingPrompt from 'producthunt-floating-prompt';
+
+FloatingPrompt({name:'Learning Lab', url:'https://www.producthunt.com/posts/learning-lab'});
 
 const modal = new tingle.modal({
   footer: false,

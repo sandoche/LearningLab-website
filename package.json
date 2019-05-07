@@ -52,6 +52,7 @@
   },
   "dependencies": {
     "normalize.css": "^7.0.0",
+    "producthunt-floating-prompt": "^1.0.4",
     "tingle.js": "^0.13.2"
   }
 }
