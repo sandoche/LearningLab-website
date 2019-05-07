@@ -54,6 +54,18 @@ projects_ideas:
   - title: Create a diet for yourself
   - title: List healthy recipes
   - title: Build a nutrition related app / webapp
-experiences: ~
-projects_outcome: ~
+experiences:
+  - title: How I Learnt Nutrition in Two Months and Redefined My Diet
+    url: https://medium.com/learning-lab/how-i-learnt-nutrition-in-two-months-and-redefined-my-diet-6d260ee8f70a
+    source: medium.com
+    author: Sandoche Adittane
+projects_outcome:
+  - name: Tradivegan
+    type: Book
+    url: https://tradivegan.com
+    author: Sandoche Adittane & Patricia Mayo Tejedor
+  - name: What to Eat in
+    type: Website
+    url: https://what.toeat.in
+    author: Sandoche Adittane & Patricia Mayo Tejedor
 ---
