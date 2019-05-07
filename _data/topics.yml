@@ -109,7 +109,7 @@ metadata:
     rgb: '68, 190, 122'
     font: cutepunkbold
   philosophy:
-    image: /assets/images/topics/philosophy.png
+    image: /assets/images/topics/philosophy.jpg
     color: '#ff722e'
     rgb: '255, 114, 46'
     font: meloregular
