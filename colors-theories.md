@@ -10,9 +10,9 @@ infos:
   description: Understand color theory in one month and build color palettes with confidence
 resources:
   - title: Interaction of Color — Albers Josef
-    url: https://www.amazon.com/Interaction-Color-Revised-Josef-Albers/dp/0300018460
+    url: https://www.amazon.com/gp/product/0300179359/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=tradivegan-20&creative=9325&linkCode=as2&creativeASIN=0300179359&linkId=a39908c370cc9f22659a15e2db15179c
   - title: How pictures work — Molly Bang
-    url: https://www.amazon.com/Picture-This-How-Pictures-Work/dp/1452151997
+    url: https://www.amazon.com/gp/product/1452151997/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=tradivegan-20&creative=9325&linkCode=as2&creativeASIN=1452151997&linkId=9d9b3bbfb17358f3cd71b278a83a567f
   - title: Practical Color Theory for People Who Code
     url: https://tallys.github.io/color-theory/
 projects_ideas:

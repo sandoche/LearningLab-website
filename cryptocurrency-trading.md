@@ -10,7 +10,7 @@ infos:
   description: Learn how to trade cryptocurrencies and build a portfolio in one month
 resources:
   - title: Trading for dummies
-    url: https://www.amazon.com/Trading-Dummies-Michael-Griffis/dp/0764556894
+    url: https://www.amazon.com/gp/product/0764556894/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=tradivegan-20&creative=9325&linkCode=as2&creativeASIN=0764556894&linkId=4134d9518a3fde530e418333733850c3
   - title: Should You Invest in Cryptocurrencies?
     url: https://medium.com/learning-lab/should-you-invest-in-cryptocurrencies-9380c803885a
   - title: Read This Before Starting with Your Cryptocurrency Portfolio

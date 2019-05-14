@@ -38,6 +38,9 @@ list:
   - name: Nutrition
     id: nutrition
     slug: nutrition
+  - name: Life Philosophy
+    slug: life-philosophy
+    id: philosophy
 
 metadata:
   music:
@@ -105,3 +108,8 @@ metadata:
     color: '#44be7a'
     rgb: '68, 190, 122'
     font: cutepunkbold
+  philosophy:
+    image: /assets/images/topics/philosophy.jpg
+    color: '#ff722e'
+    rgb: '255, 114, 46'
+    font: meloregular

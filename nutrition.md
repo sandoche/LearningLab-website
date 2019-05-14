@@ -17,7 +17,7 @@ resources:
   - title: Low Fat High Carbs
     url: https://www.youtube.com/watch?v=l55OjWS9pEc
   - title: How Not to Die - Michael Greger M.D.
-    url: https://www.amazon.com/How-Not-Die-Discover-Scientifically/dp/1250066115
+    url: https://www.amazon.com/gp/product/1250066115/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=tradivegan-20&creative=9325&linkCode=as2&creativeASIN=1250066115&linkId=5780652c0085fdcff2725b36402a461e
   - title: What is a Keto Diet?
     url: https://www.ruled.me/guide-keto-diet/
   - title: A Detailed Guide to the Potential Health Benefits and Risks of the Keto Diet
@@ -54,6 +54,18 @@ projects_ideas:
   - title: Create a diet for yourself
   - title: List healthy recipes
   - title: Build a nutrition related app / webapp
-experiences: ~
-projects_outcome: ~
+experiences:
+  - title: How I Learnt Nutrition in Two Months and Redefined My Diet
+    url: https://medium.com/learning-lab/how-i-learnt-nutrition-in-two-months-and-redefined-my-diet-6d260ee8f70a
+    source: medium.com
+    author: Sandoche Adittane
+projects_outcome:
+  - name: Tradivegan
+    type: Book
+    url: https://tradivegan.com
+    author: Sandoche Adittane & Patricia Mayo Tejedor
+  - name: What to Eat in
+    type: Website
+    url: https://what.toeat.in
+    author: Sandoche Adittane & Patricia Mayo Tejedor
 ---
