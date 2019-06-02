@@ -10,7 +10,7 @@ infos:
   description: Learn the design and creativity process in one month
 resources:
   - title: Steal Like An Artist — Austin Kleon
-    url: https://www.amazon.com/gp/product/0761169253/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=tradivegan-20&creative=9325&linkCode=as2&creativeASIN=0761169253&linkId=638c04092dbc3f6d9831d88c1b6e6f21
+    url: https://www.amazon.com/gp/product/0761169253/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=tradivegan0b-20&creative=9325&linkCode=as2&creativeASIN=0761169253&linkId=638c04092dbc3f6d9831d88c1b6e6f21
 projects_ideas:
   - title: Design a landing page for your portfolio
   - title: Start a drawing book
