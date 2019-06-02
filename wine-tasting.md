@@ -12,7 +12,7 @@ resources:
   - title: Wine tasting MOOC (Coursera)
     url: https://www.coursera.org/learn/wine
   - title: Wine for Dummies
-    url: https://www.amazon.com/gp/product/1118288726/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=tradivegan-20&creative=9325&linkCode=as2&creativeASIN=1118288726&linkId=821f0b0428b1860aa5337f0668e536c7
+    url: https://www.amazon.com/gp/product/1118288726/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=tradivegan0b-20&creative=9325&linkCode=as2&creativeASIN=1118288726&linkId=821f0b0428b1860aa5337f0668e536c7
 projects_ideas:
   - title: Start you wine cave
   - title: Start a list of wine you tried and specify how they taste
