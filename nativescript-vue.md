@@ -10,6 +10,8 @@ infos:
 resources:
   - title: NativeScript Vue Documentation
     url: https://nativescript-vue.org/
+  - title: NativeScript Vue Videos
+    url: https://www.youtube.com/playlist?list=PLEhEHUEU3x5qIblXr5L6mm8LLhuLqKMhi
 projects_ideas:
   - title: Build a todo app
   - title: Build a weather app
