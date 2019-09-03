@@ -3,9 +3,9 @@ navigation:
 
 home:
   uvp: Learn anything in one month alongside your day job
-  learning: This month let's learn about Life Philosophy & Happiness and define new life goals
+  learning: This month let's learn Flutter and build an app
   action_button: Take this challenge
-  action_button_url: /learning/life-philosophy/
+  action_button_url: /learning/flutter/
   second_button: Explore other topics
   second_button_url: /learning/
 
