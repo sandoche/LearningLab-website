@@ -41,6 +41,9 @@ list:
   - name: Life Philosophy
     slug: life-philosophy
     id: philosophy
+  - name: Flutter
+    slug: flutter
+    id: flutter
 
 metadata:
   music:
@@ -113,3 +116,8 @@ metadata:
     color: '#ff722e'
     rgb: '255, 114, 46'
     font: meloregular
+  flutter:
+    image: /assets/images/topics/flutter.png
+    color: '#07599d'
+    rgb: '7, 89, 157'
+    font: unica_oneregular
