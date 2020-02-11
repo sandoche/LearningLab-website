@@ -125,7 +125,7 @@ metadata:
     rgb: '7, 89, 157'
     font: unica_oneregular
   typescriptsolid:
-    image: /assets/images/topics/flutter.png
+    image: /assets/images/topics/typescriptsolid.png
     color: '#007acc'
     rgb: '0, 122, 204'
     font: unica_oneregular
