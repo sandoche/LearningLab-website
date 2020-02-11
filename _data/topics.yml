@@ -44,6 +44,9 @@ list:
   - name: Flutter
     slug: flutter
     id: flutter
+  - name: TypeScript with SOLID Architecture
+    slug: typescript-solid
+    id: typescriptsolid
 
 metadata:
   music:
@@ -120,4 +123,9 @@ metadata:
     image: /assets/images/topics/flutter.png
     color: '#07599d'
     rgb: '7, 89, 157'
+    font: unica_oneregular
+  typescriptsolid:
+    image: /assets/images/topics/flutter.png
+    color: '#007acc'
+    rgb: '0, 122, 204'
     font: unica_oneregular
