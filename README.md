@@ -5,9 +5,6 @@ Learning Lab contains resources, tools and a community to learn anything in less
 * `npm install` then `npm start` to develop and `yarn build:pwa` to build it 
 * Read more on the documentation of Jekyll Webpack Boilerplate: https://github.com/sandoche/Jekyll-webpack-boilerplate
 
-## To do
-- [ ] Add AMP
-
 ## ⭐️ Show your support
 Please ⭐️ this repository if this project helped you!
 

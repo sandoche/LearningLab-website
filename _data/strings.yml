@@ -3,9 +3,9 @@ navigation:
 
 home:
   uvp: Learn anything in one month alongside your day job
-  learning: This month let's learn Flutter and build a cross-platform app
+  learning: This month let's learn TypeScript with SOLID Architecture and build a website
   action_button: Take this challenge
-  action_button_url: /learning/flutter/
+  action_button_url: /learning/typescript-solid/
   second_button: Explore other topics
   second_button_url: /learning/
 
