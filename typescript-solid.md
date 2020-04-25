@@ -22,9 +22,19 @@ resources:
     url: https://github.com/goldbergyoni/nodebestpractices
   - title: TypeScript Node Starter
     url: https://github.com/microsoft/TypeScript-Node-Starter
+  - title: SOLID Design Principles
+    url: https://devopedia.org/solid-design-principles
 projects_ideas:
   - title: Build a SaaS
   - title: Build an API
-experiences: ~
-projects_outcome: ~
+experiences:
+  - title: "Building a SaaS with TypeScript, ExpressJS, and SOLID principles: the good the bad and the ugly"
+    url: https://medium.com/learning-lab/building-a-saas-with-typescript-expressjs-and-solid-principles-the-good-the-bad-and-the-ugly-d93da05d1f5c
+    source: medium.com
+    author: Sandoche Adittane
+projects_outcome:
+  - name: Revenual - Aggregated sales reports for app makers
+    type: Website
+    url: https://www.revenual.com
+    author: Sandoche Adittane
 ---

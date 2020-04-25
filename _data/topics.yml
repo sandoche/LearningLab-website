@@ -47,6 +47,9 @@ list:
   - name: TypeScript with SOLID Architecture
     slug: typescript-solid
     id: typescriptsolid
+  - name: Rakugaki
+    slug: rakugaki
+    id: rakugaki
 
 metadata:
   music:
@@ -129,3 +132,8 @@ metadata:
     color: '#007acc'
     rgb: '0, 122, 204'
     font: unica_oneregular
+  rakugaki:
+    image: /assets/images/topics/rakugaki.jpg
+    color: '#fbce2a'
+    rgb: '251, 206, 42'
+    font: parabolaregular
