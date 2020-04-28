@@ -3,9 +3,9 @@ navigation:
 
 home:
   uvp: Learn anything in one month alongside your day job
-  learning: This month let's learn TypeScript with SOLID Architecture and build a website
+  learning: This month let's learn how to draw Rakugaki and make a book of drawing
   action_button: Take this challenge
-  action_button_url: /learning/typescript-solid/
+  action_button_url: /learning/rakugaki/
   second_button: Explore other topics
   second_button_url: /learning/
 
