@@ -47,6 +47,9 @@ list:
   - name: TypeScript with SOLID Architecture
     slug: typescript-solid
     id: typescriptsolid
+  - name: Learning
+    slug: how-to-learn
+    id: learning
   - name: Rakugaki
     slug: rakugaki
     id: rakugaki
@@ -137,3 +140,9 @@ metadata:
     color: '#fbce2a'
     rgb: '251, 206, 42'
     font: parabolaregular
+  learning: 
+    image: /assets/images/topics/learning.jpg
+    color: '#dc382c'
+    rgb: '220, 56, 44'
+    font: cutepunkbold
+    
