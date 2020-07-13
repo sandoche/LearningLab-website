@@ -15,6 +15,9 @@ categories:
       - name: edX
         description: Online free (and paid) courses, with very good universities (MIT, Harvard, Berkley)
         url: https://www.edx.org/
+      - name: Udacity
+        description: Online free (and paid) courses, from professionals and universities
+        url: https://www.udacity.com/
       - name: OpenClassroom
         description: Online free (and paid) courses, mostly about computer science
         url: https://openclassrooms.com/
