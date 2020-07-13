@@ -19,6 +19,10 @@ experiences:
     url: https://medium.com/learning-lab/staying-competitive-as-a-busy-professional-my-4-learnings-a81858a7a8f4
     source: medium.com
     author: George Hanna
-projects_outcome: ~
+projects_outcome:
+  - name: List of topics to learn
+    type: Post
+    url: https://telegra.ph/List-of-topics-I-would-like-to-learn-07-13
+    author: George Hanna
 ---
 
