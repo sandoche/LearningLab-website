@@ -14,6 +14,11 @@ resources:
 projects_ideas:
   - title: Define a career plan
   - title: Make a list of topics to learn
-experiences: ~
+experiences:
+  - title: Staying competitive as a Busy Professional. My 4 Learnings.
+    url: https://medium.com/learning-lab/staying-competitive-as-a-busy-professional-my-4-learnings-a81858a7a8f4
+    source: medium.com
+    author: George Hanna
 projects_outcome: ~
 ---
+
