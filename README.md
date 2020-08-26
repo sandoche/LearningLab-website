@@ -1,4 +1,8 @@
 # LearningLab-website
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](/LICENSE)
+[![Medium Badge](https://badgen.net/badge/icon/medium?icon=medium&label)](https://medium.com/learning-lab)
+[![Twitter: sandochee](https://img.shields.io/twitter/follow/sandochee.svg?style=social)](https://twitter.com/sandochee)
+
 Learning Lab contains resources, tools and a community to learn anything in less than 2 months.
 
 ## How to run
