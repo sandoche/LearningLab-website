@@ -10,7 +10,7 @@ infos:
   description: Learn how to draw Rakugaki and make a book of drawing
 resources:
   - title: Devenir un expert du rakugaki - Bunpei Yorifuji
-    url: https://www.amazon.fr/Devenir-expert-rakugaki-D%C3%A9velopper-imagination/dp/2917855762
+    url: https://editions-b42.com/produit/devenir-un-expert-du-rakugaki/
 projects_ideas:
   - title: Write a story illustrated by Rakugaki
   - title: Build a portfolio of illustrations

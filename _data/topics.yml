@@ -53,6 +53,9 @@ list:
   - name: Rakugaki
     slug: rakugaki
     id: rakugaki
+  - name: Ethical hacking
+    slug: ethical-hacking
+    id: ethicalhacking
 
 metadata:
   music:
@@ -145,4 +148,9 @@ metadata:
     color: '#dc382c'
     rgb: '220, 56, 44'
     font: cutepunkbold
+  ethicalhacking:
+    image: /assets/images/topics/hacking.png
+    color: '#353B44'
+    rgb: 	'53, 59, 68'
+    font: noto_monoregular
     

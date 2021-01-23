@@ -3,9 +3,9 @@ navigation:
 
 home:
   uvp: Learn anything in one month alongside your day job
-  learning: This month let's learn how to draw Rakugaki and make a book of drawing
+  learning: This month let's learn how to conduct a penetration testing in one month
   action_button: Take this challenge
-  action_button_url: /learning/rakugaki/
+  action_button_url: /learning/ethical-hacking/
   second_button: Explore other topics
   second_button_url: /learning/
 
