@@ -12,6 +12,8 @@ resources:
     url: https://www.amazon.com/Basics-Hacking-Penetration-Testing-Ethical-ebook/dp/B00DSNSQAC
   - title: The Basics of Web Hacking - Josh Pauli
     url: https://www.amazon.com/Basics-Web-Hacking-Techniques-Attack/dp/0124166008
+  - title: Hacker Roadmap
+    url: https://github.com/sundowndev/hacker-roadmap
 projects_ideas:
   - title: Conduct a penetration testing of a website
   - title: Build a hacking game
