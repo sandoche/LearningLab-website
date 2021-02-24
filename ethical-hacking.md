@@ -14,6 +14,8 @@ resources:
     url: https://www.amazon.com/Basics-Web-Hacking-Techniques-Attack/dp/0124166008
   - title: Hacker Roadmap
     url: https://github.com/sundowndev/hacker-roadmap
+  - title: WebSecurity Academy
+    url: https://portswigger.net/web-security
 projects_ideas:
   - title: Conduct a penetration testing of a website
   - title: Build a hacking game
