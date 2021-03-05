@@ -26,7 +26,7 @@ experiences:
     source: medium.com
     author: Sandoche Adittane
 projects_outcome:
-  - name: Terminhack — Impress your friends pretending to be a real hacker|
+  - name: Terminhack — Impress your friends pretending to be a real hacker
     type: Website
     url: https://terminhack.learn.uno/
     author: Sandoche Adittane
