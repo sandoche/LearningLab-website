@@ -157,7 +157,7 @@ metadata:
     rgb: 	'53, 59, 68'
     font: noto_monoregular
   gamedevelopment: 
-    image: /assets/images/topics/learning.jpg
-    color: '#dc382c'
-    rgb: '220, 56, 44'
+    image: /assets/images/topics/godot.jpg
+    color: '#890153'
+    rgb: '137, 1, 83'
     font: parabolaregular
