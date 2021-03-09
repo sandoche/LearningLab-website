@@ -56,6 +56,9 @@ list:
   - name: Ethical hacking
     slug: ethical-hacking
     id: ethicalhacking
+  - name: Game Development with Godot Engine
+    slug: game-development-godot-engine
+    id: gamedevelopment
 
 metadata:
   music:
@@ -153,4 +156,8 @@ metadata:
     color: '#353B44'
     rgb: 	'53, 59, 68'
     font: noto_monoregular
-    
+  gamedevelopment: 
+    image: /assets/images/topics/godot.jpg
+    color: '#890153'
+    rgb: '137, 1, 83'
+    font: parabolaregular
