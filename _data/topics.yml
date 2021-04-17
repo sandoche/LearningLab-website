@@ -59,6 +59,9 @@ list:
   - name: Game Development with Godot Engine
     slug: game-development-godot-engine
     id: gamedevelopment
+  - name: UX Design
+    slug: ux-design
+    id: ux
 
 metadata:
   music:
@@ -161,3 +164,8 @@ metadata:
     color: '#890153'
     rgb: '137, 1, 83'
     font: parabolaregular
+  ux:
+    image: /assets/images/topics/ux.jpg
+    color: '#39beb6'
+    rgb: '57, 190, 182'
+    font: meloregular
