@@ -20,6 +20,10 @@ experiences:
     url: https://medium.com/@johannroduit/putting-to-the-test-googles-plan-to-disrupt-the-university-degree-29abdcb002dd
     source: medium.com
     author: Johann Roduit
+  - title: What did I learn from getting the equivalent of a BA in just over one month, for less than USD$ 40?
+    url: https://johannroduit.medium.com/what-did-i-learn-from-getting-the-equivalent-of-a-ba-in-just-over-one-month-for-less-than-usd-40-8469f78f7f7
+    source: medium.com
+    author: Johann Roduit
 projects_outcome:
   - name: UX Portfolio
     type: Portfolio
