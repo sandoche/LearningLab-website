@@ -26,4 +26,8 @@ projects_outcome:
     type: iOS & Android game
     url: https://multiplicationkingdom.learn.uno/
     author: Sandoche Adittane
+  - name: Godot Learning repository for the Udemy godot course
+    type: Open source
+    url: https://github.com/sandoche/Godot-learning-udemy
+    author: Sandoche Adittane
 ---
