@@ -16,6 +16,14 @@ projects_ideas:
   - title: Build a text based game
   - title: Build a 2D game
   - title: Build a 3D game
-experiences: ~
-projects_outcome: ~
+experiences:
+  - title: Building a Video Game in One Week With Godot
+    url: https://medium.com/learning-lab/building-a-video-game-in-one-week-with-godot-a663479e44b0
+    source: medium.com
+    author: Sandoche Adittane
+projects_outcome:
+  - name: Multiplication Kingdom — Times tables maths game
+    type: iOS & Android game
+    url: https://multiplicationkingdom.learn.uno/
+    author: Sandoche Adittane
 ---
