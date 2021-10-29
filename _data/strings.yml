@@ -3,9 +3,9 @@ navigation:
 
 home:
   uvp: Learn anything in one month alongside your day job
-  learning: This month let's learn game development and build games with Godot Engine
+  learning: This month let's learn Web3 and build a Decentralized App
   action_button: Take this challenge
-  action_button_url: /learning/game-development-godot-engine/
+  action_button_url: /learning/web3/
   second_button: Explore other topics
   second_button_url: /learning/
 
