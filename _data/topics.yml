@@ -62,6 +62,9 @@ list:
   - name: UX Design
     slug: ux-design
     id: ux
+  - name: Web3 & DApps
+    slug: web3
+    id: web3
 
 metadata:
   music:
@@ -169,3 +172,8 @@ metadata:
     color: '#39beb6'
     rgb: '57, 190, 182'
     font: meloregular
+  web3:
+    image: /assets/images/topics/web3.png
+    color: '#042242'
+    rgb: '3, 34, 66'
+    font: unica_oneregular
