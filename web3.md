@@ -24,6 +24,8 @@ resources:
     url: https://www.youtube.com/watch?v=a0osIaAOFSE
   - title: CryptoKitties Clone In 20 minutes - NFT Tutorial
     url: https://maksimivanov.com/posts/gradient-coin-tutorial/
+  - title: Deploy NFTs with Truffle, IPFS OpenSea & Polygon
+    url: https://dev.to/yournewempire/deploy-nfts-with-truffle-ipfs-opensea-polygon-5581
   - title: Mastering Ethereum - Andreas M. Antonopoulos, Gavin Wood
     url: https://github.com/ethereumbook/ethereumbook
   - title: Hands-On Smart Contract Development with Solidity and Ethereum - Kevin Solorio, Randall Kanna, David H. Hoover
