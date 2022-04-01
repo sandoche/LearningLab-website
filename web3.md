@@ -14,6 +14,8 @@ resources:
     url: https://docs.soliditylang.org/
   - title: Crypto Zombies
     url: https://cryptozombies.io/
+  - title: The Ethernaut
+    url: https://ethernaut.openzeppelin.com/
   - title: Full Stack dApp Tutorial Series
     url: https://kauri.io/#collections/Full%20Stack%20dApp%20Tutorial%20Series/full-stack-dapp-tutorial-series-intro/
   - title: Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course - Python Edition
