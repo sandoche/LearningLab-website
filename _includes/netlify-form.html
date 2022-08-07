@@ -1,10 +1,33 @@
-<div style="display: none;" id="netlify-form">
+<div style="display: none" id="netlify-form">
   <form name="contact" method="POST" netlify>
-    <input type="hidden" name="page" value="{{ page.id }}">
-    <input type="hidden" name="type" value="" id="form-input-type">
-    <label><p class="form__label"><strong id="form-input-label"></strong></p><input type="text" name="value" id="form-input-value" class="text-input" required/></label>
-    <label><p class="form__label"><strong>Email (optional)</strong> - To get notified when your suggestion is added</p><input type="email" name="email" class="text-input"/></label>
-    <label><p class="form__label"><strong>Motive wallet Address (optional)</strong> - Earn 50 MOTIV cryptocurrency per suggestion added<br><a href="https://motive.network/" target="_blank">Read more about Motive Cryptocurreny</a></p><input type="text" name="motive" class="text-input"/></label>
+    <input type="hidden" name="page" value="{{ page.id }}" />
+    <input type="hidden" name="type" value="" id="form-input-type" />
+    <label
+      ><p class="form__label"><strong id="form-input-label"></strong></p>
+      <input
+        type="text"
+        name="value"
+        id="form-input-value"
+        class="text-input"
+        required
+    /></label>
+    <label
+      ><p class="form__label">
+        <strong>Email (optional)</strong> - To get notified when your suggestion
+        is added
+      </p>
+      <input type="email" name="email" class="text-input"
+    /></label>
+    <label
+      ><p class="form__label">
+        <strong>NEAR Wallet address (optional)</strong> - Earn rewards (soon)<br /><a
+          href="https://near.org/"
+          target="_blank"
+          >Read more about NEAR</a
+        >
+      </p>
+      <input type="text" name="near" class="text-input"
+    /></label>
     <div data-netlify-recaptcha></div>
     <button type="submit" class="button button--primary">Send</button>
   </form>
