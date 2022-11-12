@@ -182,6 +182,6 @@ metadata:
     font: unica_oneregular
   djing:
     image: /assets/images/topics/djing.jpg
-    color: "#ff8cb2"
-    rgb: "255, 140, 178"
+    color: "#cc708e"
+    rgb: "204, 112, 142"
     font: parabolaregular

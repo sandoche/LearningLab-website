@@ -3,7 +3,7 @@ navigation:
 
 home:
   uvp: Learn anything in one month alongside your day job
-  learning: This month let's learn DJing and make a mixtape
+  learning: This month let's learn DJing and record a mixtape
   action_button: Take this challenge
   action_button_url: /learning/djing/
   second_button: Explore other topics
