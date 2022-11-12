@@ -37,7 +37,7 @@ projects_ideas:
   - title: Build a NFT Token
   - title: Build a decentralized game
 experiences:
-  - title: How I learnt webpack 3 and created a Jekyll and webpack boilerplate
+  - title: Everything you Need to Become a Web3 Developer
     url: https://medium.com/learning-lab/everything-you-need-to-become-a-web3-developer-309dfa71a89f
     source: medium.com
     author: Sandoche Adittane
