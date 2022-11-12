@@ -10,9 +10,9 @@ infos:
 resources:
   - title: DJing For Dummies
     url: https://www.amazon.com/DJing-Dummies-John-Steventon/dp/1118937287
-  - title: How to DJ for absolute beginners | Complete Guide to DJing on Pioneer DDJ-400 & Rekordbox in 2021
+  - title: How to DJ for absolute beginners
     url: https://www.youtube.com/watch?v=zjm6MSvHdKs
-  - title: How to DJ EDM for Beginners (Complete Guide)
+  - title: How to DJ EDM for Beginners
     url: https://www.youtube.com/watch?v=INREjXczI1k
   - title: Edm Banger Transition! - Transition Tutorial
     url: https://www.youtube.com/watch?v=JJsWGqIw6_8
