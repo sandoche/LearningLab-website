@@ -36,6 +36,18 @@ projects_ideas:
   - title: Build a ERC-20 token
   - title: Build a NFT Token
   - title: Build a decentralized game
-experiences: ~
-projects_outcome: ~
+experiences:
+  - title: Everything you Need to Become a Web3 Developer
+    url: https://medium.com/learning-lab/everything-you-need-to-become-a-web3-developer-309dfa71a89f
+    source: medium.com
+    author: Sandoche Adittane
+projects_outcome:
+  - name: CoinGenerator Tokens
+    type: Website
+    url: https://tokens.coingenerator.sh
+    author: Sandoche Adittane
+  - name: Nucleart
+    type: Website
+    url: https://nucle.art
+    author: Sandoche Adittane
 ---

@@ -1,19 +1,21 @@
 /* eslint-disable import/no-extraneous-dependencies */
-const Merge = require('webpack-merge');
-const CommonConfig = require('./webpack.common.js');
-const path = require('path');
-const webpack = require('webpack');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
-const ImageminPlugin = require('imagemin-webpack-plugin').default;
+const Merge = require("webpack-merge");
+const CommonConfig = require("./webpack.common.js");
+const path = require("path");
+const webpack = require("webpack");
+const CleanWebpackPlugin = require("clean-webpack-plugin");
 
 module.exports = Merge(CommonConfig, {
   output: {
-    filename: '[name]-[hash].bundle.js',
-    path: path.resolve('assets'),
-    publicPath: '/assets/',
+    filename: "[name]-[hash].bundle.js",
+    path: path.resolve("assets"),
+    publicPath: "/assets/",
   },
   plugins: [
-    new CleanWebpackPlugin(['assets'], { root: path.resolve(__dirname, '..'), verbose: true }),
+    new CleanWebpackPlugin(["assets"], {
+      root: path.resolve(__dirname, ".."),
+      verbose: true,
+    }),
     new webpack.LoaderOptionsPlugin({
       minimize: true,
       debug: false,
@@ -29,6 +31,5 @@ module.exports = Merge(CommonConfig, {
       },
       comments: false,
     }),
-    new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }),
   ],
 });

@@ -65,115 +65,123 @@ list:
   - name: Web3 & DApps
     slug: web3
     id: web3
+  - name: DJing
+    slug: djing
+    id: djing
 
 metadata:
   music:
     image: /assets/images/topics/music.jpg
-    color: '#6E45BE'
-    rgb: 	'110, 69, 190'
+    color: "#6E45BE"
+    rgb: "110, 69, 190"
     font: parabolaregular
   swimming:
     image: /assets/images/topics/swimming.jpg
-    color: '#336770'
-    rgb: 	'51, 103, 112'
+    color: "#336770"
+    rgb: "51, 103, 112"
     font: cutepunkbold
   pwa:
     image: /assets/images/topics/pwa.jpg
-    color: '#FF5769'
-    rgb: '255, 87, 105'
+    color: "#FF5769"
+    rgb: "255, 87, 105"
     font: unica_oneregular
   ideation:
     image: /assets/images/topics/design.jpg
-    color: '#296D78'
-    rgb: '41, 109, 120'
+    color: "#296D78"
+    rgb: "41, 109, 120"
     font: cutepunkbold
   webpack:
     image: /assets/images/topics/webpack.jpg
-    color: '#008FC4'
-    rgb: '0, 143, 196'
+    color: "#008FC4"
+    rgb: "0, 143, 196"
     font: unica_oneregular
   ecommerce:
     image: /assets/images/topics/ecommerce.jpg
-    color: '#242524'
-    rgb: '36, 37, 36'
+    color: "#242524"
+    rgb: "36, 37, 36"
     font: meloregular
   colors:
     image: /assets/images/topics/colors.png
-    color: '#553495'
+    color: "#553495"
     rgb: 85, 52, 149
     font: parabolaregular
   cryptotrading:
     image: /assets/images/topics/trading.png
-    color: '#002F36'
-    rgb: '0, 47, 54'
+    color: "#002F36"
+    rgb: "0, 47, 54"
     font: noto_monoregular
   blockchain:
     image: /assets/images/topics/crypto.jpg
-    color: '#c99f42'
-    rgb: '201, 159, 66'
+    color: "#c99f42"
+    rgb: "201, 159, 66"
     font: unica_oneregular
   wine:
     image: /assets/images/topics/wine.jpg
-    color: '#450011'
-    rgb: '69, 0, 17'
+    color: "#450011"
+    rgb: "69, 0, 17"
     font: meloregular
   nativescript:
     image: /assets/images/topics/nativescript.png
-    color: '#43B883'
-    rgb: '67, 184, 131'
+    color: "#43B883"
+    rgb: "67, 184, 131"
     font: unica_oneregular
   illustrations:
     image: /assets/images/topics/illustrations.png
-    color: '#a66770'
-    rgb: '166, 103, 112'
+    color: "#a66770"
+    rgb: "166, 103, 112"
     font: parabolaregular
   nutrition:
     image: /assets/images/topics/nutrition.png
-    color: '#44be7a'
-    rgb: '68, 190, 122'
+    color: "#44be7a"
+    rgb: "68, 190, 122"
     font: cutepunkbold
   philosophy:
     image: /assets/images/topics/philosophy.jpg
-    color: '#ff722e'
-    rgb: '255, 114, 46'
+    color: "#ff722e"
+    rgb: "255, 114, 46"
     font: meloregular
   flutter:
     image: /assets/images/topics/flutter.png
-    color: '#07599d'
-    rgb: '7, 89, 157'
+    color: "#07599d"
+    rgb: "7, 89, 157"
     font: unica_oneregular
   typescriptsolid:
     image: /assets/images/topics/typescriptsolid.png
-    color: '#007acc'
-    rgb: '0, 122, 204'
+    color: "#007acc"
+    rgb: "0, 122, 204"
     font: unica_oneregular
   rakugaki:
     image: /assets/images/topics/rakugaki.jpg
-    color: '#fbce2a'
-    rgb: '251, 206, 42'
+    color: "#fbce2a"
+    rgb: "251, 206, 42"
     font: parabolaregular
-  learning: 
+  learning:
     image: /assets/images/topics/learning.jpg
-    color: '#dc382c'
-    rgb: '220, 56, 44'
+    color: "#dc382c"
+    rgb: "220, 56, 44"
     font: cutepunkbold
   ethicalhacking:
     image: /assets/images/topics/hacking.png
-    color: '#353B44'
-    rgb: 	'53, 59, 68'
+    color: "#353B44"
+    rgb: "53, 59, 68"
     font: noto_monoregular
-  gamedevelopment: 
+  gamedevelopment:
     image: /assets/images/topics/godot.jpg
-    color: '#890153'
-    rgb: '137, 1, 83'
+    color: "#890153"
+    rgb: "137, 1, 83"
     font: parabolaregular
   ux:
     image: /assets/images/topics/ux.jpg
-    color: '#39beb6'
-    rgb: '57, 190, 182'
+    color: "#39beb6"
+    rgb: "57, 190, 182"
     font: meloregular
   web3:
     image: /assets/images/topics/web3.png
-    color: '#042242'
-    rgb: '3, 34, 66'
+    color: "#042242"
+    rgb: "3, 34, 66"
     font: unica_oneregular
+  djing:
+    image: /assets/images/topics/djing.jpg
+    color: "#cc708e"
+    rgb: "204, 112, 142"
+    font: parabolaregular
