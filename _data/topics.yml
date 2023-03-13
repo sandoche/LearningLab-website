@@ -68,6 +68,9 @@ list:
   - name: DJing
     slug: djing
     id: djing
+  - name: Sonic PI
+    slug: sonic-pi
+    id: sonicpi
 
 metadata:
   music:
@@ -184,4 +187,9 @@ metadata:
     image: /assets/images/topics/djing.jpg
     color: "#cc708e"
     rgb: "204, 112, 142"
+    font: parabolaregular
+  sonicpi:
+    image: /assets/images/topics/music.jpg
+    color: "#6E45BE"
+    rgb: "110, 69, 190"
     font: parabolaregular

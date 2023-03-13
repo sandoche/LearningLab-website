@@ -3,9 +3,9 @@ navigation:
 
 home:
   uvp: Learn anything in one month alongside your day job
-  learning: This month let's learn DJing and record a mixtape
+  learning: Learn live coding music with Sonic Pi and record a performance
   action_button: Take this challenge
-  action_button_url: /learning/djing/
+  action_button_url: /learning/sonic-pi/
   second_button: Explore other topics
   second_button_url: /learning/
 
