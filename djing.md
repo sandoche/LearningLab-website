@@ -24,6 +24,14 @@ projects_ideas:
   - title: Make a mixtape
   - title: Mix at a party
   - title: Make a live mix on Twitch or Youtube
-experiences: ~
-projects_outcome: ~
+experiences:
+  - title: "DJing for Beginners: The Basics and Beyond"
+    url: https://medium.com/learning-lab/djing-for-beginners-the-basics-and-beyond-4388a98a356f
+    source: medium.com
+    author: Sandoche Adittane
+projects_outcome:
+  - name: Mixtapes
+    type: Music
+    url: https://www.mixcloud.com/sandoche/
+    author: Sandoche Adittane
 ---
