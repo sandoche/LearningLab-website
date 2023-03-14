@@ -189,7 +189,7 @@ metadata:
     rgb: "204, 112, 142"
     font: parabolaregular
   sonicpi:
-    image: /assets/images/topics/music.jpg
-    color: "#6E45BE"
-    rgb: "110, 69, 190"
-    font: parabolaregular
+    image: /assets/images/topics/sonic-pi.jpg
+    color: "#5c419a"
+    rgb: "92, 65, 154"
+    font: noto_monoregular
