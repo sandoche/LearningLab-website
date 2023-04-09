@@ -12,7 +12,7 @@
 <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 <link href="https://fonts.googleapis.com/css?family=Heebo:400,700,900" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.9/dist/cookieconsent.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="<path-to-cookieconsent.css>" media="print" onload="this.media='all'">
 
 {% seo %}
 
