@@ -71,6 +71,9 @@ list:
   - name: Sonic PI
     slug: sonic-pi
     id: sonicpi
+  - name: Machine Learning
+    slug: machine-learning
+    id: machinelearning
 
 metadata:
   music:
@@ -193,3 +196,8 @@ metadata:
     color: "#5c419a"
     rgb: "92, 65, 154"
     font: noto_monoregular
+  machinelearning:
+    image: /assets/images/topics/machine-learning.jpg
+    color: "#ffad01"
+    rgb: "255, 173, 1"
+    font: unica_oneregular
