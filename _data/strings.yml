@@ -3,9 +3,10 @@ navigation:
 
 home:
   uvp: Learn anything in one month alongside your day job
-  learning: This month let's learn DJing and record a mixtape
+  learning: Learn machine learning and build a predictive model 
   action_button: Take this challenge
-  action_button_url: /learning/djing/
+#  action_button_url: /learning/sonic-pi/
+  action_button_url: /learning/machine-learning/
   second_button: Explore other topics
   second_button_url: /learning/
 
