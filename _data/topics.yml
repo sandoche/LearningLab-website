@@ -74,6 +74,9 @@ list:
   - name: Machine Learning
     slug: machine-learning
     id: machinelearning
+  - name: EVM Learning
+    slug: evm
+    id: evm
 
 metadata:
   music:
@@ -200,4 +203,9 @@ metadata:
     image: /assets/images/topics/machine-learning.jpg
     color: "#ffad01"
     rgb: "255, 173, 1"
+    font: unica_oneregular
+  evm:
+    image: /assets/images/topics/evm.jpg
+    color: "#4338CA"
+    rgb: "67, 56, 202"
     font: unica_oneregular
