@@ -8,8 +8,6 @@ infos:
   title: EVM Learning
   description: Understand the Ethereum Virtual Machine, explore Geth, and master EVM internals
 resources:
-  - title: Start here - EVM Learning Program, study questions and weekly workflow
-    url: /learning/evm/program/
   - title: 1.1 - Mastering Ethereum - The Ethereum Virtual Machine
     url: https://github.com/ethereumbook/ethereumbook/blob/develop/src/chapter_14.md
   - title: 1.1 - Understanding the Ethereum Virtual Machine - Part I
