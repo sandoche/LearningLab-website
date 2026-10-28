@@ -6,7 +6,7 @@ title: EVM Learning
 hide_navigation: true
 infos:
   title: EVM Learning
-  description: Understand the Ethereum Virtual Machine, explore Geth and Evmos, and master EVM internals
+  description: Understand the Ethereum Virtual Machine, explore Geth, and master EVM internals
 resources:
   - title: Start here - EVM Learning Program, study questions and weekly workflow
     url: /learning/evm/program/
@@ -50,8 +50,6 @@ resources:
     url: https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy-a5f
   - title: 3.4 - Understanding the Ethereum Virtual Machine - Part III
     url: https://leftasexercise.com/2021/09/19/q-understanding-the-ethereum-virtual-machine-part-iii/
-  - title: 3.4 - Evmos Precompiles - Supplemental Notion Document (access may be required)
-    url: https://www.notion.so/Evmos-Precompiles-Document-ec70e016b5a34e04b321b88c255e548f
   - title: 3.5 - Memory, Storage and Stack - Video
     url: https://www.youtube.com/watch?v=RxL_1AfV7N4&t=2s
   - title: 3.5 - EVM Deep Dives - Part 2
@@ -61,7 +59,7 @@ resources:
 projects_ideas:
   - title: Trace a smart contract deployment and call from transaction input to state changes
   - title: Build a small EVM interpreter with a stack, memory and gas tracking
-  - title: Compare the transaction lifecycle in Geth and Evmos
+  - title: Trace the transaction lifecycle in Geth
   - title: Decode a contract's calldata and map its inherited storage layout
 experiences: ~
 projects_outcome: ~

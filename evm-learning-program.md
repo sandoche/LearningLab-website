@@ -4,7 +4,7 @@ permalink: /learning/evm/program/
 id: evm
 title: EVM Learning Program
 hide_navigation: true
-description: A guided learning program covering EVM fundamentals, Geth and Evmos, opcodes, gas, encoding, precompiles and storage
+description: A guided learning program covering EVM fundamentals, Geth, opcodes, gas, encoding, precompiles and storage
 image: /assets/images/topics/evm.jpg
 ---
 
@@ -14,7 +14,7 @@ image: /assets/images/topics/evm.jpg
 
 <img src="/assets/images/topics/evm.jpg" alt="Ethereum diamond above layered execution, memory and storage components" width="768" height="512" style="max-width: 100%; height: auto;">
 
-Build low-level knowledge of the Ethereum Virtual Machine through reading, code exploration and discussion. Work through EVM fundamentals, compare Geth with Evmos, then explore the internals that drive smart contract execution.
+Build low-level knowledge of the Ethereum Virtual Machine through reading, code exploration and discussion. Work through EVM fundamentals, explore Geth's implementation, then study the internals that drive smart contract execution.
 
 ## Learning workflow
 
@@ -23,12 +23,12 @@ Build low-level knowledge of the Ethereum Virtual Machine through reading, code 
 3. Meet with your learning group at the end of the week to present answers, compare findings and discuss open questions. If you are learning alone, explain your answers aloud and keep a written record.
 4. Record the discussion with your group's agreement, and keep notes for later review.
 
-Progress at your own pace; a section can take more than one session. For code walkthroughs, note the client version, commit and Ethereum fork you are studying. Some resources describe older implementations, and the EVM Codes link starts with the Cancun fork selected. Compare examples against your chosen version. The two supplemental Notion resources may require access; the public resources provide an alternative starting point for those sections.
+Progress at your own pace; a section can take more than one session. For code walkthroughs, note the client version, commit and Ethereum fork you are studying. Some resources describe older implementations, and the EVM Codes link starts with the Cancun fork selected. Compare examples against your chosen version. The supplemental Notion resource may require access; the public resources provide an alternative starting point for that section.
 
 ## Learning plan
 
 - [1. EVM fundamentals](#evm-fundamentals)
-- [2. Geth vs Evmos structure](#geth-vs-evmos-structure)
+- [2. Geth implementation and structure](#geth-implementation-and-structure)
 - [3. EVM internals](#evm-internals)
 
 ## 1. EVM fundamentals
@@ -77,11 +77,11 @@ Follow the lifecycle of a transaction and understand how the EVM executes code a
 - What is a `stateObject`, and why is it required?
 - How are transactions reverted?
 
-## 2. Geth vs Evmos structure
+## 2. Geth implementation and structure
 
 ### 2.1. Geth's EVM implementation
 
-Explore the Go implementation in go-ethereum and compare its transaction processing with Evmos and CometBFT/Cosmos.
+Explore the Go implementation in go-ethereum and follow its transaction processing from validation to execution.
 
 **Learning resources**
 
@@ -89,7 +89,7 @@ Explore the Go implementation in go-ethereum and compare its transaction process
 
 **Questions to answer**
 
-- Where are Geth's transaction prechecks performed? Where are Evmos' transaction prechecks performed?
+- Where are Geth's transaction prechecks performed?
 - How do Ethereum's and CometBFT/Cosmos' use of secp256k1 differ, and what are the practical implications?
 - How is a CometBFT transaction hash generated, and how does it differ from an Ethereum transaction hash?
 - How do Ethereum and CometBFT block headers differ?
@@ -188,7 +188,6 @@ Follow calldata through function calls, examine execution context and explore ho
 - [EVM Deep Dives - Part 5](https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy-a5f)
 - [Understanding the Ethereum Virtual Machine - Part III](https://leftasexercise.com/2021/09/19/q-understanding-the-ethereum-virtual-machine-part-iii/)
 - [Building an EVM from Scratch series - supplemental Notion resource; access may be required](https://www.notion.so/Building-an-EVM-from-scratch-series-90ee3c827b314e0599e705a1152eecf9)
-- [Evmos Precompiles Document - supplemental Notion resource; access may be required](https://www.notion.so/Evmos-Precompiles-Document-ec70e016b5a34e04b321b88c255e548f)
 
 **Questions to answer**
 
@@ -197,7 +196,6 @@ Follow calldata through function calls, examine execution context and explore ho
 - When is a precompile more beneficial than a standard contract?
 - When is a smart contract more beneficial than a precompile?
 - What are the main drawbacks of precompiles?
-- Which methods does an Evmos precompile implement, and why are they required?
 - What security risks arise when running stateful precompiles?
 - Where and how does the EVM identify that an interaction targets a precompile?
 
@@ -225,7 +223,7 @@ Examine the data structures and storage layout used during smart contract execut
 
 - Trace a contract deployment and a function call, recording the program counter, stack, memory, gas and state changes.
 - Build a small interpreter for a handful of opcodes and explain how it manages stack operations and gas.
-- Compare transaction validation and state changes in Geth and Evmos, with links to the versions you studied.
+- Trace transaction validation and state changes in Geth, with links to the version you studied.
 - Decode a contract's calldata and map its inherited storage layout.
 
 [Explore all EVM resources and project ideas](/learning/evm/)
